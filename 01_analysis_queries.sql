@@ -1,20 +1,12 @@
--- ============================================================
 -- E-Commerce Customer & Sales Analytics — SQL Analysis
 -- Table: transactions
 -- Columns: TransactionID, InvoiceNo, StockCode, Description,
 --          Quantity, InvoiceDate, UnitPrice, CustomerID,
 --          CustomerName, Country, OrderStatus
 -- Revenue = Quantity * UnitPrice (computed on the fly)
--- ============================================================
-
-
--- ============================================================
--- SETUP: Create database and table, import data
--- ============================================================
 
 CREATE DATABASE IF NOT EXISTS ecommerce_analytics;
 USE ecommerce_analytics;
-
 CREATE TABLE transactions (
     TransactionID   VARCHAR(10)     PRIMARY KEY,
     InvoiceNo       VARCHAR(10),
@@ -29,19 +21,7 @@ CREATE TABLE transactions (
     OrderStatus     VARCHAR(20)
 );
 
--- Import via MySQL Workbench Table Data Import Wizard,
--- or: LOAD DATA INFILE 'path/sample_ecommerce_transactions.csv'
--- INTO TABLE transactions
--- FIELDS TERMINATED BY ',' ENCLOSED BY '"'
--- LINES TERMINATED BY '\n'
--- IGNORE 1 ROWS;
-
-
--- ============================================================
 -- 1. DATA QUALITY CHECKS (run before analysis)
--- ============================================================
-
--- Total rows
 SELECT COUNT(*) AS total_rows FROM transactions;
 
 -- Exact duplicate rows
@@ -65,9 +45,7 @@ SELECT * FROM transactions WHERE Quantity < 0;
 SELECT DISTINCT OrderStatus FROM transactions;
 
 
--- ============================================================
 -- 2. REVENUE QUESTIONS
--- ============================================================
 
 -- Q1a: Gross revenue (all rows)
 SELECT ROUND(SUM(Quantity * UnitPrice), 2) AS gross_revenue
@@ -104,9 +82,7 @@ GROUP BY year
 ORDER BY year;
 
 
--- ============================================================
 -- 3. CUSTOMER & ORDER COUNTS
--- ============================================================
 
 -- Q2: Unique customers
 SELECT COUNT(DISTINCT CustomerID) AS unique_customers
@@ -122,10 +98,7 @@ SELECT COUNT(*) AS valid_transactions
 FROM transactions
 WHERE OrderStatus = 'Completed';
 
-
--- ============================================================
 -- 4. PRODUCT ANALYSIS
--- ============================================================
 
 -- Q5: Quantity sold by product
 SELECT
@@ -158,10 +131,7 @@ GROUP BY StockCode, Description
 ORDER BY revenue DESC
 LIMIT 5;
 
-
--- ============================================================
 -- 5. COUNTRY ANALYSIS
--- ============================================================
 
 -- Q6: Revenue by country
 SELECT
@@ -182,10 +152,7 @@ GROUP BY Country
 ORDER BY revenue DESC
 LIMIT 5;
 
-
--- ============================================================
 -- 6. CUSTOMER RANKING & BEHAVIOR
--- ============================================================
 
 -- Customers ranked by spending
 SELECT
@@ -275,10 +242,7 @@ WHERE OrderStatus = 'Completed' AND CustomerID IS NOT NULL AND CustomerID <> ''
 GROUP BY CustomerID, CustomerName
 ORDER BY customer_revenue DESC;
 
-
--- ============================================================
 -- 7. CANCELLATION ANALYSIS
--- ============================================================
 
 -- Q10: Total cancelled transactions (by status OR 'C' prefix invoice)
 SELECT COUNT(*) AS cancelled_transactions
@@ -328,10 +292,7 @@ WHERE Country IS NOT NULL AND Country <> ''
 GROUP BY Country
 ORDER BY cancellation_rate_pct DESC;
 
-
--- ============================================================
 -- 8. TIME-BASED TRENDS
--- ============================================================
 
 -- Monthly customer count (distinct active customers per month)
 SELECT
