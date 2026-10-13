@@ -1,0 +1,128 @@
+TransactionID,InvoiceNo,StockCode,Description,Quantity,InvoiceDate,UnitPrice,CustomerID,CustomerName,Country,OrderStatus,IsMissingCustomer,IsZeroPrice,IsPriceOutlier,IsNegativeQty,Revenue,InvoiceYear,InvoiceMonth,InvoiceMonthName,IsCancelled,IsReturned
+T00001,50001,P1011,Monitor Arm,1,2025-01-03 09:15:00,59.9,C10001,Aarav Sharma,India,Completed,False,False,False,False,59.9,2025,1,January,False,False
+T00002,50001,P1002,Mechanical Keyboard,2,2025-01-03 09:15:00,48.5,C10001,Aarav Sharma,India,Completed,False,False,False,False,97.0,2025,1,January,False,False
+T00003,50002,P1001,Wireless Mouse,2,2025-01-11 10:15:00,15.99,C10004,Olivia Smith,United States,Completed,False,False,False,False,31.98,2025,1,January,False,False
+T00004,50002,P1005,Webcam HD,3,2025-01-11 10:15:00,39.99,C10004,Olivia Smith,United States,Completed,False,False,False,False,119.97,2025,1,January,False,False
+T00005,50002,P1004,Laptop Stand,4,2025-01-11 10:15:00,29.95,C10004,Olivia Smith,United States,Completed,False,False,False,False,119.8,2025,1,January,False,False
+T00006,50003,P1004,Laptop Stand,3,2025-01-19 11:15:00,29.95,C10007,Lucas Martin,France,Completed,False,False,False,False,89.85,2025,1,January,False,False
+T00007,50003,P1003,USB-C Cable,4,2025-01-19 11:15:00,8.99,C10007,Lucas Martin,France,Completed,False,False,False,False,35.96,2025,1,January,False,False
+T00008,50003,P1002,Mechanical Keyboard,5,2025-01-19 11:15:00,48.5,C10007,Lucas Martin,France,Completed,False,False,False,False,242.5,2025,1,January,False,False
+T00009,50003,P1009,Phone Holder,1,2025-01-19 11:15:00,10.99,C10007,Lucas Martin,France,Completed,False,False,False,False,10.99,2025,1,January,False,False
+T00010,50004,P1002,Mechanical Keyboard,4,2025-01-27 12:15:00,48.5,C10010,Isabella Wong,Australia,Completed,False,False,False,False,194.0,2025,1,January,False,False
+T00011,50004,P1010,Power Bank,5,2025-01-27 12:15:00,25.0,C10010,Isabella Wong,Australia,Completed,False,False,False,False,125.0,2025,1,January,False,False
+T00012,50005,P1007,Notebook Pack,5,2025-01-31 13:15:00,12.5,C10013,Daniel Lee,Canada,Completed,False,False,False,False,62.5,2025,1,January,False,False
+T00013,50005,P1001,Wireless Mouse,1,2025-01-31 13:15:00,15.99,C10013,Daniel Lee,Canada,Completed,False,False,False,False,15.99,2025,1,January,False,False
+T00014,50005,P1011,Monitor Arm,2,2025-01-31 13:15:00,59.9,C10013,Daniel Lee,Canada,Completed,False,False,False,False,119.8,2025,1,January,False,False
+T00015,50006,P1002,Mechanical Keyboard,1,2025-02-08 14:15:00,48.5,Unknown,Unknown,United Kingdom,Completed,True,False,False,False,48.5,2025,2,February,False,False
+T00016,50006,P1004,Laptop Stand,2,2025-02-08 14:15:00,29.95,C10002,Emma Wilson,United Kingdom,Completed,False,False,False,False,59.9,2025,2,February,False,False
+T00017,50006,P1011,Monitor Arm,3,2025-02-08 14:15:00,59.9,C10002,Emma Wilson,United Kingdom,Completed,False,False,False,False,179.7,2025,2,February,False,False
+T00018,50006,P1009,Phone Holder,4,2025-02-08 14:15:00,10.99,C10002,Emma Wilson,United Kingdom,Completed,False,False,False,False,43.96,2025,2,February,False,False
+T00019,50007,P1010,Power Bank,2,2025-02-16 15:15:00,25.0,C10005,Noah Johnson,United States,Completed,False,False,False,False,50.0,2025,2,February,False,False
+T00020,50007,P1001,Wireless Mouse,3,2025-02-16 15:15:00,15.99,C10005,Noah Johnson,United States,Completed,False,False,False,False,47.97,2025,2,February,False,False
+T00021,C50008,P1009,Phone Holder,3,2025-02-24 16:15:00,10.99,C10008,Sofia Rossi,Italy,Cancelled,False,False,False,False,32.97,2025,2,February,True,False
+T00022,C50008,P1004,Laptop Stand,4,2025-02-24 16:15:00,29.95,C10008,Sofia Rossi,Italy,Cancelled,False,False,False,False,119.8,2025,2,February,True,False
+T00023,C50008,P1012,Cable Organizer,5,2025-02-24 16:15:00,6.75,C10008,Sofia Rossi,Italy,Cancelled,False,False,False,False,33.75,2025,2,February,True,False
+T00024,50009,P1007,Notebook Pack,4,2025-02-28 09:15:00,12.5,C10001,Aarav Sharma,India,Completed,False,False,False,False,50.0,2025,2,February,False,False
+T00025,50009,P1004,Laptop Stand,5,2025-02-28 09:15:00,29.95,C10001,Aarav Sharma,India,Completed,False,False,False,False,149.75,2025,2,February,False,False
+T00026,50009,P1008,Bluetooth Speaker,1,2025-02-28 09:15:00,34.99,C10001,Aarav Sharma,India,Completed,False,False,False,False,34.99,2025,2,February,False,False
+T00027,50009,P1005,Webcam HD,2,2025-02-28 09:15:00,39.99,C10001,Aarav Sharma,India,Completed,False,False,False,False,79.98,2025,2,February,False,False
+T00028,50010,P1001,Wireless Mouse,5,2025-03-08 10:15:00,15.99,C10014,Grace Taylor,Canada,Completed,False,False,False,False,79.95,2025,3,March,False,False
+T00029,50010,P1003,USB-C Cable,1,2025-03-08 10:15:00,8.99,C10014,Grace Taylor,Canada,Completed,False,False,False,False,8.99,2025,3,March,False,False
+T00030,50011,P1012,Cable Organizer,1,2025-03-16 11:15:00,6.75,C10003,Liam Brown,United Kingdom,Completed,False,False,False,False,6.75,2025,3,March,False,False
+T00031,50011,P1007,Notebook Pack,2,2025-03-16 11:15:00,12.5,C10003,Liam Brown,United Kingdom,Completed,False,False,False,False,25.0,2025,3,March,False,False
+T00032,50011,P1006,Desk Lamp,3,2025-03-16 11:15:00,22.75,C10003,Liam Brown,United Kingdom,Completed,False,False,False,False,68.25,2025,3,March,False,False
+T00033,50012,P1005,Webcam HD,2,2025-03-24 12:15:00,39.99,C10002,Emma Wilson,United Kingdom,Completed,False,False,False,False,79.98,2025,3,March,False,False
+T00034,50012,P1003,USB-C Cable,3,2025-03-24 12:15:00,8.99,C10002,Emma Wilson,United Kingdom,Completed,False,False,False,False,26.97,2025,3,March,False,False
+T00035,50012,P1004,Laptop Stand,4,2025-03-24 12:15:00,29.95,C10002,Emma Wilson,United Kingdom,Completed,False,False,False,False,119.8,2025,3,March,False,False
+T00036,50012,P1006,Desk Lamp,5,2025-03-24 12:15:00,22.75,C10002,Emma Wilson,United Kingdom,Completed,False,False,False,False,113.75,2025,3,March,False,False
+T00037,50013,P1002,Mechanical Keyboard,3,2025-03-28 13:15:00,48.5,C10009,Ethan Chen,Singapore,Completed,False,False,False,False,145.5,2025,3,March,False,False
+T00038,50013,P1012,Cable Organizer,4,2025-03-28 13:15:00,6.75,C10009,Ethan Chen,United Kingdom,Completed,False,False,False,False,27.0,2025,3,March,False,False
+T00039,50014,P1007,Notebook Pack,4,2025-04-05 14:15:00,12.5,C10012,Ananya Mehta,India,Completed,False,False,False,False,50.0,2025,4,April,False,False
+T00040,50014,P1002,Mechanical Keyboard,5,2025-04-05 14:15:00,48.5,C10012,Ananya Mehta,India,Completed,False,False,False,False,242.5,2025,4,April,False,False
+T00041,50014,P1006,Desk Lamp,1,2025-04-05 14:15:00,22.75,C10012,Ananya Mehta,India,Completed,False,False,False,False,22.75,2025,4,April,False,False
+T00042,50015,P1006,Desk Lamp,5,2025-04-13 15:15:00,22.75,C10003,Liam Brown,United Kingdom,Completed,False,False,False,False,113.75,2025,4,April,False,False
+T00043,50015,P1010,Power Bank,1,2025-04-13 15:15:00,25.0,C10003,Liam Brown,United Kingdom,Completed,False,False,False,False,25.0,2025,4,April,False,False
+T00044,50015,P1005,Webcam HD,2,2025-04-13 15:15:00,39.99,C10003,Liam Brown,United Kingdom,Completed,False,False,False,False,79.98,2025,4,April,False,False
+T00045,50015,P1001,Wireless Mouse,3,2025-04-13 15:15:00,15.99,C10003,Liam Brown,United Kingdom,Completed,False,False,False,False,47.97,2025,4,April,False,False
+T00046,50016,P1012,Cable Organizer,1,2025-04-21 16:15:00,6.75,C10004,Olivia Smith,United States,Completed,False,False,False,False,6.75,2025,4,April,False,False
+T00047,50016,P1008,Bluetooth Speaker,2,2025-04-21 16:15:00,34.99,C10004,Olivia Smith,United States,Completed,False,False,False,False,69.98,2025,4,April,False,False
+T00048,50017,P1009,Phone Holder,2,2025-04-25 09:15:00,10.99,C10007,Lucas Martin,France,Completed,False,False,False,False,21.98,2025,4,April,False,False
+T00049,50017,P1002,Mechanical Keyboard,3,2025-04-25 09:15:00,48.5,C10007,Lucas Martin,France,Completed,False,False,False,False,145.5,2025,4,April,False,False
+T00050,50017,P1007,Notebook Pack,4,2025-04-25 09:15:00,12.5,C10007,Lucas Martin,France,Completed,False,False,False,False,50.0,2025,4,April,False,False
+T00051,50018,P1002,Mechanical Keyboard,3,2025-05-03 10:15:00,48.5,C10001,Aarav Sharma,India,Completed,False,False,False,False,145.5,2025,5,May,False,False
+T00052,50018,P1009,Phone Holder,4,2025-05-03 10:15:00,10.99,C10001,Aarav Sharma,India,Completed,False,False,False,False,43.96,2025,5,May,False,False
+T00053,50018,P1005,Webcam HD,5,2025-05-03 10:15:00,39.99,C10001,Aarav Sharma,India,Completed,False,False,False,False,199.95000000000002,2025,5,May,False,False
+T00054,50018,P1006,Desk Lamp,1,2025-05-03 10:15:00,22.75,C10001,Aarav Sharma,India,Completed,False,False,False,False,22.75,2025,5,May,False,False
+T00055,C50019,P1010,Power Bank,4,2025-05-11 11:15:00,25.0,C10013,Daniel Lee,Canada,Cancelled,False,False,False,False,100.0,2025,5,May,True,False
+T00056,C50019,P1004,Laptop Stand,5,2025-05-11 11:15:00,29.95,C10013,Daniel Lee,Canada,Cancelled,False,False,False,False,149.75,2025,5,May,True,False
+T00057,50020,P1012,Cable Organizer,5,2025-05-19 12:15:00,6.75,C10001,Aarav Sharma,India,Completed,False,False,False,False,33.75,2025,5,May,False,False
+T00058,50020,P1002,Mechanical Keyboard,1,2025-05-19 12:15:00,48.5,C10001,Aarav Sharma,India,Completed,False,False,False,False,48.5,2025,5,May,False,False
+T00059,50020,P1001,Wireless Mouse,2,2025-05-19 12:15:00,15.99,C10001,Aarav Sharma,India,Completed,False,False,False,False,31.98,2025,5,May,False,False
+T00060,50021,P1011,Monitor Arm,1,2025-05-23 13:15:00,59.9,C10002,Emma Wilson,United Kingdom,Completed,False,False,False,False,59.9,2025,5,May,False,False
+T00061,50021,P1004,Laptop Stand,2,2025-05-23 13:15:00,29.95,C10002,Emma Wilson,United Kingdom,Completed,False,False,False,False,59.9,2025,5,May,False,False
+T00062,50021,P1005,Webcam HD,3,2025-05-23 13:15:00,39.99,C10002,Emma Wilson,United Kingdom,Completed,False,False,False,False,119.97,2025,5,May,False,False
+T00063,50021,P1002,Mechanical Keyboard,4,2025-05-23 13:15:00,48.5,C10002,Emma Wilson,United Kingdom,Completed,False,False,False,False,194.0,2025,5,May,False,False
+T00064,50022,P1004,Laptop Stand,2,2025-05-31 14:15:00,29.95,C10008,Sofia Rossi,Italy,Completed,False,False,False,False,59.9,2025,5,May,False,False
+T00065,50022,P1002,Mechanical Keyboard,3,2025-05-31 14:15:00,48.5,C10008,Sofia Rossi,Italy,Completed,False,False,False,False,145.5,2025,5,May,False,False
+T00066,50023,P1007,Notebook Pack,3,2025-06-08 15:15:00,0.0,C10011,Raj Patel,India,Completed,False,True,False,False,0.0,2025,6,June,False,False
+T00067,50023,P1005,Webcam HD,4,2025-06-08 15:15:00,39.99,C10011,Raj Patel,India,Completed,False,False,False,False,159.96,2025,6,June,False,False
+T00068,50023,P1008,Bluetooth Speaker,5,2025-06-08 15:15:00,34.99,C10011,Raj Patel,India,Completed,False,False,False,False,174.95000000000002,2025,6,June,False,False
+T00069,50024,P1011,Monitor Arm,4,2025-06-16 16:15:00,59.9,C10014,Grace Taylor,Canada,Completed,False,False,False,False,239.6,2025,6,June,False,False
+T00070,50024,P1006,Desk Lamp,5,2025-06-16 16:15:00,22.75,C10014,Grace Taylor,Canada,Completed,False,False,False,False,113.75,2025,6,June,False,False
+T00071,50024,P1003,USB-C Cable,1,2025-06-16 16:15:00,8.99,C10014,Grace Taylor,Canada,Completed,False,False,False,False,8.99,2025,6,June,False,False
+T00072,50024,P1012,Cable Organizer,2,2025-06-16 16:15:00,6.75,C10014,Grace Taylor,Canada,Completed,False,False,False,False,13.5,2025,6,June,False,False
+T00073,50025,P1006,Desk Lamp,5,2025-06-20 09:15:00,22.75,C10002,Emma Wilson,United Kingdom,Completed,False,False,False,False,113.75,2025,6,June,False,False
+T00074,50025,P1004,Laptop Stand,-2,2025-06-20 09:15:00,29.95,C10002,Emma Wilson,United Kingdom,Returned,False,False,False,True,-59.9,2025,6,June,False,True
+T00075,50026,P1011,Monitor Arm,1,2025-06-28 10:15:00,59.9,C10001,Aarav Sharma,India,Completed,False,False,False,False,59.9,2025,6,June,False,False
+T00076,50026,P1005,Webcam HD,2,2025-06-28 10:15:00,39.99,C10001,Aarav Sharma,India,Completed,False,False,False,False,79.98,2025,6,June,False,False
+T00077,50026,P1002,Mechanical Keyboard,3,2025-06-28 10:15:00,48.5,C10001,Aarav Sharma,India,Completed,False,False,False,False,145.5,2025,6,June,False,False
+T00078,50027,P1010,Power Bank,2,2025-07-06 11:15:00,25.0,C10009,Ethan Chen,Singapore,Completed,False,False,False,False,50.0,2025,7,July,False,False
+T00079,50027,P1011,Monitor Arm,3,2025-07-06 11:15:00,59.9,C10009,Ethan Chen,Singapore,Completed,False,False,False,False,179.7,2025,7,July,False,False
+T00080,50027,P1003,USB-C Cable,4,2025-07-06 11:15:00,8.99,C10009,Ethan Chen,Singapore,Completed,False,False,False,False,35.96,2025,7,July,False,False
+T00081,50027,P1009,Phone Holder,5,2025-07-06 11:15:00,10.99,C10009,Ethan Chen,Singapore,Completed,False,False,False,False,54.95,2025,7,July,False,False
+T00082,50028,P1012,Cable Organizer,3,2025-07-14 12:15:00,6.75,C10012,Ananya Mehta,United States,Completed,False,False,False,False,20.25,2025,7,July,False,False
+T00083,50028,P1004,Laptop Stand,4,2025-07-14 12:15:00,29.95,C10012,Ananya Mehta,India,Completed,False,False,False,False,119.8,2025,7,July,False,False
+T00084,50029,P1003,USB-C Cable,4,2025-07-18 13:15:00,8.99,C10003,Liam Brown,United Kingdom,Completed,False,False,False,False,35.96,2025,7,July,False,False
+T00085,50029,P1008,Bluetooth Speaker,5,2025-07-18 13:15:00,34.99,C10003,Liam Brown,United Kingdom,Completed,False,False,False,False,174.95000000000002,2025,7,July,False,False
+T00086,50029,P1007,Notebook Pack,1,2025-07-18 13:15:00,12.5,C10003,Liam Brown,United Kingdom,Completed,False,False,False,False,12.5,2025,7,July,False,False
+T00087,C50030,P1005,Webcam HD,5,2025-07-26 14:15:00,39.99,C10003,Liam Brown,United Kingdom,Cancelled,False,False,False,False,199.95000000000002,2025,7,July,True,False
+T00088,C50030,P1011,Monitor Arm,1,2025-07-26 14:15:00,59.9,C10003,Liam Brown,United Kingdom,Cancelled,False,False,False,False,59.9,2025,7,July,True,False
+T00089,C50030,P1009,Phone Holder,2,2025-07-26 14:15:00,10.99,C10003,Liam Brown,United Kingdom,Cancelled,False,False,False,False,21.98,2025,7,July,True,False
+T00090,C50030,P1004,Laptop Stand,3,2025-07-26 14:15:00,29.95,C10003,Liam Brown,United Kingdom,Cancelled,False,False,False,False,89.85,2025,7,July,True,False
+T00091,50031,P1011,Monitor Arm,1,2025-08-03 15:15:00,59.9,C10007,Lucas Martin,France,Completed,False,False,False,False,59.9,2025,8,August,False,False
+T00092,50031,P1006,Desk Lamp,2,2025-08-03 15:15:00,22.75,C10007,Lucas Martin,France,Completed,False,False,False,False,45.5,2025,8,August,False,False
+T00093,50032,P1001,Wireless Mouse,2,2025-08-11 16:15:00,15.99,C10002,Emma Wilson,United Kingdom,Completed,False,False,False,False,31.98,2025,8,August,False,False
+T00094,50032,P1004,Laptop Stand,3,2025-08-11 16:15:00,29.95,C10002,Emma Wilson,United Kingdom,Completed,False,False,False,False,89.85,2025,8,August,False,False
+T00095,50032,P1012,Cable Organizer,4,2025-08-11 16:15:00,6.75,C10002,Emma Wilson,United Kingdom,Completed,False,False,False,False,27.0,2025,8,August,False,False
+T00096,50033,P1006,Desk Lamp,3,2025-08-15 09:15:00,22.75,C10013,Daniel Lee,Canada,Completed,False,False,False,False,68.25,2025,8,August,False,False
+T00097,50033,P1007,Notebook Pack,4,2025-08-15 09:15:00,12.5,C10013,Daniel Lee,Canada,Completed,False,False,False,False,50.0,2025,8,August,False,False
+T00098,50033,P1005,Webcam HD,5,2025-08-15 09:15:00,39.99,C10013,Daniel Lee,Canada,Completed,False,False,False,False,199.95000000000002,2025,8,August,False,False
+T00099,50033,P1002,Mechanical Keyboard,1,2025-08-15 09:15:00,48.5,C10013,Daniel Lee,Canada,Completed,False,False,False,False,48.5,2025,8,August,False,False
+T00100,50034,P1004,Laptop Stand,4,2025-08-23 10:15:00,29.95,C10001,Aarav Sharma,India,Completed,False,False,False,False,119.8,2025,8,August,False,False
+T00101,50034,P1010,Power Bank,5,2025-08-23 10:15:00,25.0,C10001,Aarav Sharma,India,Completed,False,False,False,False,125.0,2025,8,August,False,False
+T00102,50035,P1012,Cable Organizer,5,2025-08-31 11:15:00,6.75,C10004,Olivia Smith,United States,Completed,False,False,False,False,33.75,2025,8,August,False,False
+T00103,50035,P1006,Desk Lamp,1,2025-08-31 11:15:00,999.99,C10004,Olivia Smith,United States,Completed,False,False,True,False,999.99,2025,8,August,False,False
+T00104,50035,P1004,Laptop Stand,2,2025-08-31 11:15:00,29.95,C10004,Olivia Smith,United States,Completed,False,False,False,False,59.9,2025,8,August,False,False
+T00105,50036,P1011,Monitor Arm,1,2025-09-08 12:15:00,59.9,C10008,Sofia Rossi,India,Completed,False,False,False,False,59.9,2025,9,September,False,False
+T00106,50036,P1008,Bluetooth Speaker,2,2025-09-08 12:15:00,34.99,C10008,Sofia Rossi,Italy,Completed,False,False,False,False,69.98,2025,9,September,False,False
+T00107,50036,P1007,Notebook Pack,3,2025-09-08 12:15:00,12.5,C10008,Sofia Rossi,Italy,Completed,False,False,False,False,37.5,2025,9,September,False,False
+T00108,50036,P1012,Cable Organizer,4,2025-09-08 12:15:00,6.75,C10008,Sofia Rossi,Italy,Completed,False,False,False,False,27.0,2025,9,September,False,False
+T00109,50037,P1003,USB-C Cable,2,2025-09-12 13:15:00,8.99,C10003,Liam Brown,United Kingdom,Completed,False,False,False,False,17.98,2025,9,September,False,False
+T00110,50037,P1005,Webcam HD,3,2025-09-12 13:15:00,39.99,C10003,Liam Brown,United Kingdom,Completed,False,False,False,False,119.97,2025,9,September,False,False
+T00111,C50038,P1003,USB-C Cable,3,2025-09-20 14:15:00,8.99,C10014,Grace Taylor,Canada,Cancelled,False,False,False,False,26.97,2025,9,September,True,False
+T00112,C50038,P1004,Laptop Stand,4,2025-09-20 14:15:00,29.95,C10014,Grace Taylor,Canada,Cancelled,False,False,False,False,119.8,2025,9,September,True,False
+T00113,C50038,P1009,Phone Holder,5,2025-09-20 14:15:00,10.99,C10014,Grace Taylor,Canada,Cancelled,False,False,False,False,54.95,2025,9,September,True,False
+T00114,50039,P1009,Phone Holder,4,2025-09-28 15:15:00,10.99,C10002,Emma Wilson,United Kingdom,Completed,False,False,False,False,43.96,2025,9,September,False,False
+T00115,50039,P1005,Webcam HD,5,2025-09-28 15:15:00,39.99,C10002,Emma Wilson,United Kingdom,Completed,False,False,False,False,199.95000000000002,2025,9,September,False,False
+T00116,50039,P1010,Power Bank,1,2025-09-28 15:15:00,25.0,C10002,Emma Wilson,United Kingdom,Completed,False,False,False,False,25.0,2025,9,September,False,False
+T00117,50039,P1007,Notebook Pack,2,2025-09-28 15:15:00,12.5,C10002,Emma Wilson,United Kingdom,Completed,False,False,False,False,25.0,2025,9,September,False,False
+T00118,50040,P1010,Power Bank,5,2025-10-06 16:15:00,25.0,C10001,Aarav Sharma,India,Completed,False,False,False,False,125.0,2025,10,October,False,False
+T00119,50040,P1007,Notebook Pack,1,2025-10-06 16:15:00,12.5,C10001,Aarav Sharma,India,Completed,False,False,False,False,12.5,2025,10,October,False,False
+T00120,50041,P1006,Desk Lamp,1,2025-10-10 09:15:00,22.75,C10002,Emma Wilson,United Kingdom,Completed,False,False,False,False,22.75,2025,10,October,False,False
+T00121,50041,P1004,Laptop Stand,2,2025-10-10 09:15:00,29.95,C10002,Emma Wilson,United Kingdom,Completed,False,False,False,False,59.9,2025,10,October,False,False
+T00122,50041,P1003,USB-C Cable,3,2025-10-10 09:15:00,8.99,C10002,Emma Wilson,United Kingdom,Completed,False,False,False,False,26.97,2025,10,October,False,False
+T00123,50042,P1009,Phone Holder,2,2025-10-18 10:15:00,10.99,C10012,Ananya Mehta,India,Completed,False,False,False,False,21.98,2025,10,October,False,False
+T00124,50042,P1008,Bluetooth Speaker,3,2025-10-18 10:15:00,34.99,C10012,Ananya Mehta,India,Completed,False,False,False,False,104.97,2025,10,October,False,False
+T00125,50042,P1002,Mechanical Keyboard,4,2025-10-18 10:15:00,48.5,C10012,Ananya Mehta,India,Completed,False,False,False,False,194.0,2025,10,October,False,False
+T00126,50042,P1001,Wireless Mouse,5,2025-10-18 10:15:00,15.99,C10012,Ananya Mehta,India,Completed,False,False,False,False,79.95,2025,10,October,False,False
+T10000,50099,P1012,Unknown,2,2025-10-15 14:20:00,6.75,C10012,Ananya Mehta,Unknown,Completed,False,False,False,False,13.5,2025,10,October,False,False
