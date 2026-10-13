@@ -1,0 +1,8 @@
+.env
+config.ini
+__pycache__/
+.ipynb_checkpoints/
+.venv/
+.idea/
+data/exports/
+*.log
