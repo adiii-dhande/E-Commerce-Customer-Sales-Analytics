@@ -4,39 +4,6 @@ Analysis of fictional e-commerce transactions (Jan to Oct 2025) using Python, My
 
 > Dataset is fictional practice data, not real customers.
 
-## Business Questions
-1. How much revenue did the business make, and how does it change month by month?
-2. Which products and countries bring the most revenue?
-3. Who are our top customers, and how many are repeat customers?
-4. How many orders were cancelled or returned, and how much money is lost?
-
-## KPI Definitions
-| KPI | Definition |
-|---|---|
-| Gross revenue | Sum of Quantity x UnitPrice before removing cancelled or returned lines |
-| Net revenue | Revenue from completed orders only |
-| Total orders | Distinct InvoiceNo among completed orders |
-| Unique customers | Distinct non-blank CustomerID |
-| Cancelled orders | Distinct invoices where OrderStatus = Cancelled |
-| Repeat customer | Customer with 2 or more distinct completed invoices |
-| Average order value | Net revenue / total completed orders |
-
-## Assumptions
-- Currency is USD.
-- Cancelled and returned lines are excluded from net revenue.
-- Rows with missing CustomerID are kept for revenue but excluded from customer counts.
-
-## Status
-- [x] Phase 0: Setup
-- [x] Phase 1: Business problem
-- [ ] Phase 2: Excel inspection
-- [ ] Phase 3: Python cleaning
-- [ ] Phase 4: MySQL load
-- [ ] Phase 5: SQL analysis
-- [ ] Phase 6: Power BI model, DAX, dashboard
-- [ ] Phase 7: Validation
-- [ ] Phase 8: Insights and final README
-
 ## Project Background
 
 This project analyzes a fictional online store's transaction data from January to October 2025. The dataset has 128 transaction lines covering customers, products, countries, quantities, prices and order status (completed, cancelled or returned). All values are in USD. The data is fictional and was created for learning.
@@ -85,6 +52,24 @@ The store has transaction records but no clear view of what they say. Management
 9. How many orders are cancelled or returned, and how much revenue do they represent?
 10. Do cancellations and returns cluster around certain products or countries?
 
+## KPI Definitions
+
+| KPI | Definition |
+|---|---|
+| Gross revenue | Sum of Quantity x UnitPrice before removing cancelled or returned lines |
+| Net revenue | Revenue from completed orders only |
+| Total orders | Distinct InvoiceNo among completed orders |
+| Unique customers | Distinct non-blank CustomerID |
+| Cancelled orders | Distinct invoices where OrderStatus = Cancelled or InvoiceNo starts with C |
+| Repeat customer | Customer with 2 or more distinct completed invoices |
+| Average order value | Net revenue / total completed orders |
+
+## Assumptions
+
+- Currency is USD.
+- Cancelled and returned lines are excluded from net revenue.
+- Rows with missing CustomerID are kept for revenue but excluded from customer counts.
+
 ## Limitations
 
 - The data is fictional and has only 128 transaction lines, so findings are for practice and not real business conclusions.
@@ -92,3 +77,15 @@ The store has transaction records but no clear view of what they say. Management
 - There is no cost data, so we can measure revenue but not profit.
 - Some rows have no CustomerID, so customer counts exclude them.
 - All values are assumed to be in USD.
+
+## Status
+
+- [x] Phase 0: Setup
+- [x] Phase 1: Business problem
+- [ ] Phase 2: Excel inspection
+- [ ] Phase 3: Python cleaning
+- [ ] Phase 4: MySQL load
+- [ ] Phase 5: SQL analysis
+- [ ] Phase 6: Power BI model, DAX, dashboard
+- [ ] Phase 7: Validation
+- [ ] Phase 8: Insights and final README
