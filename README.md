@@ -36,3 +36,29 @@ Analysis of fictional e-commerce transactions (Jan to Oct 2025) using Python, My
 - [ ] Phase 6: Power BI model, DAX, dashboard
 - [ ] Phase 7: Validation
 - [ ] Phase 8: Insights and final README
+
+## Project Background
+
+This project analyzes a fictional online store's transaction data from January to October 2025. The dataset has 128 transaction lines covering customers, products, countries, quantities, prices and order status (completed, cancelled or returned). All values are in USD. The data is fictional and was created for learning.
+
+## Business Problem
+
+The store has transaction records but no clear view of what they say. Management cannot easily answer which products and countries drive revenue, which customers come back, how revenue changes month to month, or how many orders are cancelled or returned. Without this, decisions about stock, marketing and customer retention are based on guesswork.
+
+## Project Objectives
+
+1. Clean and prepare the raw transaction data so it is accurate and consistent.
+2. Measure revenue, orders, customers and cancellations using clearly documented definitions.
+3. Identify top products, top countries and monthly revenue trends.
+4. Understand repeat-purchase behavior and cancelled or returned orders.
+5. Build an interactive Power BI dashboard with DAX KPIs.
+6. Give clear, evidence-based recommendations to the business.
+
+## Stakeholders
+
+| Stakeholder | What they need |
+|---|---|
+| Sales manager | Revenue trends, top products and top countries |
+| Marketing team | Which customers repeat, and where to target campaigns |
+| Operations team | Why orders are cancelled or returned |
+| Executive team | A simple dashboard with the main KPIs |
