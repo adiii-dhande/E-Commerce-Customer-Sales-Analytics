@@ -62,3 +62,33 @@ The store has transaction records but no clear view of what they say. Management
 | Marketing team | Which customers repeat, and where to target campaigns |
 | Operations team | Why orders are cancelled or returned |
 | Executive team | A simple dashboard with the main KPIs |
+
+## Business Questions
+
+**Revenue**
+1. What is the total gross revenue and net revenue?
+2. How does net revenue change month by month from January to October 2025?
+
+**Products**
+3. Which products generate the most revenue?
+4. Which products sell the highest quantity?
+
+**Countries**
+5. Which countries generate the most revenue?
+
+**Customers**
+6. How many unique customers are there?
+7. Which customers buy more than once (repeat customers)?
+8. Who are the top customers by revenue?
+
+**Cancellations and returns**
+9. How many orders are cancelled or returned, and how much revenue do they represent?
+10. Do cancellations and returns cluster around certain products or countries?
+
+## Limitations
+
+- The data is fictional and has only 128 transaction lines, so findings are for practice and not real business conclusions.
+- It covers only January to October 2025, so there is no full-year or year-on-year view.
+- There is no cost data, so we can measure revenue but not profit.
+- Some rows have no CustomerID, so customer counts exclude them.
+- All values are assumed to be in USD.
