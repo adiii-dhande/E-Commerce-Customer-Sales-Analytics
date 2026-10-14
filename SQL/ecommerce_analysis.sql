@@ -1,14 +1,14 @@
-============================================================
-E-Commerce Customer & Sales Analytics | MySQL scripts
-============================================================
+-- ============================================================
+-- E-Commerce Customer & Sales Analytics | MySQL scripts
+-- ============================================================
 
 
 ############################################################
-PHASE 4 - LOAD DATA INTO MYSQL
+-- PHASE 4 - LOAD DATA INTO MYSQL
 ############################################################
 
 ------------------------------------------------------------
-4.0  Create database + table + insert 127 rows
+-- 4.0  Create database + table + insert 127 rows
 ------------------------------------------------------------
 CREATE DATABASE IF NOT EXISTS ecommerce_analytics;
 USE ecommerce_analytics;
@@ -185,7 +185,7 @@ FROM transactions_clean;
 USE ecommerce_analytics;
 SELECT * FROM transactions_clean LIMIT 10;
 
-4.1  (b) missing values  (expected: 1, 1, 1, 0)
+-- 4.1  (b) missing values  (expected: 1, 1, 1, 0)
 SELECT
   SUM(Description = 'Unknown') AS unknown_description,
   SUM(CustomerID = 'Unknown')  AS unknown_customer,
@@ -193,7 +193,7 @@ SELECT
   SUM(Description IS NULL OR CustomerID IS NULL OR Country IS NULL) AS null_values
 FROM transactions_clean;
 
-4.1  (c) duplicates  (expected: empty result, 0 rows)
+-- 4.1  (c) duplicates  (expected: empty result, 0 rows)
 SELECT InvoiceNo, StockCode, InvoiceDate, CustomerID, Quantity, UnitPrice, COUNT(*) AS n
 FROM transactions_clean
 GROUP BY InvoiceNo, StockCode, InvoiceDate, CustomerID, Quantity, UnitPrice
@@ -201,7 +201,7 @@ HAVING COUNT(*) > 1;
 
 
 ------------------------------------------------------------
-4.2  Add indexes, then list them
+-- 4.2  Add indexes, then list them
 ------------------------------------------------------------
 USE ecommerce_analytics;
 
@@ -212,6 +212,39 @@ CREATE INDEX idx_country      ON transactions_clean (Country);
 
 SHOW INDEX FROM transactions_clean;
 
+-- PHASE 5 - SQL ANALYSIS
+USE ecommerce_analytics;
+
+-- 5.1 KPI summary
+SELECT
+  ROUND(SUM(Revenue), 2) AS gross_revenue,
+  ROUND(SUM(CASE WHEN OrderStatus = 'Completed' THEN Revenue END), 2) AS net_revenue,
+  COUNT(DISTINCT CASE WHEN OrderStatus = 'Completed' THEN InvoiceNo END) AS valid_orders,
+  COUNT(DISTINCT CASE WHEN CustomerID <> 'Unknown' THEN CustomerID END) AS unique_customers,
+  COUNT(DISTINCT CASE WHEN IsCancelled = 1 THEN InvoiceNo END) AS cancelled_orders
+FROM transactions_clean;
+
+-- 5.2 Net revenue by month
+SELECT InvoiceMonth, InvoiceMonthName, ROUND(SUM(Revenue), 2) AS net_revenue
+FROM transactions_clean
+WHERE OrderStatus = 'Completed'
+GROUP BY InvoiceMonth, InvoiceMonthName
+ORDER BY InvoiceMonth;
+
+-- 5.3 Net revenue by country
+SELECT Country, ROUND(SUM(Revenue), 2) AS net_revenue
+FROM transactions_clean
+WHERE OrderStatus = 'Completed'
+GROUP BY Country
+ORDER BY net_revenue DESC;
+
+-- 5.4 Top 5 products
+SELECT Description, ROUND(SUM(Revenue), 2) AS net_revenue
+FROM transactions_clean
+WHERE OrderStatus = 'Completed'
+GROUP BY Description
+ORDER BY net_revenue DESC
+LIMIT 5;
 
 
 
