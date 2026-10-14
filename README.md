@@ -85,7 +85,7 @@ The store has transaction records but no clear view of what they say. Management
 - [x] Phase 2: Excel inspection
 - [x] Phase 3: Python cleaning
 - [x] Phase 4: MySQL load
-- [ ] Phase 5: SQL analysis
-- [ ] Phase 6: Power BI model, DAX, dashboard
-- [ ] Phase 7: Validation
-- [ ] Phase 8: Insights and final README
+- [x] Phase 5: SQL analysis
+- [x] Phase 6: Power BI model, DAX, dashboard
+- [x] Phase 7: Validation
+- [x] Phase 8: Insights and final README
