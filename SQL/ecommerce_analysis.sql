@@ -1,3 +1,15 @@
+============================================================
+E-Commerce Customer & Sales Analytics | MySQL scripts
+============================================================
+
+
+############################################################
+PHASE 4 - LOAD DATA INTO MYSQL
+############################################################
+
+------------------------------------------------------------
+4.0  Create database + table + insert 127 rows
+------------------------------------------------------------
 CREATE DATABASE IF NOT EXISTS ecommerce_analytics;
 USE ecommerce_analytics;
 
@@ -157,5 +169,49 @@ INSERT INTO transactions_clean (TransactionID, InvoiceNo, StockCode, Description
 ('T00126', '50042', 'P1001', 'Wireless Mouse', 5, '2025-10-18 10:15:00', 15.99, 'C10012', 'Ananya Mehta', 'India', 'Completed', 0, 0, 0, 0, 79.95, 2025, 10, 'October', 0, 0),
 ('T10000', '50099', 'P1012', 'Unknown', 2, '2025-10-15 14:20:00', 6.75, 'C10012', 'Ananya Mehta', 'Unknown', 'Completed', 0, 0, 0, 0, 13.50, 2025, 10, 'October', 0, 0);
 
--- Check: expect 127 rows and 10804.50
-SELECT COUNT(*) AS total_rows, ROUND(SUM(Revenue),2) AS gross_revenue FROM transactions_clean;
+
+-- ------------------------------------------------------------
+-- 4.0  Check the load  (expected: 127 rows, 10804.50)
+--      SCREENSHOT: 4.1_sql_load_check.png
+-- ------------------------------------------------------------
+USE ecommerce_analytics;
+SELECT COUNT(*) AS total_rows, ROUND(SUM(Revenue), 2) AS gross_revenue
+FROM transactions_clean;
+
+
+-- ------------------------------------------------------------
+-- 4.1  Verify import - (a) first 10 records
+-- ------------------------------------------------------------
+USE ecommerce_analytics;
+SELECT * FROM transactions_clean LIMIT 10;
+
+4.1  (b) missing values  (expected: 1, 1, 1, 0)
+SELECT
+  SUM(Description = 'Unknown') AS unknown_description,
+  SUM(CustomerID = 'Unknown')  AS unknown_customer,
+  SUM(Country = 'Unknown')     AS unknown_country,
+  SUM(Description IS NULL OR CustomerID IS NULL OR Country IS NULL) AS null_values
+FROM transactions_clean;
+
+4.1  (c) duplicates  (expected: empty result, 0 rows)
+SELECT InvoiceNo, StockCode, InvoiceDate, CustomerID, Quantity, UnitPrice, COUNT(*) AS n
+FROM transactions_clean
+GROUP BY InvoiceNo, StockCode, InvoiceDate, CustomerID, Quantity, UnitPrice
+HAVING COUNT(*) > 1;
+
+
+------------------------------------------------------------
+4.2  Add indexes, then list them
+------------------------------------------------------------
+USE ecommerce_analytics;
+
+CREATE INDEX idx_invoice_no   ON transactions_clean (InvoiceNo);
+CREATE INDEX idx_customer_id  ON transactions_clean (CustomerID);
+CREATE INDEX idx_invoice_date ON transactions_clean (InvoiceDate);
+CREATE INDEX idx_country      ON transactions_clean (Country);
+
+SHOW INDEX FROM transactions_clean;
+
+
+
+
