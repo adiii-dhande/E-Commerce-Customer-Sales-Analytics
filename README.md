@@ -4,6 +4,10 @@ Analysis of fictional e-commerce transactions (Jan to Oct 2025) using Python, My
 
 > Dataset is fictional practice data, not real customers.
 
+## Dashboard Preview
+
+![Dashboard](ecom_dashboard_final.png)
+
 ## Project Background
 
 This project analyzes a fictional online store's transaction data from January to October 2025. The dataset has 128 transaction lines covering customers, products, countries, quantities, prices and order status (completed, cancelled or returned). All values are in USD. The data is fictional and was created for learning.
@@ -63,6 +67,41 @@ The store has transaction records but no clear view of what they say. Management
 | Cancelled orders | Distinct invoices where OrderStatus = Cancelled or InvoiceNo starts with C |
 | Repeat customer | Customer with 2 or more distinct completed invoices |
 | Average order value | Net revenue / total completed orders |
+| Revenue / Orders / Customers / AOV MoM | Latest month vs previous month, shown as a trend badge on each KPI card |
+
+## Tools and Techniques
+
+| Area | Details |
+|---|---|
+| Data cleaning | Python (Pandas, NumPy) in PyCharm |
+| Storage and analysis | MySQL Server and Workbench |
+| Dashboard | Power BI Desktop |
+| Measures | DAX (KPIs and month-over-month trend measures) |
+| Version control | Git and GitHub |
+
+## Dashboard Features
+
+- KPI cards for Net Revenue, Total Orders, Unique Customers and Average Order Value, each with a sparkline and a month-over-month badge.
+- Country tile slicer that filters the whole page.
+- Sales by Country table with net revenue, total orders and cancelled orders.
+- Top 5 and Bottom 5 products by net revenue.
+- Net revenue by country donut, total orders by order status donut and a country map.
+
+## Key Findings
+
+- Net revenue is **$9,854.73** from **39 orders** and **13 unique customers**, with an average order value of **$252.69**.
+- **India** leads revenue at $2,896.45 (about 29% of total), followed by the **United States** at $1,560.34. Together they make up about 45% of revenue.
+- The top 3 products (**Mechanical Keyboard**, **Desk Lamp** and **Webcam HD**) bring in about **53%** of net revenue.
+- **4 orders** were cancelled.
+- Latest month vs previous month: revenue **+5.63%**, orders **+33.33%**, unique customers **-25.00%**, average order value **-20.77%**. More, smaller orders came from fewer customers.
+
+## Recommendations
+
+1. **Focus stock and promotion on the top 3 products**, since they carry over half of net revenue.
+2. **Invest in India and the United States first**, and test small campaigns in France and Singapore.
+3. **Investigate cancellations** by product and country before they grow.
+4. **Run a repeat-customer offer**, because customer count fell while order count rose.
+5. **Bundle low-value orders** (for example accessories with a main product) to lift average order value.
 
 ## Assumptions
 
@@ -77,6 +116,16 @@ The store has transaction records but no clear view of what they say. Management
 - There is no cost data, so we can measure revenue but not profit.
 - Some rows have no CustomerID, so customer counts exclude them.
 - All values are assumed to be in USD.
+- Month-over-month figures compare only the latest two months, so small counts can swing the percentages a lot.
+
+## Project Files
+
+| File | Description |
+|---|---|
+| `ecommerce_dashboard.pbix` | Power BI dashboard |
+| `power_query.m` | Power Query steps used in the model |
+| `measures.dax` | DAX measures (KPIs and MoM trends) |
+| `ecom_dashboard_final.png` | Dashboard screenshot |
 
 ## Status
 
@@ -89,3 +138,7 @@ The store has transaction records but no clear view of what they say. Management
 - [x] Phase 6: Power BI model, DAX, dashboard
 - [x] Phase 7: Validation
 - [x] Phase 8: Insights and final README
+
+## Author
+
+**Aditya Dhande** | [GitHub](https://github.com/adiii-dhande)
