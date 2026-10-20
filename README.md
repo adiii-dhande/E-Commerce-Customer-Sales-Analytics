@@ -6,7 +6,7 @@ End-to-end analysis of 1,000,000 synthetic e-commerce transaction lines (2023 to
 
 ## Dashboard Preview
 
-![Dashboard](ecom_dashboard_final.png)
+![Dashboard](screenshots/dashboard_1m_final.png)
 
 ## Project Background
 
@@ -76,7 +76,7 @@ The store has transaction records but no clear view of what they say. Management
 | KPI | Definition |
 |---|---|
 | Gross revenue | Sum of Quantity x UnitPrice before removing cancelled or returned lines |
-| Net revenue | Revenue from completed orders only |
+| Net revenue | Revenue from completed orders only (cancelled and returned lines excluded) |
 | Total orders | Distinct InvoiceNo among completed orders |
 | Unique customers | Distinct non-blank CustomerID |
 | Cancelled orders | Distinct invoices where OrderStatus = Cancelled or InvoiceNo starts with C |
@@ -100,45 +100,54 @@ The store has transaction records but no clear view of what they say. Management
 2. **Python cleaning:** removed invalid rows (1,003,000 raw to 1,000,000 clean), added 10 flag and date columns.
 3. **MySQL load:** loaded the cleaned file into `ecommerce_analytics.transactions_clean` and added indexes.
 4. **SQL analysis:** KPIs, monthly net revenue, net revenue by country and top 5 products.
-5. **Power BI dashboard:** KPI cards, country slicer, tables and charts built with DAX.
+5. **Power BI dashboard:** KPI cards, country tile slicer, tables and charts built with DAX on the full 1M-row file.
 6. **Validation:** compared key numbers across Python, MySQL and Power BI.
 
 ## Validation
 
-Key numbers were checked across all three tools.
+**Python vs MySQL (data quality counts)**
 
-| Check | Python | MySQL | Power BI |
-|---|---|---|---|
-| Row count | 1,000,000 | 1,000,000 | [FILL: Power BI row count] |
-| Gross revenue | 81,562,430.20 | 81,562,430.20 | [FILL: Power BI gross revenue] |
-| Missing customers | 20,107 | 20,107 | n/a |
-| Cancelled lines | 40,118 | 40,118 | n/a |
-| Returned lines | 14,350 | 14,350 | n/a |
-| Zero-price rows | 4,845 | 4,845 | n/a |
-| Price-outlier rows | 1,898 | 1,898 | n/a |
+| Check | Python | MySQL |
+|---|---|---|
+| Row count | 1,000,000 | 1,000,000 |
+| Gross revenue | 81,562,430.20 | 81,562,430.20 |
+| Missing customers | 20,107 | 20,107 |
+| Cancelled lines | 40,118 | 40,118 |
+| Returned lines | 14,350 | 14,350 |
+| Zero-price rows | 4,845 | 4,845 |
+| Price-outlier rows | 1,898 | 1,898 |
+
+**Python vs Power BI (dashboard numbers)**
+
+| Check | Python | Power BI |
+|---|---|---|
+| Net revenue (Completed only) | 79,389,891.44 | $79.39M card, $79,389,891.44 table total |
+| Distinct invoices, all statuses | 333,366 | 333K (order status donut) |
+| Unique customers | 49,923 | 50K card |
+| Net revenue + Cancelled + Returned | 79,389,891.44 + 3,399,664.54 - 1,227,125.78 = 81,562,430.20 | Ties to gross revenue |
 
 ## Dashboard Features
 
 - KPI cards for Net Revenue, Total Orders, Unique Customers and Average Order Value, each with a sparkline and a month-over-month badge.
 - Country tile slicer that filters the whole page.
-- Date slicer for 2023 to 2025.
 - Sales by Country table with net revenue, total orders and cancelled orders.
 - Top 5 and Bottom 5 products by net revenue.
 - Net revenue by country donut, total orders by order status donut and a country map.
 
 ## Key Findings
 
-- Gross revenue is **81,562,430.20** across 1,000,000 cleaned lines.
-- Net revenue (completed orders only) is **[FILL: net revenue]** from **[FILL: total orders]** orders and **[FILL: unique customers]** unique customers, with an average order value of **[FILL: AOV]**.
-- **40,118** lines were cancelled and **14,350** were returned.
+- Gross revenue is **$81.56M** across 1,000,000 cleaned lines. Net revenue (completed orders only) is **$79.39M** from **318,998** orders and about **50K** unique customers (49,923), with an average order value of **$248.87**.
+- Latest month vs previous month: net revenue **+0.22%**, total orders **+2.06%**, unique customers **+1.31%**, average order value **-1.80%**.
+- **India, United States and United Kingdom** lead net revenue at **$17.53M, $15.79M and $14.02M**, about 60% of the total.
+- **Monitor Arm ($14.40M), Mechanical Keyboard ($11.59M) and Webcam HD ($9.62M)** are the top products. The top 5 products make up about 65% of net revenue.
+- **13,369** invoices were cancelled (40,118 cancelled lines) and **14,350** lines were returned. Returns carry negative revenue of about $1.23M.
 - **20,107** lines have no customer ID, so they count toward revenue but not toward customer counts.
-- Top country, top products and the latest month-over-month change are shown on the dashboard.
 
 ## Recommendations
 
-1. **Focus stock and promotion on the top 5 products**, since they carry a large share of net revenue.
-2. **Invest in the top-revenue countries first**, and test small campaigns in the next tier.
-3. **Investigate cancellations** (40,118 lines) by product and country before they grow.
+1. **Focus stock and promotion on the top 5 products**, since they carry about 65% of net revenue.
+2. **Invest in India, the US and the UK first**, and test small campaigns in the next tier (Canada, France).
+3. **Investigate cancellations** (13,369 invoices) by product and country before they grow.
 4. **Fix customer data capture**, because 20,107 lines have no customer ID and cannot be used for repeat-customer analysis.
 5. **Run a repeat-customer offer** to lift orders per customer.
 6. **Bundle low-value orders** (for example accessories with a main product) to lift average order value.
@@ -156,6 +165,7 @@ Key numbers were checked across all three tools.
 - 20,107 rows have no CustomerID, so customer counts exclude them.
 - All values are assumed to be in USD.
 - Month-over-month figures compare only the latest two months.
+- The order status donut counts distinct invoices per status, so its slices (about 346K) add up to more than the 333K total. Some invoices contain lines with different statuses and appear in more than one slice.
 - MySQL Workbench timed out (30 sec read limit) on the net revenue by country query, so the country view is built in Power BI. The query is still in the SQL file.
 
 ## Project Files
@@ -166,14 +176,11 @@ Key numbers were checked across all three tools.
 | `python/01_clean_data.py` | Cleans the raw data and adds flag columns |
 | `SQL/ecommerce_analysis.sql` | Table creation, load, indexes and analysis queries |
 | `power_bi/ecommerce_dashboard.pbix` | Power BI dashboard |
-| `power_bi/measures.dax` | DAX measures (KPIs and MoM trends) |
-| `power_query/` | Power Query steps used in the model |
 | `data/cleaned/sample_transactions.csv` | 1,000-row sample of the cleaned data |
 | `documentation/cleaning_log.md` | Cleaning steps and row counts |
 | `documentation/data_dictionary.md` | Column definitions |
 | `documentation/excel_inspection_notes.md` | Notes from the Excel inspection |
-| `screenshots/` | Screenshots of each phase |
-| `ecom_dashboard_final.png` | Dashboard screenshot |
+| `screenshots/` | Screenshots of each phase, including `dashboard_1m_final.png` |
 
 ## How to Reproduce
 
