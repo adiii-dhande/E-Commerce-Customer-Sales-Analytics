@@ -1,0 +1,1001 @@
+TransactionID,InvoiceNo,StockCode,Description,Quantity,InvoiceDate,UnitPrice,CustomerID,CustomerName,Country,OrderStatus,IsMissingCustomer,IsZeroPrice,IsPriceOutlier,IsNegativeQty,Revenue,InvoiceYear,InvoiceMonth,InvoiceMonthName,IsCancelled,IsReturned
+T0000001,50001,P1010,Power Bank,2,2023-11-03 12:00:00,25.0,C39046,Mr. Sean Wheeler,Singapore,Completed,0,0,0,0,50.0,2023,11,November,0,0
+T0000002,50001,P1001,Wireless Mouse,5,2023-11-03 12:00:00,15.99,C39046,Mr. Sean Wheeler,Singapore,Completed,0,0,0,0,79.95,2023,11,November,0,0
+T0000003,50001,P1002,Mechanical Keyboard,4,2023-11-03 12:00:00,48.5,C39046,Mr. Sean Wheeler,Singapore,Completed,0,0,0,0,194.0,2023,11,November,0,0
+T0000004,50001,P1005,Webcam HD,3,2023-11-03 12:00:00,39.99,C39046,Mr. Sean Wheeler,Singapore,Completed,0,0,0,0,119.97,2023,11,November,0,0
+T0000005,50002,P1003,USB-C Cable,3,2024-06-08 10:00:00,8.99,C13691,Brenda Harvey,India,Completed,0,0,0,0,26.97,2024,6,June,0,0
+T0000006,50002,P1012,Cable Organizer,5,2024-06-08 10:00:00,6.75,C13691,Brenda Harvey,India,Completed,0,0,0,0,33.75,2024,6,June,0,0
+T0000007,50002,P1012,Cable Organizer,5,2024-06-08 10:00:00,6.75,C13691,Brenda Harvey,India,Completed,0,0,0,0,33.75,2024,6,June,0,0
+T0000008,50002,P1007,Notebook Pack,3,2024-06-08 10:00:00,12.5,C13691,Brenda Harvey,India,Completed,0,0,0,0,37.5,2024,6,June,0,0
+T0000009,50002,P1005,Webcam HD,5,2024-06-08 10:00:00,39.99,C13691,Brenda Harvey,India,Completed,0,0,0,0,199.95,2024,6,June,0,0
+T0000010,50003,P1009,Phone Holder,3,2025-09-19 15:00:00,10.99,C50635,Karen Schultz,Italy,Completed,0,0,0,0,32.97,2025,9,September,0,0
+T0000011,50003,P1004,Laptop Stand,4,2025-09-19 15:00:00,29.95,C50635,Karen Schultz,Italy,Completed,0,0,0,0,119.8,2025,9,September,0,0
+T0000012,50003,P1010,Power Bank,5,2025-09-19 15:00:00,25.0,C50635,Karen Schultz,Italy,Completed,0,0,0,0,125.0,2025,9,September,0,0
+T0000013,50004,P1001,Wireless Mouse,4,2025-02-22 12:00:00,15.99,C58574,Kathleen Mays,United States,Completed,0,0,0,0,63.96,2025,2,February,0,0
+T0000014,50004,P1008,Bluetooth Speaker,3,2025-02-22 12:00:00,34.99,C58574,Kathleen Mays,United States,Completed,0,0,0,0,104.97,2025,2,February,0,0
+T0000015,50004,P1003,USB-C Cable,4,2025-02-22 12:00:00,8.99,C58574,Kathleen Mays,United States,Completed,0,0,0,0,35.96,2025,2,February,0,0
+T0000016,50005,P1010,Power Bank,4,2024-10-28 09:00:00,25.0,C28513,Andrew Neal,Singapore,Completed,0,0,0,0,100.0,2024,10,October,0,0
+T0000017,50006,P1008,Bluetooth Speaker,2,2023-11-08 10:00:00,34.99,C45802,Monique Johnson,United Kingdom,Completed,0,0,0,0,69.98,2023,11,November,0,0
+T0000018,50006,P1011,Monitor Arm,4,2023-11-08 10:00:00,59.9,C45802,Monique Johnson,United Kingdom,Completed,0,0,0,0,239.6,2023,11,November,0,0
+T0000019,50006,P1004,Laptop Stand,2,2023-11-08 10:00:00,0.0,C45802,Monique Johnson,United Kingdom,Completed,0,1,0,0,0.0,2023,11,November,0,0
+T0000020,50006,P1007,Notebook Pack,4,2023-11-08 10:00:00,12.5,C45802,Monique Johnson,United Kingdom,Completed,0,0,0,0,50.0,2023,11,November,0,0
+T0000021,50007,P1003,USB-C Cable,1,2024-09-12 09:00:00,8.99,C26127,Matthew Garcia,Italy,Completed,0,0,0,0,8.99,2024,9,September,0,0
+T0000022,50007,P1007,Notebook Pack,2,2024-09-12 09:00:00,12.5,C26127,Matthew Garcia,Italy,Completed,0,0,0,0,25.0,2024,9,September,0,0
+T0000023,50007,P1007,Notebook Pack,4,2024-09-12 09:00:00,12.5,C26127,Matthew Garcia,Italy,Completed,0,0,0,0,50.0,2024,9,September,0,0
+T0000024,50007,P1007,Notebook Pack,3,2024-09-12 09:00:00,12.5,C26127,Matthew Garcia,Italy,Completed,0,0,0,0,37.5,2024,9,September,0,0
+T0000025,50007,P1009,Phone Holder,1,2024-09-12 09:00:00,10.99,C26127,Matthew Garcia,Italy,Completed,0,0,0,0,10.99,2024,9,September,0,0
+T0000026,50008,P1005,Webcam HD,4,2023-02-06 10:00:00,39.99,C51486,Douglas Rogers,Australia,Completed,0,0,0,0,159.96,2023,2,February,0,0
+T0000027,C50009,P1012,Cable Organizer,1,2024-07-10 16:00:00,6.75,C46158,David Evans,Italy,Cancelled,0,0,0,0,6.75,2024,7,July,1,0
+T0000028,C50009,P1004,Laptop Stand,1,2024-07-10 16:00:00,29.95,C46158,David Evans,Italy,Cancelled,0,0,0,0,29.95,2024,7,July,1,0
+T0000029,50010,P1008,Bluetooth Speaker,2,2023-01-23 10:00:00,34.99,C34498,Christie Boyd,India,Completed,0,0,0,0,69.98,2023,1,January,0,0
+T0000030,50010,P1009,Phone Holder,1,2023-01-23 10:00:00,10.99,C34498,Christie Boyd,India,Completed,0,0,0,0,10.99,2023,1,January,0,0
+T0000031,50010,P1001,Wireless Mouse,5,2023-01-23 10:00:00,15.99,C34498,Christie Boyd,India,Completed,0,0,0,0,79.95,2023,1,January,0,0
+T0000032,50011,P1011,Monitor Arm,4,2023-05-01 09:00:00,59.9,C50571,Sharon Cummings,France,Completed,0,0,0,0,239.6,2023,5,May,0,0
+T0000033,50011,P1002,Mechanical Keyboard,1,2023-05-01 09:00:00,48.5,C50571,Sharon Cummings,France,Completed,0,0,0,0,48.5,2023,5,May,0,0
+T0000034,50011,P1002,Mechanical Keyboard,2,2023-05-01 09:00:00,48.5,C50571,Sharon Cummings,France,Completed,0,0,0,0,97.0,2023,5,May,0,0
+T0000035,50012,P1010,Power Bank,1,2024-05-27 11:00:00,25.0,C57181,Tony Dennis,United Kingdom,Completed,0,0,0,0,25.0,2024,5,May,0,0
+T0000036,50012,P1006,Desk Lamp,2,2024-05-27 11:00:00,22.75,C57181,Tony Dennis,United Kingdom,Completed,0,0,0,0,45.5,2024,5,May,0,0
+T0000037,50012,P1010,Power Bank,2,2024-05-27 11:00:00,25.0,C57181,Tony Dennis,United Kingdom,Completed,0,0,0,0,50.0,2024,5,May,0,0
+T0000038,50013,P1004,Laptop Stand,4,2023-08-13 09:00:00,29.95,C27608,Joshua Jones,India,Completed,0,0,0,0,119.8,2023,8,August,0,0
+T0000039,50014,P1011,Monitor Arm,5,2023-01-27 12:00:00,59.9,C52286,David Baker,Australia,Completed,0,0,0,0,299.5,2023,1,January,0,0
+T0000040,50014,P1002,Mechanical Keyboard,-3,2023-01-27 12:00:00,48.5,C52286,David Baker,Australia,Returned,0,0,0,1,-145.5,2023,1,January,0,1
+T0000041,50014,P1005,Webcam HD,5,2023-01-27 12:00:00,39.99,C52286,David Baker,Australia,Completed,0,0,0,0,199.95,2023,1,January,0,0
+T0000042,50015,P1002,Mechanical Keyboard,1,2025-01-15 12:00:00,48.5,C16551,Evelyn Townsend,Canada,Completed,0,0,0,0,48.5,2025,1,January,0,0
+T0000043,50015,P1011,Monitor Arm,4,2025-01-15 12:00:00,59.9,C16551,Evelyn Townsend,Canada,Completed,0,0,0,0,239.6,2025,1,January,0,0
+T0000044,50015,P1006,Desk Lamp,5,2025-01-15 12:00:00,22.75,C16551,Evelyn Townsend,Canada,Completed,0,0,0,0,113.75,2025,1,January,0,0
+T0000045,50016,P1003,USB-C Cable,2,2023-09-09 15:00:00,8.99,C27092,Rebecca Alexander,Italy,Completed,0,0,0,0,17.98,2023,9,September,0,0
+T0000046,50017,P1010,Power Bank,4,2024-08-05 14:00:00,25.0,C28250,Christopher Hayes,United States,Completed,0,0,0,0,100.0,2024,8,August,0,0
+T0000047,50017,P1006,Desk Lamp,2,2024-08-05 14:00:00,22.75,C28250,Christopher Hayes,United States,Completed,0,0,0,0,45.5,2024,8,August,0,0
+T0000048,50017,P1007,Notebook Pack,5,2024-08-05 14:00:00,12.5,C28250,Christopher Hayes,United States,Completed,0,0,0,0,62.5,2024,8,August,0,0
+T0000049,50017,P1005,Webcam HD,5,2024-08-05 14:00:00,39.99,C28250,Christopher Hayes,United States,Completed,0,0,0,0,199.95,2024,8,August,0,0
+T0000050,50018,P1005,Webcam HD,3,2024-09-27 09:00:00,39.99,C22421,Linda Bailey,United States,Completed,0,0,0,0,119.97,2024,9,September,0,0
+T0000051,50018,P1011,Monitor Arm,2,2024-09-27 09:00:00,59.9,C22421,Linda Bailey,United States,Completed,0,0,0,0,119.8,2024,9,September,0,0
+T0000052,50018,P1007,Notebook Pack,5,2024-09-27 09:00:00,12.5,C22421,Linda Bailey,United States,Completed,0,0,0,0,62.5,2024,9,September,0,0
+T0000053,50018,P1003,USB-C Cable,5,2024-09-27 09:00:00,8.99,C22421,Linda Bailey,United States,Completed,0,0,0,0,44.95,2024,9,September,0,0
+T0000054,50018,P1007,Notebook Pack,3,2024-09-27 09:00:00,12.5,C22421,Linda Bailey,United States,Completed,0,0,0,0,37.5,2024,9,September,0,0
+T0000055,50019,P1005,Webcam HD,3,2024-02-22 10:00:00,39.99,C57385,Zachary White,India,Completed,0,0,0,0,119.97,2024,2,February,0,0
+T0000056,50020,P1009,Phone Holder,2,2024-10-04 16:00:00,10.99,C12104,Juan Parker,Italy,Completed,0,0,0,0,21.98,2024,10,October,0,0
+T0000057,50021,P1004,Laptop Stand,4,2023-03-03 16:00:00,29.95,C45403,Jessica Schneider,Canada,Completed,0,0,0,0,119.8,2023,3,March,0,0
+T0000058,50021,P1009,Phone Holder,2,2023-03-03 16:00:00,10.99,C45403,Jessica Schneider,Canada,Completed,0,0,0,0,21.98,2023,3,March,0,0
+T0000059,50021,P1012,Cable Organizer,5,2023-03-03 16:00:00,6.75,C45403,Jessica Schneider,Canada,Completed,0,0,0,0,33.75,2023,3,March,0,0
+T0000060,50022,P1003,USB-C Cable,1,2024-05-18 10:00:00,8.99,C53568,Benjamin Mcdaniel,United States,Completed,0,0,0,0,8.99,2024,5,May,0,0
+T0000061,50022,P1010,Power Bank,1,2024-05-18 10:00:00,25.0,C53568,Benjamin Mcdaniel,United States,Completed,0,0,0,0,25.0,2024,5,May,0,0
+T0000062,50022,P1007,Notebook Pack,1,2024-05-18 10:00:00,12.5,C53568,Benjamin Mcdaniel,United States,Completed,0,0,0,0,12.5,2024,5,May,0,0
+T0000063,50022,P1002,Mechanical Keyboard,4,2024-05-18 10:00:00,48.5,C53568,Benjamin Mcdaniel,United States,Completed,0,0,0,0,194.0,2024,5,May,0,0
+T0000064,50023,P1010,Power Bank,5,2025-02-12 09:00:00,25.0,C53216,Blake Horton,France,Completed,0,0,0,0,125.0,2025,2,February,0,0
+T0000065,C50024,P1012,Cable Organizer,4,2025-06-12 14:00:00,6.75,C21274,Robert Pierce,India,Cancelled,0,0,0,0,27.0,2025,6,June,1,0
+T0000066,C50024,P1012,Cable Organizer,4,2025-06-12 14:00:00,6.75,Unknown,Unknown,India,Cancelled,1,0,0,0,27.0,2025,6,June,1,0
+T0000067,C50024,P1011,Monitor Arm,4,2025-06-12 14:00:00,59.9,C21274,Robert Pierce,India,Cancelled,0,0,0,0,239.6,2025,6,June,1,0
+T0000068,C50024,P1010,Power Bank,2,2025-06-12 14:00:00,25.0,C21274,Robert Pierce,India,Cancelled,0,0,0,0,50.0,2025,6,June,1,0
+T0000069,C50024,P1006,Desk Lamp,3,2025-06-12 14:00:00,22.75,C21274,Robert Pierce,India,Cancelled,0,0,0,0,68.25,2025,6,June,1,0
+T0000070,50025,P1004,Laptop Stand,1,2023-08-26 13:00:00,29.95,C17003,Robert Jarvis,United Kingdom,Completed,0,0,0,0,29.95,2023,8,August,0,0
+T0000071,50025,P1010,Power Bank,4,2023-08-26 13:00:00,25.0,C17003,Robert Jarvis,United Kingdom,Completed,0,0,0,0,100.0,2023,8,August,0,0
+T0000072,50025,P1011,Monitor Arm,4,2023-08-26 13:00:00,59.9,Unknown,Unknown,United Kingdom,Completed,1,0,0,0,239.6,2023,8,August,0,0
+T0000073,50026,P1001,Wireless Mouse,1,2023-07-12 10:00:00,15.99,C24711,Antonio Quinn,India,Completed,0,0,0,0,15.99,2023,7,July,0,0
+T0000074,50027,P1007,Notebook Pack,5,2024-06-29 09:00:00,12.5,C21767,Jason Welch,United Kingdom,Completed,0,0,0,0,62.5,2024,6,June,0,0
+T0000075,50027,P1010,Power Bank,4,2024-06-29 09:00:00,25.0,C21767,Jason Welch,United Kingdom,Completed,0,0,0,0,100.0,2024,6,June,0,0
+T0000076,50027,P1006,Desk Lamp,1,2024-06-29 09:00:00,22.75,C21767,Jason Welch,United Kingdom,Completed,0,0,0,0,22.75,2024,6,June,0,0
+T0000077,50028,P1008,Bluetooth Speaker,4,2024-06-04 14:00:00,34.99,C25500,Judy Elliott,India,Completed,0,0,0,0,139.96,2024,6,June,0,0
+T0000078,50028,P1006,Desk Lamp,2,2024-06-04 14:00:00,22.75,C25500,Judy Elliott,India,Completed,0,0,0,0,45.5,2024,6,June,0,0
+T0000079,50028,P1007,Notebook Pack,4,2024-06-04 14:00:00,12.5,C25500,Judy Elliott,India,Completed,0,0,0,0,50.0,2024,6,June,0,0
+T0000080,50029,P1007,Notebook Pack,5,2024-08-15 10:00:00,12.5,C40905,Lisa Brown,United Kingdom,Completed,0,0,0,0,62.5,2024,8,August,0,0
+T0000081,50029,P1010,Power Bank,5,2024-08-15 10:00:00,25.0,C40905,Lisa Brown,United Kingdom,Completed,0,0,0,0,125.0,2024,8,August,0,0
+T0000082,50030,P1001,Wireless Mouse,3,2023-09-29 12:00:00,15.99,C54431,Jillian Byrd,United States,Completed,0,0,0,0,47.97,2023,9,September,0,0
+T0000083,50030,P1009,Phone Holder,5,2023-09-29 12:00:00,10.99,C54431,Jillian Byrd,United States,Completed,0,0,0,0,54.95,2023,9,September,0,0
+T0000084,50030,P1009,Phone Holder,3,2023-09-29 12:00:00,10.99,C54431,Jillian Byrd,United States,Completed,0,0,0,0,32.97,2023,9,September,0,0
+T0000085,50031,P1003,USB-C Cable,5,2025-09-28 12:00:00,8.99,C12402,David Peterson,Canada,Completed,0,0,0,0,44.95,2025,9,September,0,0
+T0000086,50031,P1007,Notebook Pack,4,2025-09-28 12:00:00,12.5,C12402,David Peterson,Canada,Completed,0,0,0,0,50.0,2025,9,September,0,0
+T0000087,50032,P1008,Bluetooth Speaker,5,2023-01-05 09:00:00,34.99,C48453,Richard Avila,India,Completed,0,0,0,0,174.95,2023,1,January,0,0
+T0000088,50032,P1010,Power Bank,3,2023-01-05 09:00:00,25.0,C48453,Richard Avila,India,Completed,0,0,0,0,75.0,2023,1,January,0,0
+T0000089,50032,P1004,Laptop Stand,3,2023-01-05 09:00:00,29.95,C48453,Richard Avila,India,Completed,0,0,0,0,89.85,2023,1,January,0,0
+T0000090,50032,P1008,Bluetooth Speaker,3,2023-01-05 09:00:00,34.99,C48453,Richard Avila,India,Completed,0,0,0,0,104.97,2023,1,January,0,0
+T0000091,50032,P1005,Webcam HD,4,2023-01-05 09:00:00,39.99,C48453,Richard Avila,India,Completed,0,0,0,0,159.96,2023,1,January,0,0
+T0000092,50033,P1004,Laptop Stand,5,2024-10-20 16:00:00,29.95,C31936,David Stephens,Canada,Completed,0,0,0,0,149.75,2024,10,October,0,0
+T0000093,50033,P1001,Wireless Mouse,5,2024-10-20 16:00:00,15.99,C31936,David Stephens,Canada,Completed,0,0,0,0,79.95,2024,10,October,0,0
+T0000094,50034,P1006,Desk Lamp,5,2024-04-26 12:00:00,22.75,C47682,Amanda Barnett,Canada,Completed,0,0,0,0,113.75,2024,4,April,0,0
+T0000095,50034,P1003,USB-C Cable,2,2024-04-26 12:00:00,8.99,C47682,Amanda Barnett,Canada,Completed,0,0,0,0,17.98,2024,4,April,0,0
+T0000096,50034,P1011,Monitor Arm,2,2024-04-26 12:00:00,59.9,C47682,Amanda Barnett,Canada,Completed,0,0,0,0,119.8,2024,4,April,0,0
+T0000097,50034,P1005,Webcam HD,4,2024-04-26 12:00:00,39.99,C47682,Amanda Barnett,Canada,Completed,0,0,0,0,159.96,2024,4,April,0,0
+T0000098,50034,P1003,USB-C Cable,2,2024-04-26 12:00:00,8.99,C47682,Amanda Barnett,Canada,Completed,0,0,0,0,17.98,2024,4,April,0,0
+T0000099,50035,P1006,Desk Lamp,3,2024-11-11 09:00:00,22.75,C52833,Abigail Williams,Italy,Completed,0,0,0,0,68.25,2024,11,November,0,0
+T0000100,50035,P1010,Power Bank,5,2024-11-11 09:00:00,25.0,C52833,Abigail Williams,Italy,Completed,0,0,0,0,125.0,2024,11,November,0,0
+T0000101,50035,P1009,Phone Holder,5,2024-11-11 09:00:00,10.99,C52833,Abigail Williams,Italy,Completed,0,0,0,0,54.95,2024,11,November,0,0
+T0000102,50035,P1011,Monitor Arm,4,2024-11-11 09:00:00,59.9,C52833,Abigail Williams,Italy,Completed,0,0,0,0,239.6,2024,11,November,0,0
+T0000103,50035,P1005,Webcam HD,4,2024-11-11 09:00:00,39.99,C52833,Abigail Williams,Italy,Completed,0,0,0,0,159.96,2024,11,November,0,0
+T0000104,50036,P1003,USB-C Cable,3,2023-02-09 16:00:00,8.99,C19525,Tamara Stone,India,Completed,0,0,0,0,26.97,2023,2,February,0,0
+T0000105,50036,P1008,Bluetooth Speaker,5,2023-02-09 16:00:00,34.99,C19525,Tamara Stone,India,Completed,0,0,0,0,174.95,2023,2,February,0,0
+T0000106,50036,P1011,Monitor Arm,2,2023-02-09 16:00:00,59.9,C19525,Tamara Stone,India,Completed,0,0,0,0,119.8,2023,2,February,0,0
+T0000107,50037,P1004,Laptop Stand,3,2023-09-15 16:00:00,29.95,C32530,Jessica Melton,India,Completed,0,0,0,0,89.85,2023,9,September,0,0
+T0000108,50038,P1007,Notebook Pack,4,2024-10-16 12:00:00,12.5,C24888,Ashley Moran,Canada,Completed,0,0,0,0,50.0,2024,10,October,0,0
+T0000109,50038,P1003,USB-C Cable,3,2024-10-16 12:00:00,8.99,C24888,Ashley Moran,Canada,Completed,0,0,0,0,26.97,2024,10,October,0,0
+T0000110,50038,P1005,Webcam HD,3,2024-10-16 12:00:00,39.99,C24888,Ashley Moran,Canada,Completed,0,0,0,0,119.97,2024,10,October,0,0
+T0000111,50038,P1011,Monitor Arm,5,2024-10-16 12:00:00,59.9,C24888,Ashley Moran,Canada,Completed,0,0,0,0,299.5,2024,10,October,0,0
+T0000112,50038,P1009,Phone Holder,3,2024-10-16 12:00:00,10.99,C24888,Ashley Moran,Canada,Completed,0,0,0,0,32.97,2024,10,October,0,0
+T0000113,50039,P1003,USB-C Cable,4,2025-11-14 16:00:00,8.99,C41588,Amanda Morgan,United States,Completed,0,0,0,0,35.96,2025,11,November,0,0
+T0000114,50039,P1001,Wireless Mouse,5,2025-11-14 16:00:00,15.99,C41588,Amanda Morgan,United States,Completed,0,0,0,0,79.95,2025,11,November,0,0
+T0000115,50039,P1008,Bluetooth Speaker,5,2025-11-14 16:00:00,34.99,C41588,Amanda Morgan,United States,Completed,0,0,0,0,174.95,2025,11,November,0,0
+T0000116,50040,P1005,Webcam HD,-5,2025-08-19 16:00:00,39.99,C39855,Melissa Ibarra,India,Returned,0,0,0,1,-199.95,2025,8,August,0,1
+T0000117,50040,P1002,Mechanical Keyboard,4,2025-08-19 16:00:00,48.5,C39855,Melissa Ibarra,India,Completed,0,0,0,0,194.0,2025,8,August,0,0
+T0000118,50041,P1008,Bluetooth Speaker,3,2024-08-02 11:00:00,34.99,C54037,Monica Parker,United States,Completed,0,0,0,0,104.97,2024,8,August,0,0
+T0000119,50042,P1006,Desk Lamp,4,2024-04-24 12:00:00,22.75,C22100,Catherine Mendoza,France,Completed,0,0,0,0,91.0,2024,4,April,0,0
+T0000120,50042,P1005,Webcam HD,5,2024-04-24 12:00:00,39.99,C22100,Catherine Mendoza,France,Completed,0,0,0,0,199.95,2024,4,April,0,0
+T0000121,50043,P1002,Mechanical Keyboard,1,2023-11-26 10:00:00,48.5,C51656,Vanessa Cannon,Canada,Completed,0,0,0,0,48.5,2023,11,November,0,0
+T0000122,50043,P1010,Power Bank,2,2023-11-26 10:00:00,25.0,C51656,Vanessa Cannon,Canada,Completed,0,0,0,0,50.0,2023,11,November,0,0
+T0000123,50043,P1003,USB-C Cable,2,2023-11-26 10:00:00,8.99,C51656,Vanessa Cannon,Canada,Completed,0,0,0,0,17.98,2023,11,November,0,0
+T0000124,50043,P1010,Power Bank,5,2023-11-26 10:00:00,25.0,C51656,Vanessa Cannon,Canada,Completed,0,0,0,0,125.0,2023,11,November,0,0
+T0000125,50044,P1005,Webcam HD,2,2023-08-06 12:00:00,39.99,C53467,Dustin Clark,France,Completed,0,0,0,0,79.98,2023,8,August,0,0
+T0000126,50044,P1009,Phone Holder,3,2023-08-06 12:00:00,10.99,C53467,Dustin Clark,France,Completed,0,0,0,0,32.97,2023,8,August,0,0
+T0000127,50044,P1004,Laptop Stand,3,2023-08-06 12:00:00,29.95,C53467,Dustin Clark,France,Completed,0,0,0,0,89.85,2023,8,August,0,0
+T0000128,50045,P1006,Desk Lamp,1,2025-12-15 10:00:00,22.75,C51498,Christopher Miranda,United States,Completed,0,0,0,0,22.75,2025,12,December,0,0
+T0000129,50046,P1005,Webcam HD,3,2024-10-21 09:00:00,39.99,C10242,Matthew Moon,Canada,Completed,0,0,0,0,119.97,2024,10,October,0,0
+T0000130,50046,P1001,Wireless Mouse,3,2024-10-21 09:00:00,15.99,C10242,Matthew Moon,Canada,Completed,0,0,0,0,47.97,2024,10,October,0,0
+T0000131,50046,P1008,Bluetooth Speaker,5,2024-10-21 09:00:00,34.99,C10242,Matthew Moon,Canada,Completed,0,0,0,0,174.95,2024,10,October,0,0
+T0000132,50046,P1004,Laptop Stand,3,2024-10-21 09:00:00,29.95,C10242,Matthew Moon,Canada,Completed,0,0,0,0,89.85,2024,10,October,0,0
+T0000133,50047,P1009,Phone Holder,5,2023-11-20 14:00:00,10.99,C45536,William Nguyen,India,Completed,0,0,0,0,54.95,2023,11,November,0,0
+T0000134,50047,P1004,Laptop Stand,4,2023-11-20 14:00:00,29.95,C45536,William Nguyen,India,Completed,0,0,0,0,119.8,2023,11,November,0,0
+T0000135,50048,P1003,USB-C Cable,2,2025-01-15 13:00:00,8.99,C13790,Melissa Stout,France,Completed,0,0,0,0,17.98,2025,1,January,0,0
+T0000136,50049,P1006,Desk Lamp,1,2023-02-23 12:00:00,22.75,C30958,Amanda Perkins,United Kingdom,Completed,0,0,0,0,22.75,2023,2,February,0,0
+T0000137,50049,P1006,Desk Lamp,4,2023-02-23 12:00:00,22.75,C30958,Amanda Perkins,United Kingdom,Completed,0,0,0,0,91.0,2023,2,February,0,0
+T0000138,50049,P1003,USB-C Cable,5,2023-02-23 12:00:00,8.99,C30958,Amanda Perkins,United Kingdom,Completed,0,0,0,0,44.95,2023,2,February,0,0
+T0000139,50049,P1002,Mechanical Keyboard,2,2023-02-23 12:00:00,48.5,C30958,Amanda Perkins,United Kingdom,Completed,0,0,0,0,97.0,2023,2,February,0,0
+T0000140,50050,P1011,Monitor Arm,5,2024-10-27 10:00:00,59.9,C26243,Leslie Hudson,Canada,Completed,0,0,0,0,299.5,2024,10,October,0,0
+T0000141,50050,P1001,Wireless Mouse,5,2024-10-27 10:00:00,15.99,C26243,Leslie Hudson,Canada,Completed,0,0,0,0,79.95,2024,10,October,0,0
+T0000142,50050,P1011,Monitor Arm,2,2024-10-27 10:00:00,59.9,C26243,Leslie Hudson,Canada,Completed,0,0,0,0,119.8,2024,10,October,0,0
+T0000143,50050,P1008,Bluetooth Speaker,4,2024-10-27 10:00:00,34.99,C26243,Leslie Hudson,Canada,Completed,0,0,0,0,139.96,2024,10,October,0,0
+T0000144,50051,P1011,Unknown,5,2024-08-24 10:00:00,59.9,C19747,Joshua Brown,France,Completed,0,0,0,0,299.5,2024,8,August,0,0
+T0000145,50051,P1004,Laptop Stand,5,2024-08-24 10:00:00,29.95,C19747,Joshua Brown,France,Completed,0,0,0,0,149.75,2024,8,August,0,0
+T0000146,50051,P1006,Desk Lamp,5,2024-08-24 10:00:00,22.75,C19747,Joshua Brown,France,Completed,0,0,0,0,113.75,2024,8,August,0,0
+T0000147,50051,P1005,Webcam HD,1,2024-08-24 10:00:00,39.99,C19747,Joshua Brown,France,Completed,0,0,0,0,39.99,2024,8,August,0,0
+T0000148,50051,P1001,Wireless Mouse,1,2024-08-24 10:00:00,15.99,C19747,Joshua Brown,France,Completed,0,0,0,0,15.99,2024,8,August,0,0
+T0000149,50052,P1010,Power Bank,-3,2024-03-19 16:00:00,25.0,C54066,David Lam,United States,Returned,0,0,0,1,-75.0,2024,3,March,0,1
+T0000150,50053,P1002,Mechanical Keyboard,5,2025-02-04 09:00:00,48.5,C47105,Jeffrey Brown,France,Completed,0,0,0,0,242.5,2025,2,February,0,0
+T0000151,50053,P1010,Power Bank,1,2025-02-04 09:00:00,25.0,C47105,Jeffrey Brown,Unknown,Completed,0,0,0,0,25.0,2025,2,February,0,0
+T0000152,50054,P1004,Laptop Stand,5,2024-02-17 10:00:00,29.95,C51590,Joshua Thompson,United States,Completed,0,0,0,0,149.75,2024,2,February,0,0
+T0000153,50054,P1001,Wireless Mouse,3,2024-02-17 10:00:00,15.99,C51590,Joshua Thompson,United States,Completed,0,0,0,0,47.97,2024,2,February,0,0
+T0000154,50055,P1007,Notebook Pack,4,2025-09-12 09:00:00,12.5,C58780,Audrey Gordon,United States,Completed,0,0,0,0,50.0,2025,9,September,0,0
+T0000155,50055,P1002,Mechanical Keyboard,3,2025-09-12 09:00:00,48.5,C58780,Audrey Gordon,United States,Completed,0,0,0,0,145.5,2025,9,September,0,0
+T0000156,50055,P1009,Phone Holder,3,2025-09-12 09:00:00,10.99,C58780,Audrey Gordon,United States,Completed,0,0,0,0,32.97,2025,9,September,0,0
+T0000157,50056,P1012,Cable Organizer,4,2024-09-24 09:00:00,6.75,C51289,Mrs. Sydney Villarreal,Canada,Completed,0,0,0,0,27.0,2024,9,September,0,0
+T0000158,50056,P1012,Cable Organizer,4,2024-09-24 09:00:00,6.75,C51289,Mrs. Sydney Villarreal,Canada,Completed,0,0,0,0,27.0,2024,9,September,0,0
+T0000159,50056,P1012,Cable Organizer,5,2024-09-24 09:00:00,6.75,C51289,Mrs. Sydney Villarreal,Canada,Completed,0,0,0,0,33.75,2024,9,September,0,0
+T0000160,50056,P1008,Bluetooth Speaker,3,2024-09-24 09:00:00,34.99,C51289,Mrs. Sydney Villarreal,Canada,Completed,0,0,0,0,104.97,2024,9,September,0,0
+T0000161,50056,P1001,Wireless Mouse,4,2024-09-24 09:00:00,15.99,C51289,Mrs. Sydney Villarreal,Canada,Completed,0,0,0,0,63.96,2024,9,September,0,0
+T0000162,50057,P1003,USB-C Cable,4,2025-12-04 16:00:00,8.99,C24495,Christopher Frye,United States,Completed,0,0,0,0,35.96,2025,12,December,0,0
+T0000163,50058,P1012,Cable Organizer,4,2023-09-20 16:00:00,6.75,C12336,Brian Garcia,France,Completed,0,0,0,0,27.0,2023,9,September,0,0
+T0000164,50058,P1005,Webcam HD,3,2023-09-20 16:00:00,39.99,C12336,Brian Garcia,France,Completed,0,0,0,0,119.97,2023,9,September,0,0
+T0000165,50058,P1004,Laptop Stand,5,2023-09-20 16:00:00,29.95,C12336,Brian Garcia,France,Completed,0,0,0,0,149.75,2023,9,September,0,0
+T0000166,50058,P1012,Cable Organizer,5,2023-09-20 16:00:00,6.75,C12336,Brian Garcia,France,Completed,0,0,0,0,33.75,2023,9,September,0,0
+T0000167,50059,P1006,Desk Lamp,2,2025-06-28 16:00:00,22.75,C25479,Brianna Day,India,Completed,0,0,0,0,45.5,2025,6,June,0,0
+T0000168,50059,P1012,Unknown,1,2025-06-28 16:00:00,6.75,C25479,Brianna Day,India,Completed,0,0,0,0,6.75,2025,6,June,0,0
+T0000169,50059,P1008,Bluetooth Speaker,5,2025-06-28 16:00:00,34.99,C25479,Brianna Day,India,Completed,0,0,0,0,174.95,2025,6,June,0,0
+T0000170,50060,P1009,Phone Holder,2,2023-02-11 10:00:00,10.99,C54120,John Herring,United States,Completed,0,0,0,0,21.98,2023,2,February,0,0
+T0000171,50060,P1002,Mechanical Keyboard,3,2023-02-11 10:00:00,48.5,C54120,John Herring,United States,Completed,0,0,0,0,145.5,2023,2,February,0,0
+T0000172,50060,P1005,Webcam HD,5,2023-02-11 10:00:00,39.99,C54120,John Herring,United States,Completed,0,0,0,0,199.95,2023,2,February,0,0
+T0000173,50061,P1012,Cable Organizer,5,2023-09-16 15:00:00,6.75,C26651,Jennifer Hopkins,United States,Completed,0,0,0,0,33.75,2023,9,September,0,0
+T0000174,50061,P1001,Wireless Mouse,1,2023-09-16 15:00:00,15.99,C26651,Jennifer Hopkins,United States,Completed,0,0,0,0,15.99,2023,9,September,0,0
+T0000175,50061,P1012,Cable Organizer,1,2023-09-16 15:00:00,6.75,C26651,Jennifer Hopkins,United States,Completed,0,0,0,0,6.75,2023,9,September,0,0
+T0000176,50061,P1009,Phone Holder,1,2023-09-16 15:00:00,10.99,C26651,Jennifer Hopkins,United States,Completed,0,0,0,0,10.99,2023,9,September,0,0
+T0000177,50061,P1006,Desk Lamp,2,2023-09-16 15:00:00,22.75,C26651,Jennifer Hopkins,United States,Completed,0,0,0,0,45.5,2023,9,September,0,0
+T0000178,50062,P1007,Notebook Pack,1,2023-04-07 13:00:00,12.5,C22660,Nancy Brewer,United States,Completed,0,0,0,0,12.5,2023,4,April,0,0
+T0000179,50062,P1006,Desk Lamp,5,2023-04-07 13:00:00,22.75,C22660,Nancy Brewer,United States,Completed,0,0,0,0,113.75,2023,4,April,0,0
+T0000180,50062,P1006,Desk Lamp,3,2023-04-07 13:00:00,22.75,C22660,Nancy Brewer,United States,Completed,0,0,0,0,68.25,2023,4,April,0,0
+T0000181,50062,P1008,Bluetooth Speaker,2,2023-04-07 13:00:00,34.99,C22660,Nancy Brewer,United States,Completed,0,0,0,0,69.98,2023,4,April,0,0
+T0000182,50063,P1002,Mechanical Keyboard,1,2024-01-17 11:00:00,48.5,C31401,Michael Barnes,United Kingdom,Completed,0,0,0,0,48.5,2024,1,January,0,0
+T0000183,50064,P1006,Desk Lamp,4,2024-05-03 10:00:00,22.75,C10605,Mrs. Virginia Daniels,Singapore,Completed,0,0,0,0,91.0,2024,5,May,0,0
+T0000184,50064,P1012,Cable Organizer,2,2024-05-03 10:00:00,6.75,C10605,Mrs. Virginia Daniels,Singapore,Completed,0,0,0,0,13.5,2024,5,May,0,0
+T0000185,50064,P1005,Webcam HD,5,2024-05-03 10:00:00,39.99,C10605,Mrs. Virginia Daniels,Singapore,Completed,0,0,0,0,199.95,2024,5,May,0,0
+T0000186,50065,P1010,Power Bank,1,2025-11-02 12:00:00,25.0,C57824,Christopher Williams,United Kingdom,Completed,0,0,0,0,25.0,2025,11,November,0,0
+T0000187,50065,P1012,Cable Organizer,5,2025-11-02 12:00:00,6.75,C57824,Christopher Williams,United Kingdom,Completed,0,0,0,0,33.75,2025,11,November,0,0
+T0000188,50065,P1005,Webcam HD,5,2025-11-02 12:00:00,39.99,C57824,Christopher Williams,United Kingdom,Completed,0,0,0,0,199.95,2025,11,November,0,0
+T0000189,50065,P1004,Unknown,3,2025-11-02 12:00:00,29.95,C57824,Christopher Williams,United Kingdom,Completed,0,0,0,0,89.85,2025,11,November,0,0
+T0000190,50066,P1003,USB-C Cable,1,2024-05-04 13:00:00,8.99,C45539,Pamela Lawrence,France,Completed,0,0,0,0,8.99,2024,5,May,0,0
+T0000191,C50067,P1008,Unknown,2,2024-01-02 12:00:00,34.99,C41631,Michelle Lopez,Australia,Cancelled,0,0,0,0,69.98,2024,1,January,1,0
+T0000192,C50067,P1007,Notebook Pack,4,2024-01-02 12:00:00,12.5,C41631,Michelle Lopez,Australia,Cancelled,0,0,0,0,50.0,2024,1,January,1,0
+T0000193,C50067,P1008,Bluetooth Speaker,3,2024-01-02 12:00:00,34.99,C41631,Michelle Lopez,Australia,Cancelled,0,0,0,0,104.97,2024,1,January,1,0
+T0000194,50068,P1011,Monitor Arm,3,2025-02-19 16:00:00,59.9,C43142,Jamie Jones,Australia,Completed,0,0,0,0,179.7,2025,2,February,0,0
+T0000195,50068,P1007,Notebook Pack,1,2025-02-19 16:00:00,12.5,C43142,Jamie Jones,Australia,Completed,0,0,0,0,12.5,2025,2,February,0,0
+T0000196,50068,P1001,Wireless Mouse,1,2025-02-19 16:00:00,15.99,C43142,Jamie Jones,Australia,Completed,0,0,0,0,15.99,2025,2,February,0,0
+T0000197,50069,P1002,Mechanical Keyboard,3,2025-02-08 16:00:00,48.5,C23149,Alexandria Harris,United Kingdom,Completed,0,0,0,0,145.5,2025,2,February,0,0
+T0000198,50070,P1010,Power Bank,1,2024-01-16 16:00:00,25.0,C59794,Pamela Perez,United Kingdom,Completed,0,0,0,0,25.0,2024,1,January,0,0
+T0000199,50070,P1004,Laptop Stand,3,2024-01-16 16:00:00,29.95,C59794,Pamela Perez,United Kingdom,Completed,0,0,0,0,89.85,2024,1,January,0,0
+T0000200,50070,P1005,Webcam HD,4,2024-01-16 16:00:00,39.99,C59794,Pamela Perez,United Kingdom,Completed,0,0,0,0,159.96,2024,1,January,0,0
+T0000201,50070,P1007,Notebook Pack,4,2024-01-16 16:00:00,12.5,C59794,Pamela Perez,United Kingdom,Completed,0,0,0,0,50.0,2024,1,January,0,0
+T0000202,50070,P1008,Bluetooth Speaker,4,2024-01-16 16:00:00,34.99,C59794,Pamela Perez,United Kingdom,Completed,0,0,0,0,139.96,2024,1,January,0,0
+T0000203,50071,P1009,Phone Holder,4,2024-04-18 16:00:00,10.99,C36162,John Hunt,United Kingdom,Completed,0,0,0,0,43.96,2024,4,April,0,0
+T0000204,50071,P1012,Cable Organizer,3,2024-04-18 16:00:00,6.75,C36162,John Hunt,United Kingdom,Completed,0,0,0,0,20.25,2024,4,April,0,0
+T0000205,50072,P1011,Monitor Arm,2,2025-11-09 14:00:00,59.9,C15230,Andre Cortez,United States,Completed,0,0,0,0,119.8,2025,11,November,0,0
+T0000206,50072,P1012,Cable Organizer,5,2025-11-09 14:00:00,6.75,C15230,Andre Cortez,United States,Completed,0,0,0,0,33.75,2025,11,November,0,0
+T0000207,50073,P1003,USB-C Cable,4,2023-07-26 15:00:00,8.99,C53567,Brandon Hamilton,United Kingdom,Completed,0,0,0,0,35.96,2023,7,July,0,0
+T0000208,50074,P1007,Notebook Pack,2,2024-05-19 10:00:00,12.5,C33450,Jesus Robinson,France,Completed,0,0,0,0,25.0,2024,5,May,0,0
+T0000209,50075,P1004,Laptop Stand,4,2023-11-07 11:00:00,29.95,C20100,Wendy Oneal,United States,Completed,0,0,0,0,119.8,2023,11,November,0,0
+T0000210,50076,P1010,Power Bank,4,2023-05-19 13:00:00,25.0,C53429,April Williams,Canada,Completed,0,0,0,0,100.0,2023,5,May,0,0
+T0000211,50076,P1006,Desk Lamp,4,2023-05-19 13:00:00,22.75,C53429,April Williams,Canada,Completed,0,0,0,0,91.0,2023,5,May,0,0
+T0000212,50076,P1010,Power Bank,4,2023-05-19 13:00:00,25.0,C53429,April Williams,Canada,Completed,0,0,0,0,100.0,2023,5,May,0,0
+T0000213,50076,P1009,Phone Holder,1,2023-05-19 13:00:00,10.99,C53429,April Williams,Canada,Completed,0,0,0,0,10.99,2023,5,May,0,0
+T0000214,50077,P1001,Wireless Mouse,2,2025-06-24 13:00:00,15.99,C38716,Tara Brown,United States,Completed,0,0,0,0,31.98,2025,6,June,0,0
+T0000215,50077,P1010,Power Bank,2,2025-06-24 13:00:00,25.0,C38716,Tara Brown,United States,Completed,0,0,0,0,50.0,2025,6,June,0,0
+T0000216,50078,P1007,Notebook Pack,3,2023-10-17 12:00:00,12.5,C12017,Charles Morales,United States,Completed,0,0,0,0,37.5,2023,10,October,0,0
+T0000217,50078,P1011,Monitor Arm,4,2023-10-17 12:00:00,59.9,C12017,Charles Morales,United States,Completed,0,0,0,0,239.6,2023,10,October,0,0
+T0000218,50078,P1002,Mechanical Keyboard,1,2023-10-17 12:00:00,48.5,C12017,Charles Morales,United States,Completed,0,0,0,0,48.5,2023,10,October,0,0
+T0000219,50079,P1003,USB-C Cable,2,2025-05-23 09:00:00,8.99,C39228,Stephen Moore,United States,Completed,0,0,0,0,17.98,2025,5,May,0,0
+T0000220,50079,P1002,Mechanical Keyboard,3,2025-05-23 09:00:00,48.5,C39228,Stephen Moore,United States,Completed,0,0,0,0,145.5,2025,5,May,0,0
+T0000221,50079,P1008,Bluetooth Speaker,4,2025-05-23 09:00:00,34.99,C39228,Stephen Moore,United States,Completed,0,0,0,0,139.96,2025,5,May,0,0
+T0000222,50079,P1001,Wireless Mouse,2,2025-05-23 09:00:00,15.99,C39228,Stephen Moore,United States,Completed,0,0,0,0,31.98,2025,5,May,0,0
+T0000223,50080,P1002,Mechanical Keyboard,2,2025-04-26 10:00:00,48.5,C11213,Daniel White,United Kingdom,Completed,0,0,0,0,97.0,2025,4,April,0,0
+T0000224,50080,P1007,Notebook Pack,5,2025-04-26 10:00:00,12.5,C11213,Daniel White,United Kingdom,Completed,0,0,0,0,62.5,2025,4,April,0,0
+T0000225,50081,P1005,Webcam HD,5,2025-11-11 12:00:00,39.99,C32254,Mark Johnson,Canada,Completed,0,0,0,0,199.95,2025,11,November,0,0
+T0000226,50081,P1002,Mechanical Keyboard,2,2025-11-11 12:00:00,48.5,C32254,Mark Johnson,Canada,Completed,0,0,0,0,97.0,2025,11,November,0,0
+T0000227,50081,P1005,Webcam HD,3,2025-11-11 12:00:00,39.99,C32254,Mark Johnson,Canada,Completed,0,0,0,0,119.97,2025,11,November,0,0
+T0000228,50082,P1005,Webcam HD,4,2025-07-19 13:00:00,39.99,C23549,John Jones,United States,Completed,0,0,0,0,159.96,2025,7,July,0,0
+T0000229,50082,P1008,Bluetooth Speaker,2,2025-07-19 13:00:00,34.99,C23549,John Jones,United States,Completed,0,0,0,0,69.98,2025,7,July,0,0
+T0000230,50082,P1007,Notebook Pack,2,2025-07-19 13:00:00,12.5,C23549,John Jones,United States,Completed,0,0,0,0,25.0,2025,7,July,0,0
+T0000231,50083,P1005,Webcam HD,3,2025-12-27 09:00:00,39.99,C13047,Jeffrey Fuller,United Kingdom,Completed,0,0,0,0,119.97,2025,12,December,0,0
+T0000232,50083,P1001,Wireless Mouse,2,2025-12-27 09:00:00,15.99,C13047,Jeffrey Fuller,United Kingdom,Completed,0,0,0,0,31.98,2025,12,December,0,0
+T0000233,50083,P1009,Phone Holder,5,2025-12-27 09:00:00,10.99,C13047,Jeffrey Fuller,United Kingdom,Completed,0,0,0,0,54.95,2025,12,December,0,0
+T0000234,50083,P1011,Monitor Arm,4,2025-12-27 09:00:00,59.9,C13047,Jeffrey Fuller,United Kingdom,Completed,0,0,0,0,239.6,2025,12,December,0,0
+T0000235,50083,P1004,Laptop Stand,1,2025-12-27 09:00:00,29.95,C13047,Jeffrey Fuller,United Kingdom,Completed,0,0,0,0,29.95,2025,12,December,0,0
+T0000236,50084,P1002,Mechanical Keyboard,1,2023-07-20 13:00:00,48.5,C55608,Carolyn Porter,India,Completed,0,0,0,0,48.5,2023,7,July,0,0
+T0000237,50084,P1003,USB-C Cable,3,2023-07-20 13:00:00,8.99,C55608,Carolyn Porter,India,Completed,0,0,0,0,26.97,2023,7,July,0,0
+T0000238,50084,P1006,Desk Lamp,4,2023-07-20 13:00:00,22.75,C55608,Carolyn Porter,India,Completed,0,0,0,0,91.0,2023,7,July,0,0
+T0000239,50084,P1003,USB-C Cable,5,2023-07-20 13:00:00,8.99,C55608,Carolyn Porter,India,Completed,0,0,0,0,44.95,2023,7,July,0,0
+T0000240,50084,P1009,Phone Holder,2,2023-07-20 13:00:00,10.99,C55608,Carolyn Porter,India,Completed,0,0,0,0,21.98,2023,7,July,0,0
+T0000241,50085,P1009,Phone Holder,1,2024-08-11 16:00:00,10.99,C38936,Kenneth Payne,United Kingdom,Completed,0,0,0,0,10.99,2024,8,August,0,0
+T0000242,50085,P1005,Webcam HD,5,2024-08-11 16:00:00,39.99,C38936,Kenneth Payne,United Kingdom,Completed,0,0,0,0,199.95,2024,8,August,0,0
+T0000243,50086,P1002,Mechanical Keyboard,-5,2023-05-19 16:00:00,48.5,C34849,Riley Riley,Italy,Returned,0,0,0,1,-242.5,2023,5,May,0,1
+T0000244,50086,P1008,Bluetooth Speaker,5,2023-05-19 16:00:00,34.99,C34849,Riley Riley,Italy,Completed,0,0,0,0,174.95,2023,5,May,0,0
+T0000245,50087,P1006,Desk Lamp,1,2023-08-02 10:00:00,22.75,C37839,Emily Bennett,United States,Completed,0,0,0,0,22.75,2023,8,August,0,0
+T0000246,50087,P1001,Wireless Mouse,2,2023-08-02 10:00:00,15.99,C37839,Emily Bennett,United States,Completed,0,0,0,0,31.98,2023,8,August,0,0
+T0000247,50087,P1001,Wireless Mouse,4,2023-08-02 10:00:00,15.99,C37839,Emily Bennett,United States,Completed,0,0,0,0,63.96,2023,8,August,0,0
+T0000248,50088,P1002,Mechanical Keyboard,5,2024-11-19 10:00:00,48.5,C29373,Warren Allen,Australia,Completed,0,0,0,0,242.5,2024,11,November,0,0
+T0000249,50088,P1007,Notebook Pack,4,2024-11-19 10:00:00,12.5,C29373,Warren Allen,Australia,Completed,0,0,0,0,50.0,2024,11,November,0,0
+T0000250,50089,P1001,Wireless Mouse,5,2023-05-09 15:00:00,15.99,C25771,Madison Bass,Singapore,Completed,0,0,0,0,79.95,2023,5,May,0,0
+T0000251,50089,P1004,Laptop Stand,3,2023-05-09 15:00:00,29.95,C25771,Madison Bass,Singapore,Completed,0,0,0,0,89.85,2023,5,May,0,0
+T0000252,50089,P1010,Power Bank,5,2023-05-09 15:00:00,25.0,C25771,Madison Bass,Singapore,Completed,0,0,0,0,125.0,2023,5,May,0,0
+T0000253,50090,P1008,Bluetooth Speaker,4,2025-01-27 09:00:00,34.99,C55515,Brenda Brooks,France,Completed,0,0,0,0,139.96,2025,1,January,0,0
+T0000254,50090,P1012,Cable Organizer,5,2025-01-27 09:00:00,6.75,C55515,Brenda Brooks,France,Completed,0,0,0,0,33.75,2025,1,January,0,0
+T0000255,50090,P1008,Bluetooth Speaker,4,2025-01-27 09:00:00,34.99,C55515,Brenda Brooks,France,Completed,0,0,0,0,139.96,2025,1,January,0,0
+T0000256,50091,P1007,Notebook Pack,1,2023-01-28 14:00:00,12.5,C45532,Kimberly Fernandez,United Kingdom,Completed,0,0,0,0,12.5,2023,1,January,0,0
+T0000257,50091,P1004,Laptop Stand,4,2023-01-28 14:00:00,29.95,C45532,Kimberly Fernandez,United Kingdom,Completed,0,0,0,0,119.8,2023,1,January,0,0
+T0000258,50091,P1008,Bluetooth Speaker,1,2023-01-28 14:00:00,34.99,C45532,Kimberly Fernandez,United Kingdom,Completed,0,0,0,0,34.99,2023,1,January,0,0
+T0000259,50092,P1004,Laptop Stand,5,2024-12-26 09:00:00,29.95,C40080,Gregory Ayers,India,Completed,0,0,0,0,149.75,2024,12,December,0,0
+T0000260,50092,P1006,Desk Lamp,4,2024-12-26 09:00:00,22.75,C40080,Gregory Ayers,India,Completed,0,0,0,0,91.0,2024,12,December,0,0
+T0000261,50092,P1005,Webcam HD,2,2024-12-26 09:00:00,39.99,C40080,Gregory Ayers,India,Completed,0,0,0,0,79.98,2024,12,December,0,0
+T0000262,50093,P1002,Mechanical Keyboard,4,2024-11-29 13:00:00,48.5,C44467,Savannah Burns,India,Completed,0,0,0,0,194.0,2024,11,November,0,0
+T0000263,50093,P1005,Webcam HD,2,2024-11-29 13:00:00,39.99,C44467,Savannah Burns,India,Completed,0,0,0,0,79.98,2024,11,November,0,0
+T0000264,50093,P1002,Mechanical Keyboard,4,2024-11-29 13:00:00,48.5,C44467,Savannah Burns,India,Completed,0,0,0,0,194.0,2024,11,November,0,0
+T0000265,50093,P1008,Bluetooth Speaker,1,2024-11-29 13:00:00,34.99,C44467,Savannah Burns,India,Completed,0,0,0,0,34.99,2024,11,November,0,0
+T0000266,50093,P1008,Unknown,4,2024-11-29 13:00:00,34.99,C44467,Savannah Burns,India,Completed,0,0,0,0,139.96,2024,11,November,0,0
+T0000267,C50094,P1007,Notebook Pack,1,2025-04-25 16:00:00,12.5,C57967,Mark Hansen,United Kingdom,Cancelled,0,0,0,0,12.5,2025,4,April,1,0
+T0000268,50095,P1003,USB-C Cable,2,2025-05-11 16:00:00,8.99,C15648,Julie Padilla,India,Completed,0,0,0,0,17.98,2025,5,May,0,0
+T0000269,50095,P1007,Notebook Pack,5,2025-05-11 16:00:00,12.5,C15648,Julie Padilla,India,Completed,0,0,0,0,62.5,2025,5,May,0,0
+T0000270,50095,P1003,USB-C Cable,4,2025-05-11 16:00:00,8.99,C15648,Julie Padilla,India,Completed,0,0,0,0,35.96,2025,5,May,0,0
+T0000271,50095,P1010,Power Bank,2,2025-05-11 16:00:00,25.0,C15648,Julie Padilla,India,Completed,0,0,0,0,50.0,2025,5,May,0,0
+T0000272,50096,P1008,Bluetooth Speaker,1,2025-05-29 12:00:00,34.99,C37859,Todd Haas,India,Completed,0,0,0,0,34.99,2025,5,May,0,0
+T0000273,50096,P1001,Wireless Mouse,3,2025-05-29 12:00:00,15.99,C37859,Todd Haas,India,Completed,0,0,0,0,47.97,2025,5,May,0,0
+T0000274,50096,P1003,USB-C Cable,1,2025-05-29 12:00:00,8.99,C37859,Todd Haas,India,Completed,0,0,0,0,8.99,2025,5,May,0,0
+T0000275,50097,P1004,Laptop Stand,5,2024-01-16 13:00:00,29.95,C32997,Raymond Odom,India,Completed,0,0,0,0,149.75,2024,1,January,0,0
+T0000276,50097,P1008,Bluetooth Speaker,-3,2024-01-16 13:00:00,34.99,Unknown,Unknown,India,Returned,1,0,0,1,-104.97,2024,1,January,0,1
+T0000277,50097,P1009,Phone Holder,4,2024-01-16 13:00:00,10.99,C32997,Raymond Odom,India,Completed,0,0,0,0,43.96,2024,1,January,0,0
+T0000278,50097,P1001,Wireless Mouse,2,2024-01-16 13:00:00,15.99,C32997,Raymond Odom,India,Completed,0,0,0,0,31.98,2024,1,January,0,0
+T0000279,50098,P1004,Laptop Stand,2,2025-06-27 16:00:00,29.95,C21429,Lindsay Travis,India,Completed,0,0,0,0,59.9,2025,6,June,0,0
+T0000280,50098,P1010,Power Bank,1,2025-06-27 16:00:00,25.0,C21429,Lindsay Travis,India,Completed,0,0,0,0,25.0,2025,6,June,0,0
+T0000281,50098,P1008,Bluetooth Speaker,4,2025-06-27 16:00:00,34.99,C21429,Lindsay Travis,India,Completed,0,0,0,0,139.96,2025,6,June,0,0
+T0000282,50099,P1005,Webcam HD,3,2023-04-01 09:00:00,39.99,C56718,Tricia Garcia,United Kingdom,Completed,0,0,0,0,119.97,2023,4,April,0,0
+T0000283,50099,P1011,Monitor Arm,5,2023-04-01 09:00:00,59.9,C56718,Tricia Garcia,United Kingdom,Completed,0,0,0,0,299.5,2023,4,April,0,0
+T0000284,50099,P1002,Mechanical Keyboard,4,2023-04-01 09:00:00,48.5,C56718,Tricia Garcia,United Kingdom,Completed,0,0,0,0,194.0,2023,4,April,0,0
+T0000285,50099,P1002,Mechanical Keyboard,5,2023-04-01 09:00:00,48.5,C56718,Tricia Garcia,United Kingdom,Completed,0,0,0,0,242.5,2023,4,April,0,0
+T0000286,50100,P1003,USB-C Cable,5,2023-01-19 11:00:00,8.99,C11394,Robert Woods,India,Completed,0,0,0,0,44.95,2023,1,January,0,0
+T0000287,50100,P1003,USB-C Cable,4,2023-01-19 11:00:00,8.99,C11394,Robert Woods,India,Completed,0,0,0,0,35.96,2023,1,January,0,0
+T0000288,50100,P1007,Notebook Pack,2,2023-01-19 11:00:00,12.5,C11394,Robert Woods,India,Completed,0,0,0,0,25.0,2023,1,January,0,0
+T0000289,50100,P1007,Notebook Pack,5,2023-01-19 11:00:00,12.5,C11394,Robert Woods,India,Completed,0,0,0,0,62.5,2023,1,January,0,0
+T0000290,50101,P1012,Cable Organizer,1,2024-02-01 13:00:00,6.75,C16531,Erica Wright,United States,Completed,0,0,0,0,6.75,2024,2,February,0,0
+T0000291,50101,P1010,Power Bank,5,2024-02-01 13:00:00,25.0,C16531,Erica Wright,United States,Completed,0,0,0,0,125.0,2024,2,February,0,0
+T0000292,50101,P1001,Wireless Mouse,1,2024-02-01 13:00:00,15.99,C16531,Erica Wright,United States,Completed,0,0,0,0,15.99,2024,2,February,0,0
+T0000293,50101,P1005,Webcam HD,4,2024-02-01 13:00:00,39.99,C16531,Erica Wright,United States,Completed,0,0,0,0,159.96,2024,2,February,0,0
+T0000294,50102,P1010,Power Bank,1,2023-06-12 09:00:00,25.0,C13375,Martha Jacobs,United Kingdom,Completed,0,0,0,0,25.0,2023,6,June,0,0
+T0000295,50102,P1009,Phone Holder,5,2023-06-12 09:00:00,10.99,C13375,Martha Jacobs,United Kingdom,Completed,0,0,0,0,54.95,2023,6,June,0,0
+T0000296,50102,P1008,Bluetooth Speaker,4,2023-06-12 09:00:00,34.99,C13375,Martha Jacobs,United Kingdom,Completed,0,0,0,0,139.96,2023,6,June,0,0
+T0000297,50103,P1008,Bluetooth Speaker,5,2025-05-14 14:00:00,34.99,C45476,Lawrence Weber,United Kingdom,Completed,0,0,0,0,174.95,2025,5,May,0,0
+T0000298,50103,P1012,Cable Organizer,5,2025-05-14 14:00:00,6.75,C45476,Lawrence Weber,United Kingdom,Completed,0,0,0,0,33.75,2025,5,May,0,0
+T0000299,50103,P1001,Wireless Mouse,5,2025-05-14 14:00:00,15.99,C45476,Lawrence Weber,United Kingdom,Completed,0,0,0,0,79.95,2025,5,May,0,0
+T0000300,50103,P1012,Cable Organizer,3,2025-05-14 14:00:00,6.75,C45476,Lawrence Weber,United Kingdom,Completed,0,0,0,0,20.25,2025,5,May,0,0
+T0000301,50103,P1007,Notebook Pack,5,2025-05-14 14:00:00,12.5,C45476,Lawrence Weber,United Kingdom,Completed,0,0,0,0,62.5,2025,5,May,0,0
+T0000302,50104,P1012,Cable Organizer,-2,2024-05-18 15:00:00,6.75,C50032,Timothy Neal,United Kingdom,Returned,0,0,0,1,-13.5,2024,5,May,0,1
+T0000303,50104,P1010,Power Bank,3,2024-05-18 15:00:00,25.0,C50032,Timothy Neal,United Kingdom,Completed,0,0,0,0,75.0,2024,5,May,0,0
+T0000304,50105,P1011,Monitor Arm,5,2024-11-25 10:00:00,59.9,C51585,David Reyes,United Kingdom,Completed,0,0,0,0,299.5,2024,11,November,0,0
+T0000305,50105,P1002,Mechanical Keyboard,4,2024-11-25 10:00:00,0.0,C51585,David Reyes,United Kingdom,Completed,0,1,0,0,0.0,2024,11,November,0,0
+T0000306,50105,P1010,Power Bank,2,2024-11-25 10:00:00,25.0,C51585,David Reyes,United Kingdom,Completed,0,0,0,0,50.0,2024,11,November,0,0
+T0000307,50105,P1001,Wireless Mouse,3,2024-11-25 10:00:00,15.99,C51585,David Reyes,United Kingdom,Completed,0,0,0,0,47.97,2024,11,November,0,0
+T0000308,50106,P1006,Desk Lamp,5,2023-03-27 16:00:00,22.75,C41170,Danielle Anderson,United Kingdom,Completed,0,0,0,0,113.75,2023,3,March,0,0
+T0000309,50106,P1005,Webcam HD,1,2023-03-27 16:00:00,39.99,C41170,Danielle Anderson,United Kingdom,Completed,0,0,0,0,39.99,2023,3,March,0,0
+T0000310,50107,P1010,Power Bank,-2,2025-06-23 15:00:00,25.0,C21133,Helen White,India,Returned,0,0,0,1,-50.0,2025,6,June,0,1
+T0000311,50107,P1003,USB-C Cable,4,2025-06-23 15:00:00,8.99,C21133,Helen White,India,Completed,0,0,0,0,35.96,2025,6,June,0,0
+T0000312,50107,P1001,Wireless Mouse,5,2025-06-23 15:00:00,15.99,C21133,Helen White,India,Completed,0,0,0,0,79.95,2025,6,June,0,0
+T0000313,50107,P1008,Bluetooth Speaker,2,2025-06-23 15:00:00,34.99,C21133,Helen White,India,Completed,0,0,0,0,69.98,2025,6,June,0,0
+T0000314,50108,P1011,Monitor Arm,1,2025-07-28 12:00:00,59.9,C35193,Michael Lucas,India,Completed,0,0,0,0,59.9,2025,7,July,0,0
+T0000315,50108,P1005,Webcam HD,1,2025-07-28 12:00:00,39.99,C35193,Michael Lucas,India,Completed,0,0,0,0,39.99,2025,7,July,0,0
+T0000316,50108,P1001,Wireless Mouse,4,2025-07-28 12:00:00,15.99,C35193,Michael Lucas,India,Completed,0,0,0,0,63.96,2025,7,July,0,0
+T0000317,50108,P1007,Notebook Pack,1,2025-07-28 12:00:00,12.5,C35193,Michael Lucas,India,Completed,0,0,0,0,12.5,2025,7,July,0,0
+T0000318,50108,P1001,Wireless Mouse,4,2025-07-28 12:00:00,15.99,C35193,Michael Lucas,India,Completed,0,0,0,0,63.96,2025,7,July,0,0
+T0000319,50109,P1010,Unknown,4,2023-02-19 14:00:00,25.0,C49430,Patrick Raymond,India,Completed,0,0,0,0,100.0,2023,2,February,0,0
+T0000320,C50110,P1006,Desk Lamp,4,2024-05-30 11:00:00,22.75,C29989,Jeremy Smith,United Kingdom,Cancelled,0,0,0,0,91.0,2024,5,May,1,0
+T0000321,C50110,P1003,USB-C Cable,2,2024-05-30 11:00:00,8.99,C29989,Jeremy Smith,United Kingdom,Cancelled,0,0,0,0,17.98,2024,5,May,1,0
+T0000322,C50110,P1012,Cable Organizer,2,2024-05-30 11:00:00,6.75,C29989,Jeremy Smith,United Kingdom,Cancelled,0,0,0,0,13.5,2024,5,May,1,0
+T0000323,C50110,P1012,Cable Organizer,2,2024-05-30 11:00:00,6.75,C29989,Jeremy Smith,United Kingdom,Cancelled,0,0,0,0,13.5,2024,5,May,1,0
+T0000324,50111,P1009,Phone Holder,1,2025-09-02 15:00:00,10.99,C42592,Gregory Sellers,United Kingdom,Completed,0,0,0,0,10.99,2025,9,September,0,0
+T0000325,50111,P1009,Phone Holder,5,2025-09-02 15:00:00,10.99,C42592,Gregory Sellers,United Kingdom,Completed,0,0,0,0,54.95,2025,9,September,0,0
+T0000326,50111,P1012,Cable Organizer,4,2025-09-02 15:00:00,6.75,C42592,Gregory Sellers,United Kingdom,Completed,0,0,0,0,27.0,2025,9,September,0,0
+T0000327,50112,P1002,Mechanical Keyboard,1,2023-01-24 09:00:00,48.5,C25317,Diamond Kelly,Australia,Completed,0,0,0,0,48.5,2023,1,January,0,0
+T0000328,50112,P1005,Webcam HD,2,2023-01-24 09:00:00,39.99,C25317,Diamond Kelly,Australia,Completed,0,0,0,0,79.98,2023,1,January,0,0
+T0000329,50113,P1011,Monitor Arm,4,2023-08-26 16:00:00,59.9,C24102,Wendy Salazar,United States,Completed,0,0,0,0,239.6,2023,8,August,0,0
+T0000330,50113,P1006,Desk Lamp,3,2023-08-26 16:00:00,22.75,C24102,Wendy Salazar,United States,Completed,0,0,0,0,68.25,2023,8,August,0,0
+T0000331,50114,P1012,Cable Organizer,5,2023-02-26 16:00:00,6.75,C44828,Sheri Hobbs,United Kingdom,Completed,0,0,0,0,33.75,2023,2,February,0,0
+T0000332,50114,P1001,Wireless Mouse,1,2023-02-26 16:00:00,15.99,C44828,Sheri Hobbs,United Kingdom,Completed,0,0,0,0,15.99,2023,2,February,0,0
+T0000333,50114,P1007,Notebook Pack,1,2023-02-26 16:00:00,12.5,C44828,Sheri Hobbs,United Kingdom,Completed,0,0,0,0,12.5,2023,2,February,0,0
+T0000334,50114,P1012,Cable Organizer,1,2023-02-26 16:00:00,6.75,C44828,Sheri Hobbs,United Kingdom,Completed,0,0,0,0,6.75,2023,2,February,0,0
+T0000335,50115,P1001,Wireless Mouse,4,2024-11-22 10:00:00,15.99,C27726,Jennifer Sanders,France,Completed,0,0,0,0,63.96,2024,11,November,0,0
+T0000336,50115,P1009,Phone Holder,4,2024-11-22 10:00:00,10.99,C27726,Jennifer Sanders,France,Completed,0,0,0,0,43.96,2024,11,November,0,0
+T0000337,50115,P1001,Wireless Mouse,2,2024-11-22 10:00:00,15.99,C27726,Jennifer Sanders,France,Completed,0,0,0,0,31.98,2024,11,November,0,0
+T0000338,50115,P1005,Webcam HD,2,2024-11-22 10:00:00,39.99,C27726,Jennifer Sanders,France,Completed,0,0,0,0,79.98,2024,11,November,0,0
+T0000339,50115,P1007,Notebook Pack,5,2024-11-22 10:00:00,12.5,C27726,Jennifer Sanders,France,Completed,0,0,0,0,62.5,2024,11,November,0,0
+T0000340,50116,P1002,Mechanical Keyboard,1,2023-07-15 15:00:00,48.5,C43041,Richard York,United States,Completed,0,0,0,0,48.5,2023,7,July,0,0
+T0000341,50116,P1009,Phone Holder,2,2023-07-15 15:00:00,10.99,C43041,Richard York,United States,Completed,0,0,0,0,21.98,2023,7,July,0,0
+T0000342,50117,P1010,Power Bank,2,2023-09-19 13:00:00,25.0,C46777,Gary Martin,Singapore,Completed,0,0,0,0,50.0,2023,9,September,0,0
+T0000343,50117,P1007,Notebook Pack,4,2023-09-19 13:00:00,12.5,C46777,Gary Martin,Singapore,Completed,0,0,0,0,50.0,2023,9,September,0,0
+T0000344,50118,P1004,Laptop Stand,4,2025-09-07 13:00:00,29.95,C21471,Stephanie House,United States,Completed,0,0,0,0,119.8,2025,9,September,0,0
+T0000345,50118,P1003,USB-C Cable,2,2025-09-07 13:00:00,8.99,C21471,Stephanie House,United States,Completed,0,0,0,0,17.98,2025,9,September,0,0
+T0000346,50118,P1001,Wireless Mouse,5,2025-09-07 13:00:00,15.99,C21471,Stephanie House,United States,Completed,0,0,0,0,79.95,2025,9,September,0,0
+T0000347,50118,P1011,Monitor Arm,1,2025-09-07 13:00:00,59.9,C21471,Stephanie House,United States,Completed,0,0,0,0,59.9,2025,9,September,0,0
+T0000348,50118,P1004,Laptop Stand,3,2025-09-07 13:00:00,29.95,C21471,Stephanie House,United States,Completed,0,0,0,0,89.85,2025,9,September,0,0
+T0000349,50119,P1004,Laptop Stand,1,2025-04-25 16:00:00,29.95,C33362,Shannon Harris,Singapore,Completed,0,0,0,0,29.95,2025,4,April,0,0
+T0000350,50119,P1011,Monitor Arm,3,2025-04-25 16:00:00,59.9,C33362,Shannon Harris,Singapore,Completed,0,0,0,0,179.7,2025,4,April,0,0
+T0000351,50119,P1007,Notebook Pack,5,2025-04-25 16:00:00,12.5,C33362,Shannon Harris,Singapore,Completed,0,0,0,0,62.5,2025,4,April,0,0
+T0000352,50119,P1008,Bluetooth Speaker,3,2025-04-25 16:00:00,34.99,C33362,Shannon Harris,Singapore,Completed,0,0,0,0,104.97,2025,4,April,0,0
+T0000353,50120,P1009,Phone Holder,1,2023-08-03 16:00:00,10.99,Unknown,Unknown,Singapore,Completed,1,0,0,0,10.99,2023,8,August,0,0
+T0000354,50120,P1006,Desk Lamp,5,2023-08-03 16:00:00,22.75,C27100,Brooke Donovan,Singapore,Completed,0,0,0,0,113.75,2023,8,August,0,0
+T0000355,50120,P1006,Desk Lamp,2,2023-08-03 16:00:00,22.75,C27100,Brooke Donovan,Singapore,Completed,0,0,0,0,45.5,2023,8,August,0,0
+T0000356,50120,P1003,USB-C Cable,5,2023-08-03 16:00:00,8.99,C27100,Brooke Donovan,Singapore,Completed,0,0,0,0,44.95,2023,8,August,0,0
+T0000357,50121,P1001,Wireless Mouse,5,2025-08-04 10:00:00,15.99,C17200,Virginia Johns,France,Completed,0,0,0,0,79.95,2025,8,August,0,0
+T0000358,50121,P1005,Webcam HD,3,2025-08-04 10:00:00,39.99,C17200,Virginia Johns,France,Completed,0,0,0,0,119.97,2025,8,August,0,0
+T0000359,50121,P1008,Bluetooth Speaker,5,2025-08-04 10:00:00,34.99,C17200,Virginia Johns,France,Completed,0,0,0,0,174.95,2025,8,August,0,0
+T0000360,50122,P1010,Power Bank,1,2023-01-17 16:00:00,25.0,C10024,Tommy Walter,Italy,Completed,0,0,0,0,25.0,2023,1,January,0,0
+T0000361,50123,P1005,Webcam HD,2,2024-11-09 10:00:00,39.99,C44994,Stephen Barnett,United States,Completed,0,0,0,0,79.98,2024,11,November,0,0
+T0000362,C50124,P1008,Bluetooth Speaker,1,2025-12-04 15:00:00,34.99,C21625,Erin Gilbert,Canada,Cancelled,0,0,0,0,34.99,2025,12,December,1,0
+T0000363,50125,P1008,Bluetooth Speaker,1,2023-05-03 15:00:00,34.99,C13674,Guy Reynolds,United States,Completed,0,0,0,0,34.99,2023,5,May,0,0
+T0000364,50125,P1005,Webcam HD,4,2023-05-03 15:00:00,39.99,C13674,Guy Reynolds,United States,Completed,0,0,0,0,159.96,2023,5,May,0,0
+T0000365,50126,P1003,USB-C Cable,1,2024-12-20 14:00:00,8.99,C55321,Jonathon Schaefer,United Kingdom,Completed,0,0,0,0,8.99,2024,12,December,0,0
+T0000366,50127,P1012,Cable Organizer,4,2025-01-08 09:00:00,6.75,C55984,Karl Martinez,Singapore,Completed,0,0,0,0,27.0,2025,1,January,0,0
+T0000367,50127,P1007,Notebook Pack,4,2025-01-08 09:00:00,12.5,C55984,Karl Martinez,Singapore,Completed,0,0,0,0,50.0,2025,1,January,0,0
+T0000368,50127,P1008,Bluetooth Speaker,2,2025-01-08 09:00:00,34.99,C55984,Karl Martinez,Singapore,Completed,0,0,0,0,69.98,2025,1,January,0,0
+T0000369,50128,P1010,Power Bank,1,2023-02-24 15:00:00,25.0,C51118,Carolyn Osborn,Canada,Completed,0,0,0,0,25.0,2023,2,February,0,0
+T0000370,50129,P1008,Bluetooth Speaker,3,2024-02-11 16:00:00,34.99,C15867,Christopher Gutierrez,Canada,Completed,0,0,0,0,104.97,2024,2,February,0,0
+T0000371,50129,P1004,Laptop Stand,4,2024-02-11 16:00:00,29.95,C15867,Christopher Gutierrez,Canada,Completed,0,0,0,0,119.8,2024,2,February,0,0
+T0000372,50129,P1008,Bluetooth Speaker,5,2024-02-11 16:00:00,34.99,C15867,Christopher Gutierrez,Canada,Completed,0,0,0,0,174.95,2024,2,February,0,0
+T0000373,50129,P1004,Laptop Stand,1,2024-02-11 16:00:00,29.95,C15867,Christopher Gutierrez,Canada,Completed,0,0,0,0,29.95,2024,2,February,0,0
+T0000374,50129,P1012,Cable Organizer,4,2024-02-11 16:00:00,6.75,C15867,Christopher Gutierrez,Canada,Completed,0,0,0,0,27.0,2024,2,February,0,0
+T0000375,50130,P1005,Webcam HD,4,2024-06-03 12:00:00,39.99,C52856,Debra Lee,Australia,Completed,0,0,0,0,159.96,2024,6,June,0,0
+T0000376,50130,P1011,Monitor Arm,3,2024-06-03 12:00:00,59.9,C52856,Debra Lee,Australia,Completed,0,0,0,0,179.7,2024,6,June,0,0
+T0000377,50130,P1002,Mechanical Keyboard,5,2024-06-03 12:00:00,48.5,C52856,Debra Lee,Australia,Completed,0,0,0,0,242.5,2024,6,June,0,0
+T0000378,C50131,P1009,Phone Holder,5,2023-05-14 16:00:00,10.99,C57471,Erika Fields,United Kingdom,Cancelled,0,0,0,0,54.95,2023,5,May,1,0
+T0000379,50132,P1006,Desk Lamp,1,2023-09-23 13:00:00,22.75,C13297,David Chapman,Australia,Completed,0,0,0,0,22.75,2023,9,September,0,0
+T0000380,50133,P1001,Wireless Mouse,5,2025-09-17 14:00:00,15.99,C10924,Amanda Sullivan MD,United Kingdom,Completed,0,0,0,0,79.95,2025,9,September,0,0
+T0000381,50134,P1007,Notebook Pack,3,2025-01-13 10:00:00,12.5,C41434,Nathan Lucas,India,Completed,0,0,0,0,37.5,2025,1,January,0,0
+T0000382,50134,P1001,Wireless Mouse,3,2025-01-13 10:00:00,15.99,C41434,Nathan Lucas,India,Completed,0,0,0,0,47.97,2025,1,January,0,0
+T0000383,50134,P1007,Notebook Pack,-4,2025-01-13 10:00:00,12.5,C41434,Nathan Lucas,India,Returned,0,0,0,1,-50.0,2025,1,January,0,1
+T0000384,50134,P1007,Notebook Pack,2,2025-01-13 10:00:00,12.5,C41434,Nathan Lucas,India,Completed,0,0,0,0,25.0,2025,1,January,0,0
+T0000385,50135,P1005,Webcam HD,1,2023-07-22 11:00:00,39.99,C43025,Autumn Taylor,Canada,Completed,0,0,0,0,39.99,2023,7,July,0,0
+T0000386,50135,P1005,Webcam HD,4,2023-07-22 11:00:00,39.99,C43025,Autumn Taylor,Canada,Completed,0,0,0,0,159.96,2023,7,July,0,0
+T0000387,50135,P1010,Power Bank,3,2023-07-22 11:00:00,25.0,C43025,Autumn Taylor,Canada,Completed,0,0,0,0,75.0,2023,7,July,0,0
+T0000388,50135,P1007,Notebook Pack,2,2023-07-22 11:00:00,12.5,C43025,Autumn Taylor,Canada,Completed,0,0,0,0,25.0,2023,7,July,0,0
+T0000389,50136,P1009,Phone Holder,2,2025-04-17 13:00:00,10.99,C40436,Joshua Henderson,United Kingdom,Completed,0,0,0,0,21.98,2025,4,April,0,0
+T0000390,50136,P1004,Laptop Stand,4,2025-04-17 13:00:00,29.95,C40436,Joshua Henderson,United Kingdom,Completed,0,0,0,0,119.8,2025,4,April,0,0
+T0000391,50136,P1003,USB-C Cable,4,2025-04-17 13:00:00,8.99,C40436,Joshua Henderson,United Kingdom,Completed,0,0,0,0,35.96,2025,4,April,0,0
+T0000392,50137,P1004,Laptop Stand,1,2025-12-14 13:00:00,29.95,C16864,Reginald Cordova,United States,Completed,0,0,0,0,29.95,2025,12,December,0,0
+T0000393,50137,P1001,Wireless Mouse,2,2025-12-14 13:00:00,15.99,C16864,Reginald Cordova,United States,Completed,0,0,0,0,31.98,2025,12,December,0,0
+T0000394,50137,P1012,Cable Organizer,4,2025-12-14 13:00:00,6.75,C16864,Reginald Cordova,United States,Completed,0,0,0,0,27.0,2025,12,December,0,0
+T0000395,50137,P1005,Webcam HD,2,2025-12-14 13:00:00,39.99,C16864,Reginald Cordova,United States,Completed,0,0,0,0,79.98,2025,12,December,0,0
+T0000396,50138,P1009,Phone Holder,4,2024-02-06 16:00:00,10.99,C42933,Bridget Gross,United States,Completed,0,0,0,0,43.96,2024,2,February,0,0
+T0000397,50139,P1006,Desk Lamp,3,2024-02-29 11:00:00,22.75,C23751,Kathy Gomez,France,Completed,0,0,0,0,68.25,2024,2,February,0,0
+T0000398,50139,P1009,Unknown,2,2024-02-29 11:00:00,10.99,C23751,Kathy Gomez,France,Completed,0,0,0,0,21.98,2024,2,February,0,0
+T0000399,50140,P1009,Phone Holder,1,2023-12-12 12:00:00,10.99,C23238,Robyn Hernandez,France,Completed,0,0,0,0,10.99,2023,12,December,0,0
+T0000400,50141,P1004,Laptop Stand,4,2025-02-05 13:00:00,29.95,C55627,Larry Adams,Singapore,Completed,0,0,0,0,119.8,2025,2,February,0,0
+T0000401,50141,P1010,Power Bank,2,2025-02-05 13:00:00,25.0,C55627,Larry Adams,Singapore,Completed,0,0,0,0,50.0,2025,2,February,0,0
+T0000402,50141,P1009,Phone Holder,1,2025-02-05 13:00:00,10.99,C55627,Larry Adams,Singapore,Completed,0,0,0,0,10.99,2025,2,February,0,0
+T0000403,50142,P1007,Notebook Pack,2,2025-06-28 13:00:00,12.5,C58757,Michelle Mcguire,Italy,Completed,0,0,0,0,25.0,2025,6,June,0,0
+T0000404,50143,P1007,Notebook Pack,3,2024-12-12 15:00:00,12.5,C58997,Edward Nguyen,India,Completed,0,0,0,0,37.5,2024,12,December,0,0
+T0000405,50143,P1003,USB-C Cable,5,2024-12-12 15:00:00,8.99,C58997,Edward Nguyen,India,Completed,0,0,0,0,44.95,2024,12,December,0,0
+T0000406,50143,P1001,Wireless Mouse,3,2024-12-12 15:00:00,15.99,C58997,Edward Nguyen,India,Completed,0,0,0,0,47.97,2024,12,December,0,0
+T0000407,50143,P1005,Webcam HD,5,2024-12-12 15:00:00,39.99,C58997,Edward Nguyen,India,Completed,0,0,0,0,199.95,2024,12,December,0,0
+T0000408,50144,P1007,Notebook Pack,3,2024-08-09 14:00:00,12.5,C33330,Jorge Wells,Canada,Completed,0,0,0,0,37.5,2024,8,August,0,0
+T0000409,50144,P1006,Desk Lamp,4,2024-08-09 14:00:00,22.75,C33330,Jorge Wells,Canada,Completed,0,0,0,0,91.0,2024,8,August,0,0
+T0000410,50144,P1007,Notebook Pack,5,2024-08-09 14:00:00,12.5,C33330,Jorge Wells,Canada,Completed,0,0,0,0,62.5,2024,8,August,0,0
+T0000411,50145,P1010,Power Bank,5,2023-07-22 16:00:00,25.0,C48283,Linda Hayes,Australia,Completed,0,0,0,0,125.0,2023,7,July,0,0
+T0000412,50145,P1001,Wireless Mouse,1,2023-07-22 16:00:00,15.99,C48283,Linda Hayes,Australia,Completed,0,0,0,0,15.99,2023,7,July,0,0
+T0000413,50145,P1010,Power Bank,5,2023-07-22 16:00:00,25.0,C48283,Linda Hayes,Australia,Completed,0,0,0,0,125.0,2023,7,July,0,0
+T0000414,50145,P1010,Power Bank,2,2023-07-22 16:00:00,25.0,C48283,Linda Hayes,Australia,Completed,0,0,0,0,50.0,2023,7,July,0,0
+T0000415,50146,P1008,Bluetooth Speaker,2,2023-08-31 12:00:00,34.99,C13714,Nicole Rodriguez,Australia,Completed,0,0,0,0,69.98,2023,8,August,0,0
+T0000416,50146,P1002,Mechanical Keyboard,1,2023-08-31 12:00:00,48.5,C13714,Nicole Rodriguez,Australia,Completed,0,0,0,0,48.5,2023,8,August,0,0
+T0000417,50146,P1012,Cable Organizer,2,2023-08-31 12:00:00,6.75,C13714,Nicole Rodriguez,Australia,Completed,0,0,0,0,13.5,2023,8,August,0,0
+T0000418,50147,P1001,Wireless Mouse,-4,2024-02-12 12:00:00,15.99,C40344,David Weaver,India,Returned,0,0,0,1,-63.96,2024,2,February,0,1
+T0000419,50148,P1004,Laptop Stand,5,2025-09-25 14:00:00,29.95,C42507,Sara Strong,Singapore,Completed,0,0,0,0,149.75,2025,9,September,0,0
+T0000420,50148,P1012,Cable Organizer,4,2025-09-25 14:00:00,6.75,C42507,Sara Strong,Singapore,Completed,0,0,0,0,27.0,2025,9,September,0,0
+T0000421,50149,P1003,USB-C Cable,1,2025-02-11 09:00:00,8.99,C45199,Mary Thompson,Singapore,Completed,0,0,0,0,8.99,2025,2,February,0,0
+T0000422,50150,P1007,Notebook Pack,1,2024-11-11 11:00:00,12.5,C11601,Louis Brown,Italy,Completed,0,0,0,0,12.5,2024,11,November,0,0
+T0000423,50151,P1004,Laptop Stand,3,2024-08-03 12:00:00,29.95,C57939,Troy Collins,Australia,Completed,0,0,0,0,89.85,2024,8,August,0,0
+T0000424,50151,P1010,Power Bank,2,2024-08-03 12:00:00,25.0,C57939,Troy Collins,Australia,Completed,0,0,0,0,50.0,2024,8,August,0,0
+T0000425,50151,P1007,Notebook Pack,1,2024-08-03 12:00:00,12.5,C57939,Troy Collins,Australia,Completed,0,0,0,0,12.5,2024,8,August,0,0
+T0000426,50151,P1012,Cable Organizer,2,2024-08-03 12:00:00,6.75,C57939,Troy Collins,Australia,Completed,0,0,0,0,13.5,2024,8,August,0,0
+T0000427,50151,P1003,USB-C Cable,5,2024-08-03 12:00:00,8.99,C57939,Troy Collins,Australia,Completed,0,0,0,0,44.95,2024,8,August,0,0
+T0000428,50152,P1008,Bluetooth Speaker,5,2025-12-29 16:00:00,34.99,C41689,Tony Garcia,Australia,Completed,0,0,0,0,174.95,2025,12,December,0,0
+T0000429,50152,P1002,Mechanical Keyboard,1,2025-12-29 16:00:00,48.5,C41689,Tony Garcia,Australia,Completed,0,0,0,0,48.5,2025,12,December,0,0
+T0000430,50152,P1006,Desk Lamp,3,2025-12-29 16:00:00,22.75,C41689,Tony Garcia,Australia,Completed,0,0,0,0,68.25,2025,12,December,0,0
+T0000431,50152,P1006,Desk Lamp,3,2025-12-29 16:00:00,22.75,C41689,Tony Garcia,Australia,Completed,0,0,0,0,68.25,2025,12,December,0,0
+T0000432,50152,P1007,Notebook Pack,3,2025-12-29 16:00:00,12.5,C41689,Tony Garcia,Australia,Completed,0,0,0,0,37.5,2025,12,December,0,0
+T0000433,50153,P1007,Notebook Pack,3,2025-06-11 16:00:00,12.5,C18515,Ashley Davis,United States,Completed,0,0,0,0,37.5,2025,6,June,0,0
+T0000434,50154,P1006,Unknown,2,2025-09-19 15:00:00,22.75,C12065,Elizabeth Brock,United Kingdom,Completed,0,0,0,0,45.5,2025,9,September,0,0
+T0000435,50154,P1004,Laptop Stand,3,2025-09-19 15:00:00,29.95,C12065,Elizabeth Brock,United Kingdom,Completed,0,0,0,0,89.85,2025,9,September,0,0
+T0000436,50154,P1002,Mechanical Keyboard,2,2025-09-19 15:00:00,48.5,C12065,Elizabeth Brock,United Kingdom,Completed,0,0,0,0,97.0,2025,9,September,0,0
+T0000437,50155,P1005,Webcam HD,1,2024-05-01 16:00:00,39.99,C43751,Carlos Hanson,France,Completed,0,0,0,0,39.99,2024,5,May,0,0
+T0000438,50155,P1004,Laptop Stand,3,2024-05-01 16:00:00,29.95,C43751,Carlos Hanson,France,Completed,0,0,0,0,89.85,2024,5,May,0,0
+T0000439,50156,P1008,Bluetooth Speaker,1,2024-11-16 14:00:00,34.99,C14877,Teresa Obrien,United States,Completed,0,0,0,0,34.99,2024,11,November,0,0
+T0000440,50156,P1012,Cable Organizer,1,2024-11-16 14:00:00,6.75,C14877,Teresa Obrien,United States,Completed,0,0,0,0,6.75,2024,11,November,0,0
+T0000441,50156,P1011,Monitor Arm,3,2024-11-16 14:00:00,59.9,C14877,Teresa Obrien,United States,Completed,0,0,0,0,179.7,2024,11,November,0,0
+T0000442,50157,P1011,Monitor Arm,1,2025-06-12 13:00:00,59.9,C45688,Carl Hernandez,France,Completed,0,0,0,0,59.9,2025,6,June,0,0
+T0000443,50157,P1001,Wireless Mouse,3,2025-06-12 13:00:00,15.99,C45688,Carl Hernandez,France,Completed,0,0,0,0,47.97,2025,6,June,0,0
+T0000444,50157,P1004,Laptop Stand,1,2025-06-12 13:00:00,29.95,C45688,Carl Hernandez,France,Completed,0,0,0,0,29.95,2025,6,June,0,0
+T0000445,50157,P1007,Notebook Pack,3,2025-06-12 13:00:00,12.5,C45688,Carl Hernandez,France,Completed,0,0,0,0,37.5,2025,6,June,0,0
+T0000446,50158,P1011,Monitor Arm,-3,2023-09-17 11:00:00,59.9,C28536,Cole Hurley,India,Returned,0,0,0,1,-179.7,2023,9,September,0,1
+T0000447,50158,P1006,Desk Lamp,5,2023-09-17 11:00:00,22.75,C28536,Cole Hurley,India,Completed,0,0,0,0,113.75,2023,9,September,0,0
+T0000448,50159,P1006,Desk Lamp,2,2023-05-05 12:00:00,22.75,C33285,Rodney Warren,India,Completed,0,0,0,0,45.5,2023,5,May,0,0
+T0000449,50159,P1001,Wireless Mouse,2,2023-05-05 12:00:00,15.99,C33285,Rodney Warren,India,Completed,0,0,0,0,31.98,2023,5,May,0,0
+T0000450,50159,P1008,Bluetooth Speaker,4,2023-05-05 12:00:00,34.99,C33285,Rodney Warren,India,Completed,0,0,0,0,139.96,2023,5,May,0,0
+T0000451,50159,P1009,Phone Holder,2,2023-05-05 12:00:00,10.99,C33285,Rodney Warren,India,Completed,0,0,0,0,21.98,2023,5,May,0,0
+T0000452,50159,P1007,Notebook Pack,1,2023-05-05 12:00:00,12.5,C33285,Rodney Warren,India,Completed,0,0,0,0,12.5,2023,5,May,0,0
+T0000453,50160,P1006,Desk Lamp,3,2023-03-30 09:00:00,22.75,C27000,Michael Huerta,United Kingdom,Completed,0,0,0,0,68.25,2023,3,March,0,0
+T0000454,50161,P1012,Cable Organizer,2,2025-06-10 15:00:00,6.75,C45273,Jeremy Wells,United Kingdom,Completed,0,0,0,0,13.5,2025,6,June,0,0
+T0000455,50161,P1001,Wireless Mouse,4,2025-06-10 15:00:00,15.99,C45273,Jeremy Wells,United Kingdom,Completed,0,0,0,0,63.96,2025,6,June,0,0
+T0000456,50161,P1012,Cable Organizer,3,2025-06-10 15:00:00,6.75,C45273,Jeremy Wells,United Kingdom,Completed,0,0,0,0,20.25,2025,6,June,0,0
+T0000457,50162,P1012,Cable Organizer,1,2024-10-12 09:00:00,6.75,C17768,Virginia Jimenez,United States,Completed,0,0,0,0,6.75,2024,10,October,0,0
+T0000458,50162,P1005,Webcam HD,2,2024-10-12 09:00:00,39.99,C17768,Virginia Jimenez,United States,Completed,0,0,0,0,79.98,2024,10,October,0,0
+T0000459,50162,P1006,Desk Lamp,1,2024-10-12 09:00:00,22.75,C17768,Virginia Jimenez,United States,Completed,0,0,0,0,22.75,2024,10,October,0,0
+T0000460,50162,P1004,Laptop Stand,2,2024-10-12 09:00:00,29.95,C17768,Virginia Jimenez,United States,Completed,0,0,0,0,59.9,2024,10,October,0,0
+T0000461,50163,P1004,Laptop Stand,3,2025-11-19 11:00:00,29.95,C37526,Nicole Hall,Australia,Completed,0,0,0,0,89.85,2025,11,November,0,0
+T0000462,50163,P1005,Webcam HD,2,2025-11-19 11:00:00,39.99,C37526,Nicole Hall,Australia,Completed,0,0,0,0,79.98,2025,11,November,0,0
+T0000463,50163,P1009,Phone Holder,2,2025-11-19 11:00:00,10.99,C37526,Nicole Hall,Australia,Completed,0,0,0,0,21.98,2025,11,November,0,0
+T0000464,50164,P1003,USB-C Cable,2,2025-12-28 14:00:00,8.99,C36794,Matthew Jacobson,United States,Completed,0,0,0,0,17.98,2025,12,December,0,0
+T0000465,50164,P1012,Cable Organizer,3,2025-12-28 14:00:00,6.75,C36794,Matthew Jacobson,United States,Completed,0,0,0,0,20.25,2025,12,December,0,0
+T0000466,50164,P1007,Notebook Pack,4,2025-12-28 14:00:00,12.5,C36794,Matthew Jacobson,United States,Completed,0,0,0,0,50.0,2025,12,December,0,0
+T0000467,50164,P1009,Phone Holder,3,2025-12-28 14:00:00,10.99,C36794,Matthew Jacobson,United States,Completed,0,0,0,0,32.97,2025,12,December,0,0
+T0000468,50165,P1004,Laptop Stand,5,2023-07-04 12:00:00,29.95,C39087,Nicholas Gardner,France,Completed,0,0,0,0,149.75,2023,7,July,0,0
+T0000469,50165,P1006,Desk Lamp,1,2023-07-04 12:00:00,22.75,C39087,Nicholas Gardner,France,Completed,0,0,0,0,22.75,2023,7,July,0,0
+T0000470,50165,P1001,Wireless Mouse,1,2023-07-04 12:00:00,15.99,C39087,Nicholas Gardner,France,Completed,0,0,0,0,15.99,2023,7,July,0,0
+T0000471,50165,P1005,Webcam HD,5,2023-07-04 12:00:00,39.99,Unknown,Unknown,France,Completed,1,0,0,0,199.95,2023,7,July,0,0
+T0000472,50166,P1006,Desk Lamp,4,2024-04-05 10:00:00,22.75,C35283,Jim Thompson,India,Completed,0,0,0,0,91.0,2024,4,April,0,0
+T0000473,50167,P1002,Mechanical Keyboard,1,2024-09-30 11:00:00,48.5,C51415,Donna Bennett,United States,Completed,0,0,0,0,48.5,2024,9,September,0,0
+T0000474,50167,P1005,Webcam HD,2,2024-09-30 11:00:00,39.99,C51415,Donna Bennett,United States,Completed,0,0,0,0,79.98,2024,9,September,0,0
+T0000475,50167,P1011,Monitor Arm,5,2024-09-30 11:00:00,59.9,C51415,Donna Bennett,United States,Completed,0,0,0,0,299.5,2024,9,September,0,0
+T0000476,50167,P1008,Bluetooth Speaker,3,2024-09-30 11:00:00,34.99,Unknown,Unknown,United States,Completed,1,0,0,0,104.97,2024,9,September,0,0
+T0000477,50168,P1003,USB-C Cable,2,2025-03-29 11:00:00,8.99,C42928,Ryan Day,India,Completed,0,0,0,0,17.98,2025,3,March,0,0
+T0000478,50168,P1010,Power Bank,1,2025-03-29 11:00:00,25.0,C42928,Ryan Day,India,Completed,0,0,0,0,25.0,2025,3,March,0,0
+T0000479,50169,P1005,Webcam HD,2,2025-07-12 09:00:00,39.99,C37177,Justin Arias,India,Completed,0,0,0,0,79.98,2025,7,July,0,0
+T0000480,50170,P1012,Cable Organizer,5,2025-10-14 12:00:00,6.75,C38723,Thomas Phillips,United Kingdom,Completed,0,0,0,0,33.75,2025,10,October,0,0
+T0000481,50170,P1004,Laptop Stand,5,2025-10-14 12:00:00,29.95,C38723,Thomas Phillips,United Kingdom,Completed,0,0,0,0,149.75,2025,10,October,0,0
+T0000482,50170,P1009,Phone Holder,5,2025-10-14 12:00:00,10.99,C38723,Thomas Phillips,United Kingdom,Completed,0,0,0,0,54.95,2025,10,October,0,0
+T0000483,C50171,P1012,Cable Organizer,5,2025-04-11 10:00:00,6.75,C39494,Brittany Young,Singapore,Cancelled,0,0,0,0,33.75,2025,4,April,1,0
+T0000484,C50171,P1008,Bluetooth Speaker,5,2025-04-11 10:00:00,34.99,C39494,Brittany Young,Singapore,Cancelled,0,0,0,0,174.95,2025,4,April,1,0
+T0000485,C50171,P1008,Bluetooth Speaker,5,2025-04-11 10:00:00,34.99,C39494,Brittany Young,Singapore,Cancelled,0,0,0,0,174.95,2025,4,April,1,0
+T0000486,C50171,P1005,Webcam HD,1,2025-04-11 10:00:00,39.99,C39494,Brittany Young,Singapore,Cancelled,0,0,0,0,39.99,2025,4,April,1,0
+T0000487,50172,P1003,USB-C Cable,5,2025-12-18 14:00:00,8.99,Unknown,Unknown,Canada,Completed,1,0,0,0,44.95,2025,12,December,0,0
+T0000488,50172,P1008,Bluetooth Speaker,1,2025-12-18 14:00:00,34.99,C43631,Nicholas Bennett,Canada,Completed,0,0,0,0,34.99,2025,12,December,0,0
+T0000489,50173,P1011,Monitor Arm,2,2023-03-05 11:00:00,59.9,C11555,Ariana Stewart,United States,Completed,0,0,0,0,119.8,2023,3,March,0,0
+T0000490,50174,P1002,Mechanical Keyboard,1,2023-12-29 14:00:00,48.5,C57258,Brittany Glover,Italy,Completed,0,0,0,0,48.5,2023,12,December,0,0
+T0000491,50174,P1009,Phone Holder,2,2023-12-29 14:00:00,10.99,C57258,Brittany Glover,Italy,Completed,0,0,0,0,21.98,2023,12,December,0,0
+T0000492,50174,P1011,Monitor Arm,1,2023-12-29 14:00:00,59.9,C57258,Brittany Glover,Italy,Completed,0,0,0,0,59.9,2023,12,December,0,0
+T0000493,50174,P1009,Phone Holder,2,2023-12-29 14:00:00,10.99,C57258,Brittany Glover,Italy,Completed,0,0,0,0,21.98,2023,12,December,0,0
+T0000494,50174,P1002,Mechanical Keyboard,1,2023-12-29 14:00:00,48.5,C57258,Brittany Glover,Italy,Completed,0,0,0,0,48.5,2023,12,December,0,0
+T0000495,50175,P1006,Desk Lamp,5,2025-06-20 16:00:00,22.75,C10977,Stephen Davis,United Kingdom,Completed,0,0,0,0,113.75,2025,6,June,0,0
+T0000496,50175,P1007,Notebook Pack,3,2025-06-20 16:00:00,12.5,C10977,Stephen Davis,United Kingdom,Completed,0,0,0,0,37.5,2025,6,June,0,0
+T0000497,50175,P1008,Bluetooth Speaker,4,2025-06-20 16:00:00,34.99,C10977,Stephen Davis,United Kingdom,Completed,0,0,0,0,139.96,2025,6,June,0,0
+T0000498,50175,P1004,Laptop Stand,3,2025-06-20 16:00:00,29.95,C10977,Stephen Davis,United Kingdom,Completed,0,0,0,0,89.85,2025,6,June,0,0
+T0000499,50175,P1012,Cable Organizer,5,2025-06-20 16:00:00,6.75,C10977,Stephen Davis,United Kingdom,Completed,0,0,0,0,33.75,2025,6,June,0,0
+T0000500,50176,P1005,Webcam HD,1,2023-04-16 10:00:00,39.99,C14601,Jennifer Townsend,France,Completed,0,0,0,0,39.99,2023,4,April,0,0
+T0000501,50176,P1012,Cable Organizer,2,2023-04-16 10:00:00,6.75,C14601,Jennifer Townsend,France,Completed,0,0,0,0,13.5,2023,4,April,0,0
+T0000502,50176,P1003,USB-C Cable,4,2023-04-16 10:00:00,8.99,C14601,Jennifer Townsend,France,Completed,0,0,0,0,35.96,2023,4,April,0,0
+T0000503,50177,P1007,Notebook Pack,5,2024-08-08 15:00:00,12.5,C40473,Robin Ashley,United Kingdom,Completed,0,0,0,0,62.5,2024,8,August,0,0
+T0000504,50177,P1003,USB-C Cable,4,2024-08-08 15:00:00,8.99,C40473,Robin Ashley,United Kingdom,Completed,0,0,0,0,35.96,2024,8,August,0,0
+T0000505,50178,P1001,Wireless Mouse,2,2023-09-24 12:00:00,15.99,C46500,Heather Jones,United Kingdom,Completed,0,0,0,0,31.98,2023,9,September,0,0
+T0000506,50178,P1001,Wireless Mouse,1,2023-09-24 12:00:00,15.99,Unknown,Unknown,United Kingdom,Completed,1,0,0,0,15.99,2023,9,September,0,0
+T0000507,50178,P1005,Webcam HD,4,2023-09-24 12:00:00,39.99,C46500,Heather Jones,United Kingdom,Completed,0,0,0,0,159.96,2023,9,September,0,0
+T0000508,50178,P1004,Laptop Stand,1,2023-09-24 12:00:00,29.95,C46500,Heather Jones,United Kingdom,Completed,0,0,0,0,29.95,2023,9,September,0,0
+T0000509,50178,P1001,Wireless Mouse,3,2023-09-24 12:00:00,15.99,C46500,Heather Jones,United Kingdom,Completed,0,0,0,0,47.97,2023,9,September,0,0
+T0000510,50179,P1002,Mechanical Keyboard,2,2025-01-07 09:00:00,48.5,C46698,Chad Barry,United Kingdom,Completed,0,0,0,0,97.0,2025,1,January,0,0
+T0000511,50179,P1010,Power Bank,2,2025-01-07 09:00:00,25.0,C46698,Chad Barry,United Kingdom,Completed,0,0,0,0,50.0,2025,1,January,0,0
+T0000512,50180,P1009,Phone Holder,3,2024-12-10 13:00:00,10.99,C35270,Tara Lucero,France,Completed,0,0,0,0,32.97,2024,12,December,0,0
+T0000513,50180,P1006,Desk Lamp,5,2024-12-10 13:00:00,22.75,C35270,Tara Lucero,France,Completed,0,0,0,0,113.75,2024,12,December,0,0
+T0000514,50181,P1007,Notebook Pack,3,2023-05-22 10:00:00,12.5,C30591,Patricia Clark,United Kingdom,Completed,0,0,0,0,37.5,2023,5,May,0,0
+T0000515,50181,P1011,Monitor Arm,5,2023-05-22 10:00:00,59.9,C30591,Patricia Clark,United Kingdom,Completed,0,0,0,0,299.5,2023,5,May,0,0
+T0000516,50182,P1012,Cable Organizer,3,2023-03-19 09:00:00,6.75,C27451,Brandy Watkins,United States,Completed,0,0,0,0,20.25,2023,3,March,0,0
+T0000517,50182,P1011,Monitor Arm,1,2023-03-19 09:00:00,59.9,C27451,Brandy Watkins,United States,Completed,0,0,0,0,59.9,2023,3,March,0,0
+T0000518,50182,P1010,Power Bank,1,2023-03-19 09:00:00,25.0,Unknown,Unknown,United States,Completed,1,0,0,0,25.0,2023,3,March,0,0
+T0000519,50183,P1008,Bluetooth Speaker,3,2024-08-28 14:00:00,34.99,C40388,Kim Cuevas,United Kingdom,Completed,0,0,0,0,104.97,2024,8,August,0,0
+T0000520,50183,P1008,Bluetooth Speaker,2,2024-08-28 14:00:00,34.99,C40388,Kim Cuevas,United Kingdom,Completed,0,0,0,0,69.98,2024,8,August,0,0
+T0000521,50183,P1001,Wireless Mouse,3,2024-08-28 14:00:00,15.99,C40388,Kim Cuevas,United Kingdom,Completed,0,0,0,0,47.97,2024,8,August,0,0
+T0000522,50183,P1004,Laptop Stand,1,2024-08-28 14:00:00,29.95,C40388,Kim Cuevas,United Kingdom,Completed,0,0,0,0,29.95,2024,8,August,0,0
+T0000523,50184,P1010,Power Bank,5,2023-04-27 12:00:00,25.0,C15714,Anthony Schmidt,France,Completed,0,0,0,0,125.0,2023,4,April,0,0
+T0000524,50184,P1011,Monitor Arm,5,2023-04-27 12:00:00,59.9,C15714,Anthony Schmidt,France,Completed,0,0,0,0,299.5,2023,4,April,0,0
+T0000525,50185,P1006,Desk Lamp,5,2025-08-25 09:00:00,22.75,C42249,Elizabeth Wade,Australia,Completed,0,0,0,0,113.75,2025,8,August,0,0
+T0000526,50186,P1008,Bluetooth Speaker,5,2025-04-24 09:00:00,34.99,C45865,Evan Alexander,India,Completed,0,0,0,0,174.95,2025,4,April,0,0
+T0000527,50186,P1008,Bluetooth Speaker,2,2025-04-24 09:00:00,34.99,C45865,Evan Alexander,India,Completed,0,0,0,0,69.98,2025,4,April,0,0
+T0000528,50186,P1011,Monitor Arm,5,2025-04-24 09:00:00,59.9,C45865,Evan Alexander,India,Completed,0,0,0,0,299.5,2025,4,April,0,0
+T0000529,50186,P1002,Mechanical Keyboard,5,2025-04-24 09:00:00,48.5,C45865,Evan Alexander,India,Completed,0,0,0,0,242.5,2025,4,April,0,0
+T0000530,50186,P1003,USB-C Cable,3,2025-04-24 09:00:00,8.99,C45865,Evan Alexander,India,Completed,0,0,0,0,26.97,2025,4,April,0,0
+T0000531,50187,P1005,Webcam HD,2,2025-04-03 14:00:00,39.99,C18888,Scott Bond,United Kingdom,Completed,0,0,0,0,79.98,2025,4,April,0,0
+T0000532,50188,P1010,Power Bank,2,2023-02-26 09:00:00,25.0,C16500,Maureen Carter,United Kingdom,Completed,0,0,0,0,50.0,2023,2,February,0,0
+T0000533,50188,P1011,Monitor Arm,1,2023-02-26 09:00:00,59.9,C16500,Maureen Carter,United Kingdom,Completed,0,0,0,0,59.9,2023,2,February,0,0
+T0000534,50188,P1003,USB-C Cable,2,2023-02-26 09:00:00,8.99,C16500,Maureen Carter,United Kingdom,Completed,0,0,0,0,17.98,2023,2,February,0,0
+T0000535,50189,P1012,Cable Organizer,3,2024-04-29 10:00:00,6.75,C51634,Mary Reyes,United States,Completed,0,0,0,0,20.25,2024,4,April,0,0
+T0000536,50190,P1005,Webcam HD,1,2023-02-15 09:00:00,39.99,C39034,Elizabeth Schwartz,United Kingdom,Completed,0,0,0,0,39.99,2023,2,February,0,0
+T0000537,50190,P1008,Bluetooth Speaker,2,2023-02-15 09:00:00,34.99,C39034,Elizabeth Schwartz,United Kingdom,Completed,0,0,0,0,69.98,2023,2,February,0,0
+T0000538,50190,P1011,Monitor Arm,3,2023-02-15 09:00:00,59.9,C39034,Elizabeth Schwartz,United Kingdom,Completed,0,0,0,0,179.7,2023,2,February,0,0
+T0000539,50190,P1003,USB-C Cable,5,2023-02-15 09:00:00,8.99,C39034,Elizabeth Schwartz,United Kingdom,Completed,0,0,0,0,44.95,2023,2,February,0,0
+T0000540,50191,P1011,Monitor Arm,4,2023-06-17 10:00:00,59.9,C46665,Antonio Burton,France,Completed,0,0,0,0,239.6,2023,6,June,0,0
+T0000541,50191,P1001,Wireless Mouse,4,2023-06-17 10:00:00,15.99,C46665,Antonio Burton,France,Completed,0,0,0,0,63.96,2023,6,June,0,0
+T0000542,50192,P1007,Notebook Pack,-3,2024-03-13 15:00:00,12.5,C25689,Cheryl Suarez,United States,Returned,0,0,0,1,-37.5,2024,3,March,0,1
+T0000543,50193,P1009,Phone Holder,3,2025-03-10 12:00:00,10.99,C28159,Michael Lopez,Singapore,Completed,0,0,0,0,32.97,2025,3,March,0,0
+T0000544,50194,P1002,Mechanical Keyboard,5,2023-02-20 13:00:00,48.5,C23961,Cynthia Silva,Italy,Completed,0,0,0,0,242.5,2023,2,February,0,0
+T0000545,50194,P1011,Monitor Arm,2,2023-02-20 13:00:00,59.9,C23961,Cynthia Silva,Italy,Completed,0,0,0,0,119.8,2023,2,February,0,0
+T0000546,50194,P1004,Laptop Stand,1,2023-02-20 13:00:00,29.95,C23961,Cynthia Silva,Italy,Completed,0,0,0,0,29.95,2023,2,February,0,0
+T0000547,50195,P1010,Power Bank,5,2025-07-26 14:00:00,25.0,C15279,Laura Larson,India,Completed,0,0,0,0,125.0,2025,7,July,0,0
+T0000548,50196,P1012,Cable Organizer,3,2025-09-01 13:00:00,6.75,C16211,William Vasquez,India,Completed,0,0,0,0,20.25,2025,9,September,0,0
+T0000549,50196,P1007,Notebook Pack,2,2025-09-01 13:00:00,12.5,C16211,William Vasquez,India,Completed,0,0,0,0,25.0,2025,9,September,0,0
+T0000550,50196,P1006,Desk Lamp,2,2025-09-01 13:00:00,22.75,C16211,William Vasquez,India,Completed,0,0,0,0,45.5,2025,9,September,0,0
+T0000551,50197,P1007,Notebook Pack,5,2025-08-29 14:00:00,12.5,C45677,Ronald Ford,United Kingdom,Completed,0,0,0,0,62.5,2025,8,August,0,0
+T0000552,50197,P1006,Desk Lamp,2,2025-08-29 14:00:00,22.75,C45677,Ronald Ford,United Kingdom,Completed,0,0,0,0,45.5,2025,8,August,0,0
+T0000553,50197,P1012,Cable Organizer,2,2025-08-29 14:00:00,6.75,C45677,Ronald Ford,United Kingdom,Completed,0,0,0,0,13.5,2025,8,August,0,0
+T0000554,50197,P1004,Laptop Stand,5,2025-08-29 14:00:00,29.95,C45677,Ronald Ford,United Kingdom,Completed,0,0,0,0,149.75,2025,8,August,0,0
+T0000555,50197,P1010,Power Bank,4,2025-08-29 14:00:00,25.0,C45677,Ronald Ford,United Kingdom,Completed,0,0,0,0,100.0,2025,8,August,0,0
+T0000556,50198,P1009,Phone Holder,3,2025-12-15 14:00:00,10.99,C53876,Dr. William Hunt,Singapore,Completed,0,0,0,0,32.97,2025,12,December,0,0
+T0000557,50198,P1007,Notebook Pack,1,2025-12-15 14:00:00,12.5,C53876,Dr. William Hunt,Singapore,Completed,0,0,0,0,12.5,2025,12,December,0,0
+T0000558,50199,P1007,Notebook Pack,3,2025-10-07 13:00:00,12.5,C56858,Robert Caldwell,Canada,Completed,0,0,0,0,37.5,2025,10,October,0,0
+T0000559,50199,P1011,Monitor Arm,4,2025-10-07 13:00:00,59.9,C56858,Robert Caldwell,Canada,Completed,0,0,0,0,239.6,2025,10,October,0,0
+T0000560,50199,P1003,USB-C Cable,1,2025-10-07 13:00:00,8.99,C56858,Robert Caldwell,Canada,Completed,0,0,0,0,8.99,2025,10,October,0,0
+T0000561,50199,P1010,Power Bank,2,2025-10-07 13:00:00,25.0,C56858,Robert Caldwell,Canada,Completed,0,0,0,0,50.0,2025,10,October,0,0
+T0000562,50199,P1011,Monitor Arm,1,2025-10-07 13:00:00,59.9,C56858,Robert Caldwell,Canada,Completed,0,0,0,0,59.9,2025,10,October,0,0
+T0000563,50200,P1012,Cable Organizer,3,2023-01-22 09:00:00,6.75,C34097,Melissa Fletcher,Italy,Completed,0,0,0,0,20.25,2023,1,January,0,0
+T0000564,50200,P1011,Monitor Arm,1,2023-01-22 09:00:00,59.9,C34097,Melissa Fletcher,Italy,Completed,0,0,0,0,59.9,2023,1,January,0,0
+T0000565,50200,P1004,Laptop Stand,5,2023-01-22 09:00:00,29.95,C34097,Melissa Fletcher,Italy,Completed,0,0,0,0,149.75,2023,1,January,0,0
+T0000566,50200,P1004,Laptop Stand,4,2023-01-22 09:00:00,29.95,C34097,Melissa Fletcher,Italy,Completed,0,0,0,0,119.8,2023,1,January,0,0
+T0000567,C50201,P1012,Cable Organizer,2,2023-10-16 12:00:00,6.75,C14550,Colleen Blanchard,United States,Cancelled,0,0,0,0,13.5,2023,10,October,1,0
+T0000568,50202,P1010,Power Bank,1,2023-02-02 10:00:00,25.0,C41309,Jessica Schroeder,India,Completed,0,0,0,0,25.0,2023,2,February,0,0
+T0000569,50202,P1004,Unknown,4,2023-02-02 10:00:00,29.95,C41309,Jessica Schroeder,India,Completed,0,0,0,0,119.8,2023,2,February,0,0
+T0000570,50202,P1011,Monitor Arm,3,2023-02-02 10:00:00,59.9,C41309,Jessica Schroeder,India,Completed,0,0,0,0,179.7,2023,2,February,0,0
+T0000571,50203,P1010,Power Bank,1,2024-10-27 11:00:00,25.0,C47620,Jacob Rodriguez,United States,Completed,0,0,0,0,25.0,2024,10,October,0,0
+T0000572,50203,P1003,USB-C Cable,5,2024-10-27 11:00:00,8.99,C47620,Jacob Rodriguez,United States,Completed,0,0,0,0,44.95,2024,10,October,0,0
+T0000573,50203,P1003,USB-C Cable,1,2024-10-27 11:00:00,8.99,C47620,Jacob Rodriguez,United States,Completed,0,0,0,0,8.99,2024,10,October,0,0
+T0000574,50204,P1011,Monitor Arm,3,2025-01-09 10:00:00,59.9,C25092,Emily Taylor,France,Completed,0,0,0,0,179.7,2025,1,January,0,0
+T0000575,50204,P1007,Notebook Pack,1,2025-01-09 10:00:00,12.5,C25092,Emily Taylor,France,Completed,0,0,0,0,12.5,2025,1,January,0,0
+T0000576,50204,P1007,Notebook Pack,3,2025-01-09 10:00:00,12.5,C25092,Emily Taylor,France,Completed,0,0,0,0,37.5,2025,1,January,0,0
+T0000577,50205,P1007,Notebook Pack,3,2023-01-23 11:00:00,12.5,C53931,Robert Wright,United Kingdom,Completed,0,0,0,0,37.5,2023,1,January,0,0
+T0000578,50205,P1005,Webcam HD,4,2023-01-23 11:00:00,39.99,C53931,Robert Wright,United Kingdom,Completed,0,0,0,0,159.96,2023,1,January,0,0
+T0000579,50205,P1008,Bluetooth Speaker,4,2023-01-23 11:00:00,34.99,C53931,Robert Wright,United Kingdom,Completed,0,0,0,0,139.96,2023,1,January,0,0
+T0000580,50206,P1004,Laptop Stand,5,2024-03-09 12:00:00,29.95,C29338,Jeff Keller,Italy,Completed,0,0,0,0,149.75,2024,3,March,0,0
+T0000581,50206,P1012,Cable Organizer,1,2024-03-09 12:00:00,6.75,C29338,Jeff Keller,Italy,Completed,0,0,0,0,6.75,2024,3,March,0,0
+T0000582,50207,P1009,Phone Holder,2,2024-06-26 15:00:00,10.99,C58922,Michelle Russell,United Kingdom,Completed,0,0,0,0,21.98,2024,6,June,0,0
+T0000583,50207,P1003,USB-C Cable,1,2024-06-26 15:00:00,8.99,C58922,Michelle Russell,United Kingdom,Completed,0,0,0,0,8.99,2024,6,June,0,0
+T0000584,50207,P1001,Wireless Mouse,3,2024-06-26 15:00:00,15.99,C58922,Michelle Russell,United Kingdom,Completed,0,0,0,0,47.97,2024,6,June,0,0
+T0000585,50208,P1001,Wireless Mouse,4,2025-06-15 13:00:00,15.99,C16589,Jason Woodward,Canada,Completed,0,0,0,0,63.96,2025,6,June,0,0
+T0000586,50208,P1006,Desk Lamp,4,2025-06-15 13:00:00,22.75,C16589,Jason Woodward,Canada,Completed,0,0,0,0,91.0,2025,6,June,0,0
+T0000587,50208,P1004,Laptop Stand,1,2025-06-15 13:00:00,29.95,C16589,Jason Woodward,Canada,Completed,0,0,0,0,29.95,2025,6,June,0,0
+T0000588,50208,P1004,Laptop Stand,3,2025-06-15 13:00:00,29.95,C16589,Jason Woodward,Canada,Completed,0,0,0,0,89.85,2025,6,June,0,0
+T0000589,50209,P1006,Desk Lamp,2,2024-09-19 12:00:00,22.75,C30998,Scott Lucas,Canada,Completed,0,0,0,0,45.5,2024,9,September,0,0
+T0000590,50209,P1009,Phone Holder,3,2024-09-19 12:00:00,10.99,C30998,Scott Lucas,Canada,Completed,0,0,0,0,32.97,2024,9,September,0,0
+T0000591,50209,P1007,Notebook Pack,1,2024-09-19 12:00:00,12.5,C30998,Scott Lucas,Canada,Completed,0,0,0,0,12.5,2024,9,September,0,0
+T0000592,50209,P1011,Monitor Arm,2,2024-09-19 12:00:00,59.9,C30998,Scott Lucas,Canada,Completed,0,0,0,0,119.8,2024,9,September,0,0
+T0000593,50209,P1005,Webcam HD,4,2024-09-19 12:00:00,39.99,C30998,Scott Lucas,Canada,Completed,0,0,0,0,159.96,2024,9,September,0,0
+T0000594,50210,P1003,Unknown,3,2025-10-16 16:00:00,8.99,C44303,Mr. Thomas Riley,Singapore,Completed,0,0,0,0,26.97,2025,10,October,0,0
+T0000595,50211,P1002,Mechanical Keyboard,2,2023-11-24 14:00:00,48.5,C40417,Cory Perez,United Kingdom,Completed,0,0,0,0,97.0,2023,11,November,0,0
+T0000596,50212,P1002,Mechanical Keyboard,3,2023-10-22 11:00:00,48.5,C55851,Krystal Johnson,United Kingdom,Completed,0,0,0,0,145.5,2023,10,October,0,0
+T0000597,50212,P1008,Bluetooth Speaker,1,2023-10-22 11:00:00,34.99,C55851,Krystal Johnson,United Kingdom,Completed,0,0,0,0,34.99,2023,10,October,0,0
+T0000598,50212,P1004,Laptop Stand,2,2023-10-22 11:00:00,999.99,C55851,Krystal Johnson,United Kingdom,Completed,0,0,1,0,1999.98,2023,10,October,0,0
+T0000599,50213,P1007,Notebook Pack,3,2023-11-12 09:00:00,12.5,C30987,Brian Craig,Australia,Completed,0,0,0,0,37.5,2023,11,November,0,0
+T0000600,50213,P1002,Mechanical Keyboard,4,2023-11-12 09:00:00,48.5,C30987,Brian Craig,Australia,Completed,0,0,0,0,194.0,2023,11,November,0,0
+T0000601,50213,P1003,USB-C Cable,2,2023-11-12 09:00:00,8.99,C30987,Brian Craig,Australia,Completed,0,0,0,0,17.98,2023,11,November,0,0
+T0000602,C50214,P1007,Notebook Pack,4,2024-08-13 11:00:00,12.5,C42938,Jacob Parker,United Kingdom,Cancelled,0,0,0,0,50.0,2024,8,August,1,0
+T0000603,C50214,P1012,Cable Organizer,2,2024-08-13 11:00:00,6.75,C42938,Jacob Parker,United Kingdom,Cancelled,0,0,0,0,13.5,2024,8,August,1,0
+T0000604,C50214,P1010,Power Bank,1,2024-08-13 11:00:00,25.0,C42938,Jacob Parker,United Kingdom,Cancelled,0,0,0,0,25.0,2024,8,August,1,0
+T0000605,C50214,P1007,Notebook Pack,3,2024-08-13 11:00:00,12.5,C42938,Jacob Parker,United Kingdom,Cancelled,0,0,0,0,37.5,2024,8,August,1,0
+T0000606,C50214,P1006,Desk Lamp,3,2024-08-13 11:00:00,22.75,C42938,Jacob Parker,United Kingdom,Cancelled,0,0,0,0,68.25,2024,8,August,1,0
+T0000607,50215,P1004,Laptop Stand,2,2023-03-28 09:00:00,29.95,C37181,Kendra Clark,India,Completed,0,0,0,0,59.9,2023,3,March,0,0
+T0000608,50215,P1010,Power Bank,4,2023-03-28 09:00:00,25.0,C37181,Kendra Clark,India,Completed,0,0,0,0,100.0,2023,3,March,0,0
+T0000609,50215,P1002,Mechanical Keyboard,3,2023-03-28 09:00:00,48.5,C37181,Kendra Clark,India,Completed,0,0,0,0,145.5,2023,3,March,0,0
+T0000610,50216,P1002,Mechanical Keyboard,2,2023-07-21 10:00:00,48.5,C54849,Jordan Sanchez,Canada,Completed,0,0,0,0,97.0,2023,7,July,0,0
+T0000611,50216,P1005,Webcam HD,4,2023-07-21 10:00:00,39.99,C54849,Jordan Sanchez,Canada,Completed,0,0,0,0,159.96,2023,7,July,0,0
+T0000612,50217,P1012,Cable Organizer,2,2025-11-23 16:00:00,6.75,C20554,Megan Harmon,India,Completed,0,0,0,0,13.5,2025,11,November,0,0
+T0000613,50217,P1011,Monitor Arm,2,2025-11-23 16:00:00,59.9,C20554,Megan Harmon,India,Completed,0,0,0,0,119.8,2025,11,November,0,0
+T0000614,50217,P1009,Phone Holder,1,2025-11-23 16:00:00,10.99,C20554,Megan Harmon,India,Completed,0,0,0,0,10.99,2025,11,November,0,0
+T0000615,50217,P1011,Monitor Arm,3,2025-11-23 16:00:00,59.9,C20554,Megan Harmon,India,Completed,0,0,0,0,179.7,2025,11,November,0,0
+T0000616,50217,P1006,Desk Lamp,2,2025-11-23 16:00:00,22.75,C20554,Megan Harmon,India,Completed,0,0,0,0,45.5,2025,11,November,0,0
+T0000617,50218,P1001,Wireless Mouse,5,2025-07-22 16:00:00,15.99,C10610,Casey Chase,United Kingdom,Completed,0,0,0,0,79.95,2025,7,July,0,0
+T0000618,50218,P1008,Bluetooth Speaker,5,2025-07-22 16:00:00,34.99,Unknown,Unknown,United Kingdom,Completed,1,0,0,0,174.95,2025,7,July,0,0
+T0000619,50218,P1006,Desk Lamp,2,2025-07-22 16:00:00,22.75,C10610,Casey Chase,United Kingdom,Completed,0,0,0,0,45.5,2025,7,July,0,0
+T0000620,50218,P1007,Notebook Pack,5,2025-07-22 16:00:00,12.5,C10610,Casey Chase,United Kingdom,Completed,0,0,0,0,62.5,2025,7,July,0,0
+T0000621,50218,P1006,Desk Lamp,1,2025-07-22 16:00:00,22.75,C10610,Casey Chase,United Kingdom,Completed,0,0,0,0,22.75,2025,7,July,0,0
+T0000622,C50219,P1007,Notebook Pack,4,2025-05-29 13:00:00,12.5,C20633,Donald Choi,Singapore,Cancelled,0,0,0,0,50.0,2025,5,May,1,0
+T0000623,50220,P1010,Power Bank,5,2025-03-09 15:00:00,25.0,C40112,Colleen Elliott,Singapore,Completed,0,0,0,0,125.0,2025,3,March,0,0
+T0000624,50220,P1003,USB-C Cable,5,2025-03-09 15:00:00,8.99,C40112,Colleen Elliott,Singapore,Completed,0,0,0,0,44.95,2025,3,March,0,0
+T0000625,50220,P1011,Monitor Arm,4,2025-03-09 15:00:00,59.9,C40112,Colleen Elliott,Singapore,Completed,0,0,0,0,239.6,2025,3,March,0,0
+T0000626,50220,P1009,Phone Holder,5,2025-03-09 15:00:00,10.99,C40112,Colleen Elliott,Singapore,Completed,0,0,0,0,54.95,2025,3,March,0,0
+T0000627,50220,P1005,Webcam HD,2,2025-03-09 15:00:00,39.99,C40112,Colleen Elliott,Singapore,Completed,0,0,0,0,79.98,2025,3,March,0,0
+T0000628,50221,P1010,Power Bank,1,2025-02-16 15:00:00,25.0,C35907,Michael Chapman,India,Completed,0,0,0,0,25.0,2025,2,February,0,0
+T0000629,50221,P1004,Laptop Stand,4,2025-02-16 15:00:00,29.95,C35907,Michael Chapman,India,Completed,0,0,0,0,119.8,2025,2,February,0,0
+T0000630,50222,P1008,Bluetooth Speaker,3,2024-09-24 16:00:00,34.99,C14986,Jennifer Ferguson,United States,Completed,0,0,0,0,104.97,2024,9,September,0,0
+T0000631,50222,P1010,Power Bank,5,2024-09-24 16:00:00,25.0,C14986,Jennifer Ferguson,United States,Completed,0,0,0,0,125.0,2024,9,September,0,0
+T0000632,50223,P1001,Wireless Mouse,3,2025-08-06 15:00:00,15.99,C45923,Mary Hernandez,United Kingdom,Completed,0,0,0,0,47.97,2025,8,August,0,0
+T0000633,50224,P1004,Laptop Stand,1,2024-09-01 13:00:00,29.95,C13417,Sean Kaiser,France,Completed,0,0,0,0,29.95,2024,9,September,0,0
+T0000634,50225,P1011,Monitor Arm,1,2025-05-04 11:00:00,59.9,C56267,Mckenzie Smith,India,Completed,0,0,0,0,59.9,2025,5,May,0,0
+T0000635,50226,P1002,Mechanical Keyboard,1,2023-01-13 14:00:00,48.5,C57525,Christina Reed,United States,Completed,0,0,0,0,48.5,2023,1,January,0,0
+T0000636,50226,P1012,Cable Organizer,3,2023-01-13 14:00:00,6.75,C57525,Christina Reed,United States,Completed,0,0,0,0,20.25,2023,1,January,0,0
+T0000637,50226,P1009,Phone Holder,5,2023-01-13 14:00:00,10.99,C57525,Christina Reed,United States,Completed,0,0,0,0,54.95,2023,1,January,0,0
+T0000638,50226,P1009,Phone Holder,3,2023-01-13 14:00:00,10.99,C57525,Christina Reed,United States,Completed,0,0,0,0,32.97,2023,1,January,0,0
+T0000639,50227,P1011,Monitor Arm,5,2024-06-07 14:00:00,59.9,C56182,Laurie Copeland,India,Completed,0,0,0,0,299.5,2024,6,June,0,0
+T0000640,50227,P1009,Phone Holder,5,2024-06-07 14:00:00,10.99,C56182,Laurie Copeland,India,Completed,0,0,0,0,54.95,2024,6,June,0,0
+T0000641,50227,P1007,Notebook Pack,1,2024-06-07 14:00:00,12.5,C56182,Laurie Copeland,India,Completed,0,0,0,0,12.5,2024,6,June,0,0
+T0000642,50227,P1006,Desk Lamp,2,2024-06-07 14:00:00,22.75,C56182,Laurie Copeland,India,Completed,0,0,0,0,45.5,2024,6,June,0,0
+T0000643,50227,P1011,Monitor Arm,2,2024-06-07 14:00:00,59.9,C56182,Laurie Copeland,India,Completed,0,0,0,0,119.8,2024,6,June,0,0
+T0000644,50228,P1012,Cable Organizer,5,2025-09-07 11:00:00,6.75,C56450,Carla Smith,Singapore,Completed,0,0,0,0,33.75,2025,9,September,0,0
+T0000645,50228,P1002,Mechanical Keyboard,4,2025-09-07 11:00:00,48.5,C56450,Carla Smith,Singapore,Completed,0,0,0,0,194.0,2025,9,September,0,0
+T0000646,50228,P1003,USB-C Cable,5,2025-09-07 11:00:00,8.99,C56450,Carla Smith,Singapore,Completed,0,0,0,0,44.95,2025,9,September,0,0
+T0000647,50228,P1004,Laptop Stand,4,2025-09-07 11:00:00,29.95,C56450,Carla Smith,Singapore,Completed,0,0,0,0,119.8,2025,9,September,0,0
+T0000648,50228,P1001,Wireless Mouse,1,2025-09-07 11:00:00,15.99,C56450,Carla Smith,Singapore,Completed,0,0,0,0,15.99,2025,9,September,0,0
+T0000649,50229,P1005,Webcam HD,4,2025-11-21 16:00:00,39.99,C16662,Evan Nelson,Italy,Completed,0,0,0,0,159.96,2025,11,November,0,0
+T0000650,50229,P1005,Webcam HD,1,2025-11-21 16:00:00,39.99,C16662,Evan Nelson,Italy,Completed,0,0,0,0,39.99,2025,11,November,0,0
+T0000651,50229,P1010,Power Bank,2,2025-11-21 16:00:00,25.0,C16662,Evan Nelson,Italy,Completed,0,0,0,0,50.0,2025,11,November,0,0
+T0000652,50230,P1006,Desk Lamp,5,2023-07-30 09:00:00,22.75,C51110,Caitlyn Brown,India,Completed,0,0,0,0,113.75,2023,7,July,0,0
+T0000653,50230,P1002,Mechanical Keyboard,3,2023-07-30 09:00:00,48.5,C51110,Caitlyn Brown,India,Completed,0,0,0,0,145.5,2023,7,July,0,0
+T0000654,50231,P1007,Notebook Pack,3,2024-08-03 13:00:00,12.5,C40850,Dorothy Oliver,France,Completed,0,0,0,0,37.5,2024,8,August,0,0
+T0000655,50231,P1010,Power Bank,1,2024-08-03 13:00:00,25.0,C40850,Dorothy Oliver,France,Completed,0,0,0,0,25.0,2024,8,August,0,0
+T0000656,50231,P1010,Power Bank,1,2024-08-03 13:00:00,25.0,C40850,Dorothy Oliver,France,Completed,0,0,0,0,25.0,2024,8,August,0,0
+T0000657,50231,P1006,Desk Lamp,1,2024-08-03 13:00:00,22.75,C40850,Dorothy Oliver,France,Completed,0,0,0,0,22.75,2024,8,August,0,0
+T0000658,50231,P1003,USB-C Cable,3,2024-08-03 13:00:00,8.99,C40850,Dorothy Oliver,France,Completed,0,0,0,0,26.97,2024,8,August,0,0
+T0000659,50232,P1001,Wireless Mouse,5,2024-03-06 09:00:00,15.99,C35093,Joseph Hayes,United Kingdom,Completed,0,0,0,0,79.95,2024,3,March,0,0
+T0000660,50232,P1003,USB-C Cable,5,2024-03-06 09:00:00,8.99,C35093,Joseph Hayes,United Kingdom,Completed,0,0,0,0,44.95,2024,3,March,0,0
+T0000661,50232,P1004,Laptop Stand,5,2024-03-06 09:00:00,29.95,C35093,Joseph Hayes,United Kingdom,Completed,0,0,0,0,149.75,2024,3,March,0,0
+T0000662,50232,P1011,Monitor Arm,4,2024-03-06 09:00:00,59.9,C35093,Joseph Hayes,United Kingdom,Completed,0,0,0,0,239.6,2024,3,March,0,0
+T0000663,50232,P1007,Notebook Pack,2,2024-03-06 09:00:00,12.5,C35093,Joseph Hayes,United Kingdom,Completed,0,0,0,0,25.0,2024,3,March,0,0
+T0000664,50233,P1010,Power Bank,-1,2024-05-20 15:00:00,25.0,C42926,Jonathan Schmitt,France,Returned,0,0,0,1,-25.0,2024,5,May,0,1
+T0000665,50233,P1005,Webcam HD,2,2024-05-20 15:00:00,39.99,C42926,Jonathan Schmitt,France,Completed,0,0,0,0,79.98,2024,5,May,0,0
+T0000666,50233,P1004,Laptop Stand,2,2024-05-20 15:00:00,29.95,C42926,Jonathan Schmitt,France,Completed,0,0,0,0,59.9,2024,5,May,0,0
+T0000667,50234,P1004,Laptop Stand,5,2023-07-26 12:00:00,29.95,C37761,Randy Harris,India,Completed,0,0,0,0,149.75,2023,7,July,0,0
+T0000668,50234,P1012,Cable Organizer,3,2023-07-26 12:00:00,6.75,C37761,Randy Harris,India,Completed,0,0,0,0,20.25,2023,7,July,0,0
+T0000669,50235,P1003,USB-C Cable,2,2023-01-25 13:00:00,8.99,C46918,Allen Murphy,United Kingdom,Completed,0,0,0,0,17.98,2023,1,January,0,0
+T0000670,50235,P1006,Desk Lamp,5,2023-01-25 13:00:00,22.75,C46918,Allen Murphy,United Kingdom,Completed,0,0,0,0,113.75,2023,1,January,0,0
+T0000671,50235,P1007,Notebook Pack,2,2023-01-25 13:00:00,12.5,C46918,Allen Murphy,United Kingdom,Completed,0,0,0,0,25.0,2023,1,January,0,0
+T0000672,50235,P1009,Phone Holder,3,2023-01-25 13:00:00,10.99,C46918,Allen Murphy,United Kingdom,Completed,0,0,0,0,32.97,2023,1,January,0,0
+T0000673,50235,P1012,Cable Organizer,2,2023-01-25 13:00:00,6.75,C46918,Allen Murphy,United Kingdom,Completed,0,0,0,0,13.5,2023,1,January,0,0
+T0000674,50236,P1009,Phone Holder,5,2024-10-19 15:00:00,10.99,C44361,Jessica Jennings,Canada,Completed,0,0,0,0,54.95,2024,10,October,0,0
+T0000675,50236,P1012,Cable Organizer,2,2024-10-19 15:00:00,6.75,C44361,Jessica Jennings,Canada,Completed,0,0,0,0,13.5,2024,10,October,0,0
+T0000676,50237,P1007,Notebook Pack,1,2024-05-29 15:00:00,12.5,C24992,Allen White,India,Completed,0,0,0,0,12.5,2024,5,May,0,0
+T0000677,50237,P1002,Mechanical Keyboard,4,2024-05-29 15:00:00,48.5,C24992,Allen White,India,Completed,0,0,0,0,194.0,2024,5,May,0,0
+T0000678,50237,P1012,Cable Organizer,3,2024-05-29 15:00:00,6.75,C24992,Allen White,India,Completed,0,0,0,0,20.25,2024,5,May,0,0
+T0000679,50238,P1009,Phone Holder,5,2023-07-03 14:00:00,10.99,C50835,Christopher Pierce,India,Completed,0,0,0,0,54.95,2023,7,July,0,0
+T0000680,50238,P1002,Mechanical Keyboard,5,2023-07-03 14:00:00,48.5,C50835,Christopher Pierce,India,Completed,0,0,0,0,242.5,2023,7,July,0,0
+T0000681,50238,P1005,Webcam HD,2,2023-07-03 14:00:00,39.99,C50835,Christopher Pierce,India,Completed,0,0,0,0,79.98,2023,7,July,0,0
+T0000682,50238,P1007,Unknown,5,2023-07-03 14:00:00,12.5,C50835,Christopher Pierce,India,Completed,0,0,0,0,62.5,2023,7,July,0,0
+T0000683,50238,P1003,USB-C Cable,5,2023-07-03 14:00:00,8.99,C50835,Christopher Pierce,India,Completed,0,0,0,0,44.95,2023,7,July,0,0
+T0000684,50239,P1003,USB-C Cable,4,2024-05-11 11:00:00,8.99,C25640,Lynn Camacho,United States,Completed,0,0,0,0,35.96,2024,5,May,0,0
+T0000685,50240,P1001,Wireless Mouse,2,2024-12-05 09:00:00,15.99,C44369,Mark Peck,Australia,Completed,0,0,0,0,31.98,2024,12,December,0,0
+T0000686,50240,P1007,Notebook Pack,3,2024-12-05 09:00:00,12.5,C44369,Mark Peck,Australia,Completed,0,0,0,0,37.5,2024,12,December,0,0
+T0000687,50241,P1005,Webcam HD,1,2023-04-06 09:00:00,39.99,C27328,Susan Young,United Kingdom,Completed,0,0,0,0,39.99,2023,4,April,0,0
+T0000688,50241,P1005,Webcam HD,2,2023-04-06 09:00:00,39.99,C27328,Susan Young,United Kingdom,Completed,0,0,0,0,79.98,2023,4,April,0,0
+T0000689,50242,P1009,Phone Holder,4,2024-06-11 14:00:00,10.99,Unknown,Unknown,India,Completed,1,0,0,0,43.96,2024,6,June,0,0
+T0000690,50242,P1010,Power Bank,1,2024-06-11 14:00:00,25.0,C13009,Wayne Davis,India,Completed,0,0,0,0,25.0,2024,6,June,0,0
+T0000691,50242,P1006,Desk Lamp,1,2024-06-11 14:00:00,22.75,C13009,Wayne Davis,India,Completed,0,0,0,0,22.75,2024,6,June,0,0
+T0000692,50242,P1006,Desk Lamp,5,2024-06-11 14:00:00,22.75,C13009,Wayne Davis,India,Completed,0,0,0,0,113.75,2024,6,June,0,0
+T0000693,C50243,P1007,Notebook Pack,2,2024-10-07 14:00:00,12.5,Unknown,Unknown,United States,Cancelled,1,0,0,0,25.0,2024,10,October,1,0
+T0000694,50244,P1010,Power Bank,1,2023-06-02 16:00:00,25.0,C19464,Eric Richmond,India,Completed,0,0,0,0,25.0,2023,6,June,0,0
+T0000695,50245,P1012,Cable Organizer,3,2023-01-15 15:00:00,6.75,C20130,Scott Nichols,United States,Completed,0,0,0,0,20.25,2023,1,January,0,0
+T0000696,50245,P1003,USB-C Cable,1,2023-01-15 15:00:00,8.99,C20130,Scott Nichols,United States,Completed,0,0,0,0,8.99,2023,1,January,0,0
+T0000697,50246,P1001,Wireless Mouse,5,2025-01-30 15:00:00,15.99,C44049,Seth Martinez,India,Completed,0,0,0,0,79.95,2025,1,January,0,0
+T0000698,50246,P1003,USB-C Cable,2,2025-01-30 15:00:00,8.99,C44049,Seth Martinez,India,Completed,0,0,0,0,17.98,2025,1,January,0,0
+T0000699,50247,P1004,Laptop Stand,5,2025-11-05 16:00:00,29.95,C25819,Karen Barnes,India,Completed,0,0,0,0,149.75,2025,11,November,0,0
+T0000700,50247,P1012,Cable Organizer,2,2025-11-05 16:00:00,6.75,C25819,Karen Barnes,India,Completed,0,0,0,0,13.5,2025,11,November,0,0
+T0000701,50247,P1012,Cable Organizer,4,2025-11-05 16:00:00,6.75,C25819,Karen Barnes,India,Completed,0,0,0,0,27.0,2025,11,November,0,0
+T0000702,50247,P1001,Wireless Mouse,5,2025-11-05 16:00:00,15.99,C25819,Karen Barnes,India,Completed,0,0,0,0,79.95,2025,11,November,0,0
+T0000703,50248,P1001,Wireless Mouse,2,2025-04-19 13:00:00,15.99,C36619,Kayla Lucas,Australia,Completed,0,0,0,0,31.98,2025,4,April,0,0
+T0000704,50248,P1006,Desk Lamp,3,2025-04-19 13:00:00,22.75,C36619,Kayla Lucas,Australia,Completed,0,0,0,0,68.25,2025,4,April,0,0
+T0000705,50248,P1011,Unknown,5,2025-04-19 13:00:00,59.9,C36619,Kayla Lucas,Australia,Completed,0,0,0,0,299.5,2025,4,April,0,0
+T0000706,50248,P1012,Cable Organizer,1,2025-04-19 13:00:00,6.75,C36619,Kayla Lucas,Australia,Completed,0,0,0,0,6.75,2025,4,April,0,0
+T0000707,50248,P1008,Bluetooth Speaker,1,2025-04-19 13:00:00,34.99,C36619,Kayla Lucas,Australia,Completed,0,0,0,0,34.99,2025,4,April,0,0
+T0000708,50249,P1005,Webcam HD,2,2024-09-23 15:00:00,39.99,C29599,Denise Garcia,United Kingdom,Completed,0,0,0,0,79.98,2024,9,September,0,0
+T0000709,50249,P1003,USB-C Cable,1,2024-09-23 15:00:00,8.99,C29599,Denise Garcia,United Kingdom,Completed,0,0,0,0,8.99,2024,9,September,0,0
+T0000710,50249,P1005,Webcam HD,1,2024-09-23 15:00:00,39.99,C29599,Denise Garcia,United Kingdom,Completed,0,0,0,0,39.99,2024,9,September,0,0
+T0000711,50250,P1004,Laptop Stand,2,2023-09-23 12:00:00,29.95,C15101,Damon Schultz,United Kingdom,Completed,0,0,0,0,59.9,2023,9,September,0,0
+T0000712,50250,P1003,USB-C Cable,4,2023-09-23 12:00:00,8.99,C15101,Damon Schultz,United Kingdom,Completed,0,0,0,0,35.96,2023,9,September,0,0
+T0000713,50251,P1006,Desk Lamp,2,2024-05-31 11:00:00,22.75,C15409,Jillian Carrillo,United States,Completed,0,0,0,0,45.5,2024,5,May,0,0
+T0000714,50251,P1004,Laptop Stand,4,2024-05-31 11:00:00,29.95,C15409,Jillian Carrillo,United States,Completed,0,0,0,0,119.8,2024,5,May,0,0
+T0000715,50251,P1010,Power Bank,5,2024-05-31 11:00:00,25.0,C15409,Jillian Carrillo,United States,Completed,0,0,0,0,125.0,2024,5,May,0,0
+T0000716,50251,P1003,USB-C Cable,2,2024-05-31 11:00:00,8.99,C15409,Jillian Carrillo,United States,Completed,0,0,0,0,17.98,2024,5,May,0,0
+T0000717,50252,P1004,Laptop Stand,3,2023-05-18 13:00:00,29.95,C36090,Donald Edwards,United Kingdom,Completed,0,0,0,0,89.85,2023,5,May,0,0
+T0000718,50252,P1007,Notebook Pack,5,2023-05-18 13:00:00,12.5,C36090,Donald Edwards,United Kingdom,Completed,0,0,0,0,62.5,2023,5,May,0,0
+T0000719,50252,P1012,Cable Organizer,5,2023-05-18 13:00:00,6.75,C36090,Donald Edwards,United Kingdom,Completed,0,0,0,0,33.75,2023,5,May,0,0
+T0000720,50252,P1012,Cable Organizer,2,2023-05-18 13:00:00,6.75,C36090,Donald Edwards,United Kingdom,Completed,0,0,0,0,13.5,2023,5,May,0,0
+T0000721,50253,P1007,Notebook Pack,1,2023-11-19 14:00:00,12.5,C52719,Bryan Nielsen,Australia,Completed,0,0,0,0,12.5,2023,11,November,0,0
+T0000722,50254,P1009,Phone Holder,3,2024-07-29 12:00:00,10.99,Unknown,Unknown,India,Completed,1,0,0,0,32.97,2024,7,July,0,0
+T0000723,50254,P1001,Wireless Mouse,3,2024-07-29 12:00:00,15.99,C45060,Megan Craig,India,Completed,0,0,0,0,47.97,2024,7,July,0,0
+T0000724,50254,P1006,Desk Lamp,1,2024-07-29 12:00:00,22.75,C45060,Megan Craig,India,Completed,0,0,0,0,22.75,2024,7,July,0,0
+T0000725,50254,P1004,Laptop Stand,3,2024-07-29 12:00:00,29.95,C45060,Megan Craig,India,Completed,0,0,0,0,89.85,2024,7,July,0,0
+T0000726,50254,P1002,Mechanical Keyboard,4,2024-07-29 12:00:00,48.5,C45060,Megan Craig,India,Completed,0,0,0,0,194.0,2024,7,July,0,0
+T0000727,50255,P1010,Power Bank,2,2025-09-01 14:00:00,25.0,C40710,Shannon Lopez,United States,Completed,0,0,0,0,50.0,2025,9,September,0,0
+T0000728,50255,P1010,Power Bank,4,2025-09-01 14:00:00,25.0,C40710,Shannon Lopez,United States,Completed,0,0,0,0,100.0,2025,9,September,0,0
+T0000729,50255,P1002,Mechanical Keyboard,3,2025-09-01 14:00:00,48.5,C40710,Shannon Lopez,United States,Completed,0,0,0,0,145.5,2025,9,September,0,0
+T0000730,50256,P1012,Cable Organizer,1,2023-09-07 16:00:00,6.75,C36129,Crystal Hampton,India,Completed,0,0,0,0,6.75,2023,9,September,0,0
+T0000731,50256,P1008,Bluetooth Speaker,2,2023-09-07 16:00:00,34.99,C36129,Crystal Hampton,India,Completed,0,0,0,0,69.98,2023,9,September,0,0
+T0000732,50256,P1003,USB-C Cable,1,2023-09-07 16:00:00,8.99,C36129,Crystal Hampton,India,Completed,0,0,0,0,8.99,2023,9,September,0,0
+T0000733,50256,P1001,Wireless Mouse,1,2023-09-07 16:00:00,15.99,C36129,Crystal Hampton,India,Completed,0,0,0,0,15.99,2023,9,September,0,0
+T0000734,50257,P1011,Monitor Arm,-4,2025-04-04 15:00:00,59.9,C41247,Krista Hendricks,United Kingdom,Returned,0,0,0,1,-239.6,2025,4,April,0,1
+T0000735,50258,P1010,Power Bank,4,2023-01-21 11:00:00,25.0,C17940,Jacqueline Herman,France,Completed,0,0,0,0,100.0,2023,1,January,0,0
+T0000736,50258,P1012,Cable Organizer,5,2023-01-21 11:00:00,6.75,C17940,Jacqueline Herman,France,Completed,0,0,0,0,33.75,2023,1,January,0,0
+T0000737,50258,P1003,USB-C Cable,2,2023-01-21 11:00:00,8.99,C17940,Jacqueline Herman,France,Completed,0,0,0,0,17.98,2023,1,January,0,0
+T0000738,50258,P1008,Bluetooth Speaker,2,2023-01-21 11:00:00,34.99,C17940,Jacqueline Herman,France,Completed,0,0,0,0,69.98,2023,1,January,0,0
+T0000739,50258,P1003,USB-C Cable,2,2023-01-21 11:00:00,8.99,C17940,Jacqueline Herman,France,Completed,0,0,0,0,17.98,2023,1,January,0,0
+T0000740,50259,P1005,Webcam HD,5,2025-10-29 09:00:00,39.99,C57017,Paul Hall,United States,Completed,0,0,0,0,199.95,2025,10,October,0,0
+T0000741,50259,P1001,Wireless Mouse,3,2025-10-29 09:00:00,15.99,C57017,Paul Hall,United States,Completed,0,0,0,0,47.97,2025,10,October,0,0
+T0000742,50259,P1009,Phone Holder,1,2025-10-29 09:00:00,10.99,C57017,Paul Hall,United States,Completed,0,0,0,0,10.99,2025,10,October,0,0
+T0000743,50259,P1005,Webcam HD,3,2025-10-29 09:00:00,39.99,C57017,Paul Hall,United States,Completed,0,0,0,0,119.97,2025,10,October,0,0
+T0000744,50259,P1009,Phone Holder,1,2025-10-29 09:00:00,10.99,C57017,Paul Hall,United States,Completed,0,0,0,0,10.99,2025,10,October,0,0
+T0000745,50260,P1008,Bluetooth Speaker,3,2024-12-31 13:00:00,34.99,C33455,Seth Williams,India,Completed,0,0,0,0,104.97,2024,12,December,0,0
+T0000746,50260,P1003,USB-C Cable,4,2024-12-31 13:00:00,8.99,C33455,Seth Williams,India,Completed,0,0,0,0,35.96,2024,12,December,0,0
+T0000747,50260,P1012,Cable Organizer,2,2024-12-31 13:00:00,6.75,C33455,Seth Williams,India,Completed,0,0,0,0,13.5,2024,12,December,0,0
+T0000748,50260,P1011,Monitor Arm,1,2024-12-31 13:00:00,59.9,C33455,Seth Williams,India,Completed,0,0,0,0,59.9,2024,12,December,0,0
+T0000749,50260,P1010,Power Bank,1,2024-12-31 13:00:00,25.0,C33455,Seth Williams,India,Completed,0,0,0,0,25.0,2024,12,December,0,0
+T0000750,50261,P1009,Phone Holder,1,2024-02-27 12:00:00,10.99,C44279,Benjamin Gardner,United States,Completed,0,0,0,0,10.99,2024,2,February,0,0
+T0000751,50261,P1005,Webcam HD,3,2024-02-27 12:00:00,39.99,C44279,Benjamin Gardner,United States,Completed,0,0,0,0,119.97,2024,2,February,0,0
+T0000752,50261,P1012,Cable Organizer,4,2024-02-27 12:00:00,6.75,C44279,Benjamin Gardner,United States,Completed,0,0,0,0,27.0,2024,2,February,0,0
+T0000753,50262,P1004,Laptop Stand,4,2025-12-16 16:00:00,29.95,C25910,Misty Rodriguez,United Kingdom,Completed,0,0,0,0,119.8,2025,12,December,0,0
+T0000754,50263,P1010,Power Bank,5,2025-02-09 10:00:00,25.0,C11762,Timothy Moore,India,Completed,0,0,0,0,125.0,2025,2,February,0,0
+T0000755,50263,P1005,Webcam HD,4,2025-02-09 10:00:00,39.99,C11762,Timothy Moore,India,Completed,0,0,0,0,159.96,2025,2,February,0,0
+T0000756,50263,P1012,Cable Organizer,3,2025-02-09 10:00:00,6.75,C11762,Timothy Moore,India,Completed,0,0,0,0,20.25,2025,2,February,0,0
+T0000757,50264,P1002,Mechanical Keyboard,4,2025-06-18 16:00:00,48.5,C46124,Dwayne Jones,United States,Completed,0,0,0,0,194.0,2025,6,June,0,0
+T0000758,50264,P1009,Phone Holder,2,2025-06-18 16:00:00,10.99,C46124,Dwayne Jones,United States,Completed,0,0,0,0,21.98,2025,6,June,0,0
+T0000759,50264,P1007,Notebook Pack,1,2025-06-18 16:00:00,12.5,C46124,Dwayne Jones,United States,Completed,0,0,0,0,12.5,2025,6,June,0,0
+T0000760,50264,P1006,Desk Lamp,1,2025-06-18 16:00:00,22.75,C46124,Dwayne Jones,United States,Completed,0,0,0,0,22.75,2025,6,June,0,0
+T0000761,50265,P1010,Power Bank,2,2023-03-31 13:00:00,25.0,C29315,Mr. Joshua Harrison,United Kingdom,Completed,0,0,0,0,50.0,2023,3,March,0,0
+T0000762,50265,P1011,Monitor Arm,2,2023-03-31 13:00:00,59.9,C29315,Mr. Joshua Harrison,United Kingdom,Completed,0,0,0,0,119.8,2023,3,March,0,0
+T0000763,50265,P1006,Desk Lamp,3,2023-03-31 13:00:00,22.75,C29315,Mr. Joshua Harrison,United Kingdom,Completed,0,0,0,0,68.25,2023,3,March,0,0
+T0000764,50266,P1011,Monitor Arm,5,2023-11-19 14:00:00,59.9,C23557,David Jones,United Kingdom,Completed,0,0,0,0,299.5,2023,11,November,0,0
+T0000765,50266,P1007,Notebook Pack,2,2023-11-19 14:00:00,12.5,C23557,David Jones,United Kingdom,Completed,0,0,0,0,25.0,2023,11,November,0,0
+T0000766,50266,P1006,Desk Lamp,1,2023-11-19 14:00:00,22.75,C23557,David Jones,United Kingdom,Completed,0,0,0,0,22.75,2023,11,November,0,0
+T0000767,50267,P1004,Laptop Stand,5,2024-07-08 15:00:00,29.95,C35888,Charles Davidson,United Kingdom,Completed,0,0,0,0,149.75,2024,7,July,0,0
+T0000768,50267,P1006,Desk Lamp,4,2024-07-08 15:00:00,22.75,C35888,Charles Davidson,United Kingdom,Completed,0,0,0,0,91.0,2024,7,July,0,0
+T0000769,50268,P1008,Bluetooth Speaker,4,2025-01-30 15:00:00,34.99,C17218,Amanda Wilson,Australia,Completed,0,0,0,0,139.96,2025,1,January,0,0
+T0000770,50268,P1006,Desk Lamp,2,2025-01-30 15:00:00,22.75,C17218,Amanda Wilson,Australia,Completed,0,0,0,0,45.5,2025,1,January,0,0
+T0000771,50268,P1007,Notebook Pack,5,2025-01-30 15:00:00,12.5,C17218,Amanda Wilson,Australia,Completed,0,0,0,0,62.5,2025,1,January,0,0
+T0000772,50268,P1004,Laptop Stand,1,2025-01-30 15:00:00,29.95,C17218,Amanda Wilson,Australia,Completed,0,0,0,0,29.95,2025,1,January,0,0
+T0000773,50269,P1005,Webcam HD,5,2024-06-03 15:00:00,39.99,C30268,Cassandra Smith,Australia,Completed,0,0,0,0,199.95,2024,6,June,0,0
+T0000774,50269,P1010,Power Bank,4,2024-06-03 15:00:00,25.0,C30268,Cassandra Smith,Australia,Completed,0,0,0,0,100.0,2024,6,June,0,0
+T0000775,50269,P1004,Laptop Stand,5,2024-06-03 15:00:00,29.95,C30268,Cassandra Smith,Australia,Completed,0,0,0,0,149.75,2024,6,June,0,0
+T0000776,C50270,P1004,Laptop Stand,3,2023-11-22 11:00:00,29.95,Unknown,Unknown,India,Cancelled,1,0,0,0,89.85,2023,11,November,1,0
+T0000777,C50270,P1012,Cable Organizer,2,2023-11-22 11:00:00,6.75,C41228,Nicholas Roman,India,Cancelled,0,0,0,0,13.5,2023,11,November,1,0
+T0000778,C50270,P1008,Bluetooth Speaker,5,2023-11-22 11:00:00,34.99,C41228,Nicholas Roman,India,Cancelled,0,0,0,0,174.95,2023,11,November,1,0
+T0000779,C50270,P1011,Monitor Arm,4,2023-11-22 11:00:00,59.9,C41228,Nicholas Roman,India,Cancelled,0,0,0,0,239.6,2023,11,November,1,0
+T0000780,50271,P1005,Webcam HD,1,2025-10-14 16:00:00,39.99,C59970,Nicholas Fischer,Canada,Completed,0,0,0,0,39.99,2025,10,October,0,0
+T0000781,50272,P1004,Laptop Stand,1,2023-04-04 14:00:00,29.95,C42079,Sean Combs,United Kingdom,Completed,0,0,0,0,29.95,2023,4,April,0,0
+T0000782,50272,P1001,Wireless Mouse,5,2023-04-04 14:00:00,15.99,C42079,Sean Combs,United Kingdom,Completed,0,0,0,0,79.95,2023,4,April,0,0
+T0000783,50273,P1008,Bluetooth Speaker,1,2024-09-21 12:00:00,34.99,C10041,Paula Moreno,United Kingdom,Completed,0,0,0,0,34.99,2024,9,September,0,0
+T0000784,50273,P1009,Phone Holder,4,2024-09-21 12:00:00,10.99,C10041,Paula Moreno,United Kingdom,Completed,0,0,0,0,43.96,2024,9,September,0,0
+T0000785,50273,P1005,Webcam HD,1,2024-09-21 12:00:00,39.99,C10041,Paula Moreno,United Kingdom,Completed,0,0,0,0,39.99,2024,9,September,0,0
+T0000786,50273,P1007,Notebook Pack,3,2024-09-21 12:00:00,12.5,C10041,Paula Moreno,United Kingdom,Completed,0,0,0,0,37.5,2024,9,September,0,0
+T0000787,50273,P1002,Mechanical Keyboard,4,2024-09-21 12:00:00,48.5,C10041,Paula Moreno,United Kingdom,Completed,0,0,0,0,194.0,2024,9,September,0,0
+T0000788,50274,P1004,Laptop Stand,1,2025-06-18 09:00:00,29.95,C18205,Felicia Matthews,United States,Completed,0,0,0,0,29.95,2025,6,June,0,0
+T0000789,50274,P1007,Notebook Pack,5,2025-06-18 09:00:00,12.5,C18205,Felicia Matthews,United States,Completed,0,0,0,0,62.5,2025,6,June,0,0
+T0000790,50274,P1003,USB-C Cable,2,2025-06-18 09:00:00,8.99,C18205,Felicia Matthews,United States,Completed,0,0,0,0,17.98,2025,6,June,0,0
+T0000791,50274,P1010,Power Bank,4,2025-06-18 09:00:00,25.0,C18205,Felicia Matthews,United States,Completed,0,0,0,0,100.0,2025,6,June,0,0
+T0000792,50275,P1004,Laptop Stand,5,2023-10-14 11:00:00,29.95,Unknown,Unknown,United States,Completed,1,0,0,0,149.75,2023,10,October,0,0
+T0000793,50275,P1004,Laptop Stand,2,2023-10-14 11:00:00,29.95,C45671,Rebekah Saunders,United States,Completed,0,0,0,0,59.9,2023,10,October,0,0
+T0000794,50275,P1006,Desk Lamp,5,2023-10-14 11:00:00,22.75,C45671,Rebekah Saunders,United States,Completed,0,0,0,0,113.75,2023,10,October,0,0
+T0000795,50275,P1012,Cable Organizer,2,2023-10-14 11:00:00,6.75,C45671,Rebekah Saunders,United States,Completed,0,0,0,0,13.5,2023,10,October,0,0
+T0000796,50276,P1009,Phone Holder,4,2023-05-23 14:00:00,10.99,C27254,Brittany Jackson,India,Completed,0,0,0,0,43.96,2023,5,May,0,0
+T0000797,50276,P1001,Wireless Mouse,5,2023-05-23 14:00:00,15.99,C27254,Brittany Jackson,India,Completed,0,0,0,0,79.95,2023,5,May,0,0
+T0000798,50276,P1001,Wireless Mouse,3,2023-05-23 14:00:00,15.99,C27254,Brittany Jackson,India,Completed,0,0,0,0,47.97,2023,5,May,0,0
+T0000799,50277,P1001,Wireless Mouse,5,2025-10-09 09:00:00,15.99,C21487,Nicole Allen,Singapore,Completed,0,0,0,0,79.95,2025,10,October,0,0
+T0000800,50277,P1010,Power Bank,1,2025-10-09 09:00:00,25.0,C21487,Nicole Allen,Singapore,Completed,0,0,0,0,25.0,2025,10,October,0,0
+T0000801,50277,P1001,Wireless Mouse,2,2025-10-09 09:00:00,15.99,C21487,Nicole Allen,Singapore,Completed,0,0,0,0,31.98,2025,10,October,0,0
+T0000802,50278,P1009,Phone Holder,4,2025-12-27 10:00:00,10.99,C10106,Marc Moore,Australia,Completed,0,0,0,0,43.96,2025,12,December,0,0
+T0000803,50278,P1006,Desk Lamp,5,2025-12-27 10:00:00,22.75,C10106,Marc Moore,Australia,Completed,0,0,0,0,113.75,2025,12,December,0,0
+T0000804,50278,P1008,Bluetooth Speaker,4,2025-12-27 10:00:00,34.99,C10106,Marc Moore,Australia,Completed,0,0,0,0,139.96,2025,12,December,0,0
+T0000805,50278,P1012,Cable Organizer,5,2025-12-27 10:00:00,6.75,C10106,Marc Moore,Australia,Completed,0,0,0,0,33.75,2025,12,December,0,0
+T0000806,50279,P1010,Power Bank,2,2024-07-10 11:00:00,25.0,C43431,Angel Hansen,India,Completed,0,0,0,0,50.0,2024,7,July,0,0
+T0000807,50279,P1012,Cable Organizer,5,2024-07-10 11:00:00,6.75,C43431,Angel Hansen,India,Completed,0,0,0,0,33.75,2024,7,July,0,0
+T0000808,50279,P1011,Monitor Arm,1,2024-07-10 11:00:00,59.9,C43431,Angel Hansen,India,Completed,0,0,0,0,59.9,2024,7,July,0,0
+T0000809,50279,P1005,Webcam HD,5,2024-07-10 11:00:00,39.99,C43431,Angel Hansen,India,Completed,0,0,0,0,199.95,2024,7,July,0,0
+T0000810,50280,P1002,Mechanical Keyboard,4,2023-09-07 09:00:00,48.5,C30908,Melissa Martinez,Canada,Completed,0,0,0,0,194.0,2023,9,September,0,0
+T0000811,50280,P1001,Wireless Mouse,4,2023-09-07 09:00:00,15.99,C30908,Melissa Martinez,Canada,Completed,0,0,0,0,63.96,2023,9,September,0,0
+T0000812,50280,P1007,Notebook Pack,4,2023-09-07 09:00:00,12.5,C30908,Melissa Martinez,Canada,Completed,0,0,0,0,50.0,2023,9,September,0,0
+T0000813,50281,P1010,Power Bank,3,2024-04-22 14:00:00,25.0,C20583,Nathan Wolf,United Kingdom,Completed,0,0,0,0,75.0,2024,4,April,0,0
+T0000814,50281,P1003,USB-C Cable,2,2024-04-22 14:00:00,8.99,C20583,Nathan Wolf,United Kingdom,Completed,0,0,0,0,17.98,2024,4,April,0,0
+T0000815,50281,P1009,Phone Holder,3,2024-04-22 14:00:00,10.99,C20583,Nathan Wolf,United Kingdom,Completed,0,0,0,0,32.97,2024,4,April,0,0
+T0000816,50281,P1008,Bluetooth Speaker,1,2024-04-22 14:00:00,34.99,C20583,Nathan Wolf,United Kingdom,Completed,0,0,0,0,34.99,2024,4,April,0,0
+T0000817,50281,P1010,Power Bank,4,2024-04-22 14:00:00,25.0,C20583,Nathan Wolf,United Kingdom,Completed,0,0,0,0,100.0,2024,4,April,0,0
+T0000818,50282,P1004,Laptop Stand,3,2023-11-04 10:00:00,29.95,C34044,Samuel Campos,India,Completed,0,0,0,0,89.85,2023,11,November,0,0
+T0000819,50282,P1007,Notebook Pack,5,2023-11-04 10:00:00,12.5,C34044,Samuel Campos,India,Completed,0,0,0,0,62.5,2023,11,November,0,0
+T0000820,50283,P1010,Power Bank,4,2023-04-10 16:00:00,25.0,C26588,Russell Brown,Singapore,Completed,0,0,0,0,100.0,2023,4,April,0,0
+T0000821,50283,P1008,Bluetooth Speaker,3,2023-04-10 16:00:00,34.99,C26588,Russell Brown,Singapore,Completed,0,0,0,0,104.97,2023,4,April,0,0
+T0000822,50284,P1011,Monitor Arm,3,2025-03-18 15:00:00,59.9,C29633,Kristine Harris,United Kingdom,Completed,0,0,0,0,179.7,2025,3,March,0,0
+T0000823,50284,P1003,USB-C Cable,5,2025-03-18 15:00:00,8.99,C29633,Kristine Harris,United Kingdom,Completed,0,0,0,0,44.95,2025,3,March,0,0
+T0000824,50284,P1006,Desk Lamp,1,2025-03-18 15:00:00,22.75,C29633,Kristine Harris,United Kingdom,Completed,0,0,0,0,22.75,2025,3,March,0,0
+T0000825,50284,P1004,Laptop Stand,3,2025-03-18 15:00:00,29.95,C29633,Kristine Harris,United Kingdom,Completed,0,0,0,0,89.85,2025,3,March,0,0
+T0000826,50285,P1010,Power Bank,4,2024-12-11 12:00:00,25.0,C29010,Steven Wade,France,Completed,0,0,0,0,100.0,2024,12,December,0,0
+T0000827,50285,P1003,USB-C Cable,5,2024-12-11 12:00:00,8.99,C29010,Steven Wade,France,Completed,0,0,0,0,44.95,2024,12,December,0,0
+T0000828,50285,P1002,Mechanical Keyboard,3,2024-12-11 12:00:00,48.5,C29010,Steven Wade,France,Completed,0,0,0,0,145.5,2024,12,December,0,0
+T0000829,50285,P1006,Desk Lamp,1,2024-12-11 12:00:00,22.75,C29010,Steven Wade,France,Completed,0,0,0,0,22.75,2024,12,December,0,0
+T0000830,50286,P1008,Bluetooth Speaker,3,2025-04-28 16:00:00,34.99,C19040,Laura Martin,India,Completed,0,0,0,0,104.97,2025,4,April,0,0
+T0000831,50286,P1012,Cable Organizer,5,2025-04-28 16:00:00,6.75,C19040,Laura Martin,India,Completed,0,0,0,0,33.75,2025,4,April,0,0
+T0000832,50286,P1009,Phone Holder,5,2025-04-28 16:00:00,10.99,C19040,Laura Martin,India,Completed,0,0,0,0,54.95,2025,4,April,0,0
+T0000833,50287,P1012,Cable Organizer,1,2024-10-29 16:00:00,6.75,C58863,Michael Mosley,Australia,Completed,0,0,0,0,6.75,2024,10,October,0,0
+T0000834,50287,P1001,Wireless Mouse,1,2024-10-29 16:00:00,15.99,C58863,Michael Mosley,Australia,Completed,0,0,0,0,15.99,2024,10,October,0,0
+T0000835,50287,P1007,Notebook Pack,4,2024-10-29 16:00:00,12.5,C58863,Michael Mosley,Australia,Completed,0,0,0,0,50.0,2024,10,October,0,0
+T0000836,50287,P1011,Monitor Arm,4,2024-10-29 16:00:00,59.9,C58863,Michael Mosley,Australia,Completed,0,0,0,0,239.6,2024,10,October,0,0
+T0000837,50287,P1004,Laptop Stand,1,2024-10-29 16:00:00,29.95,C58863,Michael Mosley,Australia,Completed,0,0,0,0,29.95,2024,10,October,0,0
+T0000838,50288,P1002,Mechanical Keyboard,4,2024-09-26 12:00:00,48.5,C59546,Richard Sullivan,Singapore,Completed,0,0,0,0,194.0,2024,9,September,0,0
+T0000839,50288,P1011,Monitor Arm,1,2024-09-26 12:00:00,59.9,C59546,Richard Sullivan,Singapore,Completed,0,0,0,0,59.9,2024,9,September,0,0
+T0000840,50288,P1006,Desk Lamp,5,2024-09-26 12:00:00,22.75,C59546,Richard Sullivan,Singapore,Completed,0,0,0,0,113.75,2024,9,September,0,0
+T0000841,50288,P1011,Monitor Arm,1,2024-09-26 12:00:00,59.9,C59546,Richard Sullivan,Singapore,Completed,0,0,0,0,59.9,2024,9,September,0,0
+T0000842,50288,P1009,Phone Holder,4,2024-09-26 12:00:00,10.99,C59546,Richard Sullivan,Singapore,Completed,0,0,0,0,43.96,2024,9,September,0,0
+T0000843,50289,P1012,Cable Organizer,4,2024-12-21 09:00:00,6.75,C35065,Evan Santiago,Australia,Completed,0,0,0,0,27.0,2024,12,December,0,0
+T0000844,50289,P1002,Mechanical Keyboard,4,2024-12-21 09:00:00,48.5,C35065,Evan Santiago,Australia,Completed,0,0,0,0,194.0,2024,12,December,0,0
+T0000845,50290,P1007,Notebook Pack,1,2024-09-11 11:00:00,12.5,C42913,Robert Duncan,Canada,Completed,0,0,0,0,12.5,2024,9,September,0,0
+T0000846,50290,P1004,Laptop Stand,1,2024-09-11 11:00:00,29.95,C42913,Robert Duncan,Canada,Completed,0,0,0,0,29.95,2024,9,September,0,0
+T0000847,50290,P1006,Desk Lamp,4,2024-09-11 11:00:00,22.75,C42913,Robert Duncan,Canada,Completed,0,0,0,0,91.0,2024,9,September,0,0
+T0000848,50290,P1011,Monitor Arm,5,2024-09-11 11:00:00,59.9,C42913,Robert Duncan,Canada,Completed,0,0,0,0,299.5,2024,9,September,0,0
+T0000849,50291,P1007,Notebook Pack,5,2025-05-10 12:00:00,12.5,C59527,Alexis Lucas,United Kingdom,Completed,0,0,0,0,62.5,2025,5,May,0,0
+T0000850,50291,P1004,Laptop Stand,2,2025-05-10 12:00:00,29.95,C59527,Alexis Lucas,Unknown,Completed,0,0,0,0,59.9,2025,5,May,0,0
+T0000851,50291,P1009,Unknown,5,2025-05-10 12:00:00,10.99,C59527,Alexis Lucas,United Kingdom,Completed,0,0,0,0,54.95,2025,5,May,0,0
+T0000852,50291,P1012,Cable Organizer,2,2025-05-10 12:00:00,6.75,C59527,Alexis Lucas,United Kingdom,Completed,0,0,0,0,13.5,2025,5,May,0,0
+T0000853,50291,P1012,Cable Organizer,4,2025-05-10 12:00:00,6.75,C59527,Alexis Lucas,United Kingdom,Completed,0,0,0,0,27.0,2025,5,May,0,0
+T0000854,50292,P1012,Cable Organizer,4,2024-08-13 15:00:00,6.75,C36037,Andrew Vasquez,United States,Completed,0,0,0,0,27.0,2024,8,August,0,0
+T0000855,50292,P1011,Monitor Arm,3,2024-08-13 15:00:00,59.9,C36037,Andrew Vasquez,United States,Completed,0,0,0,0,179.7,2024,8,August,0,0
+T0000856,50292,P1005,Webcam HD,4,2024-08-13 15:00:00,39.99,C36037,Andrew Vasquez,United States,Completed,0,0,0,0,159.96,2024,8,August,0,0
+T0000857,50292,P1003,USB-C Cable,4,2024-08-13 15:00:00,8.99,C36037,Andrew Vasquez,United States,Completed,0,0,0,0,35.96,2024,8,August,0,0
+T0000858,50292,P1002,Mechanical Keyboard,1,2024-08-13 15:00:00,48.5,C36037,Andrew Vasquez,United States,Completed,0,0,0,0,48.5,2024,8,August,0,0
+T0000859,50293,P1001,Wireless Mouse,3,2024-07-02 10:00:00,15.99,C44302,Shaun Valencia,Singapore,Completed,0,0,0,0,47.97,2024,7,July,0,0
+T0000860,50293,P1002,Mechanical Keyboard,4,2024-07-02 10:00:00,48.5,C44302,Shaun Valencia,Singapore,Completed,0,0,0,0,194.0,2024,7,July,0,0
+T0000861,50293,P1011,Monitor Arm,4,2024-07-02 10:00:00,59.9,C44302,Shaun Valencia,Singapore,Completed,0,0,0,0,239.6,2024,7,July,0,0
+T0000862,50294,P1004,Laptop Stand,2,2023-12-27 10:00:00,29.95,C52317,Lori Wells,India,Completed,0,0,0,0,59.9,2023,12,December,0,0
+T0000863,50294,P1001,Wireless Mouse,2,2023-12-27 10:00:00,15.99,C52317,Lori Wells,India,Completed,0,0,0,0,31.98,2023,12,December,0,0
+T0000864,50294,P1003,USB-C Cable,3,2023-12-27 10:00:00,8.99,C52317,Lori Wells,India,Completed,0,0,0,0,26.97,2023,12,December,0,0
+T0000865,50294,P1007,Notebook Pack,4,2023-12-27 10:00:00,12.5,C52317,Lori Wells,India,Completed,0,0,0,0,50.0,2023,12,December,0,0
+T0000866,50295,P1001,Wireless Mouse,3,2024-06-30 09:00:00,15.99,C34628,Veronica Williams,United Kingdom,Completed,0,0,0,0,47.97,2024,6,June,0,0
+T0000867,50295,P1002,Mechanical Keyboard,3,2024-06-30 09:00:00,48.5,Unknown,Unknown,United Kingdom,Completed,1,0,0,0,145.5,2024,6,June,0,0
+T0000868,50295,P1006,Desk Lamp,2,2024-06-30 09:00:00,22.75,C34628,Veronica Williams,United Kingdom,Completed,0,0,0,0,45.5,2024,6,June,0,0
+T0000869,50295,P1007,Notebook Pack,4,2024-06-30 09:00:00,12.5,C34628,Veronica Williams,United Kingdom,Completed,0,0,0,0,50.0,2024,6,June,0,0
+T0000870,50296,P1003,USB-C Cable,3,2025-05-10 09:00:00,8.99,C23240,Parker Carroll,India,Completed,0,0,0,0,26.97,2025,5,May,0,0
+T0000871,50296,P1003,USB-C Cable,5,2025-05-10 09:00:00,8.99,C23240,Parker Carroll,India,Completed,0,0,0,0,44.95,2025,5,May,0,0
+T0000872,50296,P1012,Cable Organizer,1,2025-05-10 09:00:00,6.75,C23240,Parker Carroll,India,Completed,0,0,0,0,6.75,2025,5,May,0,0
+T0000873,50296,P1004,Laptop Stand,5,2025-05-10 09:00:00,29.95,C23240,Parker Carroll,India,Completed,0,0,0,0,149.75,2025,5,May,0,0
+T0000874,50296,P1009,Phone Holder,2,2025-05-10 09:00:00,10.99,C23240,Parker Carroll,India,Completed,0,0,0,0,21.98,2025,5,May,0,0
+T0000875,50297,P1009,Phone Holder,3,2024-12-20 10:00:00,10.99,C30289,Andrew Hall,Canada,Completed,0,0,0,0,32.97,2024,12,December,0,0
+T0000876,50297,P1006,Desk Lamp,2,2024-12-20 10:00:00,22.75,C30289,Andrew Hall,Canada,Completed,0,0,0,0,45.5,2024,12,December,0,0
+T0000877,50298,P1004,Laptop Stand,4,2024-05-31 12:00:00,29.95,C17980,Angelica Mays,United Kingdom,Completed,0,0,0,0,119.8,2024,5,May,0,0
+T0000878,50299,P1006,Desk Lamp,2,2024-07-01 14:00:00,22.75,C33410,Chris Moore MD,Italy,Completed,0,0,0,0,45.5,2024,7,July,0,0
+T0000879,50299,P1007,Notebook Pack,5,2024-07-01 14:00:00,12.5,C33410,Chris Moore MD,Italy,Completed,0,0,0,0,62.5,2024,7,July,0,0
+T0000880,50299,P1010,Power Bank,2,2024-07-01 14:00:00,25.0,C33410,Chris Moore MD,Italy,Completed,0,0,0,0,50.0,2024,7,July,0,0
+T0000881,50299,P1010,Power Bank,5,2024-07-01 14:00:00,25.0,C33410,Chris Moore MD,Italy,Completed,0,0,0,0,125.0,2024,7,July,0,0
+T0000882,50300,P1002,Mechanical Keyboard,1,2024-10-16 12:00:00,48.5,C32103,Grant Price,Italy,Completed,0,0,0,0,48.5,2024,10,October,0,0
+T0000883,50300,P1009,Phone Holder,4,2024-10-16 12:00:00,10.99,C32103,Grant Price,Italy,Completed,0,0,0,0,43.96,2024,10,October,0,0
+T0000884,50300,P1012,Cable Organizer,1,2024-10-16 12:00:00,6.75,C32103,Grant Price,Italy,Completed,0,0,0,0,6.75,2024,10,October,0,0
+T0000885,50300,P1010,Power Bank,5,2024-10-16 12:00:00,25.0,C32103,Grant Price,Italy,Completed,0,0,0,0,125.0,2024,10,October,0,0
+T0000886,50301,P1009,Phone Holder,3,2024-08-22 15:00:00,10.99,C19422,Steven Kelley,India,Completed,0,0,0,0,32.97,2024,8,August,0,0
+T0000887,50301,P1001,Wireless Mouse,4,2024-08-22 15:00:00,15.99,C19422,Steven Kelley,India,Completed,0,0,0,0,63.96,2024,8,August,0,0
+T0000888,50301,P1010,Power Bank,4,2024-08-22 15:00:00,25.0,C19422,Steven Kelley,India,Completed,0,0,0,0,100.0,2024,8,August,0,0
+T0000889,50301,P1007,Notebook Pack,3,2024-08-22 15:00:00,12.5,C19422,Steven Kelley,India,Completed,0,0,0,0,37.5,2024,8,August,0,0
+T0000890,50301,P1004,Laptop Stand,3,2024-08-22 15:00:00,29.95,C19422,Steven Kelley,India,Completed,0,0,0,0,89.85,2024,8,August,0,0
+T0000891,50302,P1007,Notebook Pack,1,2024-05-23 12:00:00,12.5,C50000,Roger Nguyen,France,Completed,0,0,0,0,12.5,2024,5,May,0,0
+T0000892,50303,P1005,Webcam HD,5,2025-04-16 12:00:00,39.99,C30321,Katherine Macdonald,United States,Completed,0,0,0,0,199.95,2025,4,April,0,0
+T0000893,50304,P1001,Wireless Mouse,4,2024-07-25 14:00:00,15.99,C44300,Kelly Rich,India,Completed,0,0,0,0,63.96,2024,7,July,0,0
+T0000894,50304,P1006,Desk Lamp,4,2024-07-25 14:00:00,22.75,C44300,Kelly Rich,India,Completed,0,0,0,0,91.0,2024,7,July,0,0
+T0000895,50304,P1003,USB-C Cable,1,2024-07-25 14:00:00,8.99,C44300,Kelly Rich,India,Completed,0,0,0,0,8.99,2024,7,July,0,0
+T0000896,50305,P1004,Laptop Stand,1,2023-07-12 16:00:00,29.95,C37933,Katie Decker,India,Completed,0,0,0,0,29.95,2023,7,July,0,0
+T0000897,50305,P1011,Monitor Arm,2,2023-07-12 16:00:00,59.9,C37933,Katie Decker,India,Completed,0,0,0,0,119.8,2023,7,July,0,0
+T0000898,50305,P1001,Wireless Mouse,1,2023-07-12 16:00:00,15.99,C37933,Katie Decker,India,Completed,0,0,0,0,15.99,2023,7,July,0,0
+T0000899,50305,P1002,Mechanical Keyboard,1,2023-07-12 16:00:00,48.5,C37933,Katie Decker,India,Completed,0,0,0,0,48.5,2023,7,July,0,0
+T0000900,C50306,P1009,Phone Holder,4,2025-01-05 16:00:00,10.99,C22868,Barbara Lucero,France,Cancelled,0,0,0,0,43.96,2025,1,January,1,0
+T0000901,C50306,P1012,Cable Organizer,3,2025-01-05 16:00:00,6.75,C22868,Barbara Lucero,France,Cancelled,0,0,0,0,20.25,2025,1,January,1,0
+T0000902,C50306,P1007,Notebook Pack,5,2025-01-05 16:00:00,12.5,C22868,Barbara Lucero,France,Cancelled,0,0,0,0,62.5,2025,1,January,1,0
+T0000903,C50306,P1010,Power Bank,4,2025-01-05 16:00:00,25.0,C22868,Barbara Lucero,France,Cancelled,0,0,0,0,100.0,2025,1,January,1,0
+T0000904,C50306,P1002,Mechanical Keyboard,5,2025-01-05 16:00:00,48.5,C22868,Barbara Lucero,France,Cancelled,0,0,0,0,242.5,2025,1,January,1,0
+T0000905,50307,P1007,Notebook Pack,5,2023-05-11 13:00:00,12.5,C47247,Nathan Moore,India,Completed,0,0,0,0,62.5,2023,5,May,0,0
+T0000906,50307,P1003,USB-C Cable,3,2023-05-11 13:00:00,8.99,C47247,Nathan Moore,India,Completed,0,0,0,0,26.97,2023,5,May,0,0
+T0000907,50307,P1003,USB-C Cable,1,2023-05-11 13:00:00,8.99,C47247,Nathan Moore,India,Completed,0,0,0,0,8.99,2023,5,May,0,0
+T0000908,50307,P1010,Power Bank,5,2023-05-11 13:00:00,25.0,C47247,Nathan Moore,India,Completed,0,0,0,0,125.0,2023,5,May,0,0
+T0000909,50308,P1010,Power Bank,4,2023-08-27 16:00:00,25.0,C27809,Robert Carroll,India,Completed,0,0,0,0,100.0,2023,8,August,0,0
+T0000910,50308,P1003,USB-C Cable,3,2023-08-27 16:00:00,8.99,C27809,Robert Carroll,India,Completed,0,0,0,0,26.97,2023,8,August,0,0
+T0000911,50308,P1007,Notebook Pack,5,2023-08-27 16:00:00,12.5,C27809,Robert Carroll,India,Completed,0,0,0,0,62.5,2023,8,August,0,0
+T0000912,50308,P1001,Wireless Mouse,3,2023-08-27 16:00:00,15.99,C27809,Robert Carroll,India,Completed,0,0,0,0,47.97,2023,8,August,0,0
+T0000913,50309,P1011,Monitor Arm,3,2025-01-08 12:00:00,59.9,C20923,Chelsea Friedman,Australia,Completed,0,0,0,0,179.7,2025,1,January,0,0
+T0000914,50309,P1005,Webcam HD,2,2025-01-08 12:00:00,39.99,C20923,Chelsea Friedman,Australia,Completed,0,0,0,0,79.98,2025,1,January,0,0
+T0000915,50310,P1008,Bluetooth Speaker,5,2024-08-19 12:00:00,34.99,C42114,Eric Fuller,United States,Completed,0,0,0,0,174.95,2024,8,August,0,0
+T0000916,50310,P1008,Bluetooth Speaker,2,2024-08-19 12:00:00,34.99,C42114,Eric Fuller,United States,Completed,0,0,0,0,69.98,2024,8,August,0,0
+T0000917,50310,P1008,Bluetooth Speaker,5,2024-08-19 12:00:00,34.99,C42114,Eric Fuller,United States,Completed,0,0,0,0,174.95,2024,8,August,0,0
+T0000918,50311,P1006,Desk Lamp,1,2023-06-24 15:00:00,22.75,C14326,Glenn Chen,United Kingdom,Completed,0,0,0,0,22.75,2023,6,June,0,0
+T0000919,50312,P1008,Bluetooth Speaker,5,2025-12-17 13:00:00,34.99,C53449,Brianna Hale,United States,Completed,0,0,0,0,174.95,2025,12,December,0,0
+T0000920,50312,P1009,Phone Holder,4,2025-12-17 13:00:00,10.99,C53449,Brianna Hale,United States,Completed,0,0,0,0,43.96,2025,12,December,0,0
+T0000921,50312,P1002,Mechanical Keyboard,2,2025-12-17 13:00:00,48.5,C53449,Brianna Hale,United States,Completed,0,0,0,0,97.0,2025,12,December,0,0
+T0000922,50312,P1009,Phone Holder,-1,2025-12-17 13:00:00,10.99,C53449,Brianna Hale,United States,Returned,0,0,0,1,-10.99,2025,12,December,0,1
+T0000923,50313,P1011,Monitor Arm,1,2023-04-25 09:00:00,59.9,C50451,Nancy Good,United States,Completed,0,0,0,0,59.9,2023,4,April,0,0
+T0000924,50314,P1010,Power Bank,3,2025-02-08 14:00:00,25.0,C45719,David Davis,United States,Completed,0,0,0,0,75.0,2025,2,February,0,0
+T0000925,50315,P1009,Phone Holder,3,2025-04-25 09:00:00,10.99,C34562,Dean Hernandez,United States,Completed,0,0,0,0,32.97,2025,4,April,0,0
+T0000926,50316,P1011,Monitor Arm,1,2024-05-04 09:00:00,59.9,C31557,Steven Hicks,India,Completed,0,0,0,0,59.9,2024,5,May,0,0
+T0000927,50316,P1007,Notebook Pack,4,2024-05-04 09:00:00,12.5,C31557,Steven Hicks,India,Completed,0,0,0,0,50.0,2024,5,May,0,0
+T0000928,50316,P1011,Monitor Arm,4,2024-05-04 09:00:00,59.9,C31557,Steven Hicks,India,Completed,0,0,0,0,239.6,2024,5,May,0,0
+T0000929,50316,P1010,Power Bank,4,2024-05-04 09:00:00,25.0,C31557,Steven Hicks,India,Completed,0,0,0,0,100.0,2024,5,May,0,0
+T0000930,50316,P1010,Power Bank,5,2024-05-04 09:00:00,25.0,C31557,Steven Hicks,India,Completed,0,0,0,0,125.0,2024,5,May,0,0
+T0000931,50317,P1001,Wireless Mouse,5,2024-12-13 13:00:00,15.99,C52644,Lisa Harris,India,Completed,0,0,0,0,79.95,2024,12,December,0,0
+T0000932,50318,P1002,Mechanical Keyboard,5,2024-09-21 09:00:00,48.5,C22490,Kevin Chavez,India,Completed,0,0,0,0,242.5,2024,9,September,0,0
+T0000933,50318,P1011,Monitor Arm,1,2024-09-21 09:00:00,59.9,C22490,Kevin Chavez,India,Completed,0,0,0,0,59.9,2024,9,September,0,0
+T0000934,50319,P1011,Monitor Arm,4,2024-11-07 09:00:00,59.9,C15939,Rose Jackson,France,Completed,0,0,0,0,239.6,2024,11,November,0,0
+T0000935,50319,P1002,Mechanical Keyboard,2,2024-11-07 09:00:00,48.5,C15939,Rose Jackson,France,Completed,0,0,0,0,97.0,2024,11,November,0,0
+T0000936,50319,P1008,Bluetooth Speaker,4,2024-11-07 09:00:00,34.99,C15939,Rose Jackson,France,Completed,0,0,0,0,139.96,2024,11,November,0,0
+T0000937,50319,P1002,Mechanical Keyboard,3,2024-11-07 09:00:00,48.5,C15939,Rose Jackson,France,Completed,0,0,0,0,145.5,2024,11,November,0,0
+T0000938,50319,P1010,Power Bank,4,2024-11-07 09:00:00,25.0,C15939,Rose Jackson,France,Completed,0,0,0,0,100.0,2024,11,November,0,0
+T0000939,50320,P1002,Mechanical Keyboard,4,2024-08-12 16:00:00,48.5,C33534,James Hooper III,Australia,Completed,0,0,0,0,194.0,2024,8,August,0,0
+T0000940,C50321,P1009,Phone Holder,4,2025-12-27 15:00:00,10.99,C31442,Francis Miles,France,Cancelled,0,0,0,0,43.96,2025,12,December,1,0
+T0000941,C50321,P1011,Monitor Arm,1,2025-12-27 15:00:00,59.9,C31442,Francis Miles,France,Cancelled,0,0,0,0,59.9,2025,12,December,1,0
+T0000942,C50321,P1004,Laptop Stand,2,2025-12-27 15:00:00,29.95,C31442,Francis Miles,France,Cancelled,0,0,0,0,59.9,2025,12,December,1,0
+T0000943,50322,P1011,Monitor Arm,1,2025-09-29 12:00:00,59.9,C11831,Erika Daugherty,United Kingdom,Completed,0,0,0,0,59.9,2025,9,September,0,0
+T0000944,50323,P1002,Mechanical Keyboard,3,2023-05-17 13:00:00,48.5,C30692,Kathleen Wright,India,Completed,0,0,0,0,145.5,2023,5,May,0,0
+T0000945,50323,P1012,Cable Organizer,1,2023-05-17 13:00:00,6.75,C30692,Kathleen Wright,India,Completed,0,0,0,0,6.75,2023,5,May,0,0
+T0000946,50323,P1006,Desk Lamp,1,2023-05-17 13:00:00,22.75,C30692,Kathleen Wright,India,Completed,0,0,0,0,22.75,2023,5,May,0,0
+T0000947,50324,P1004,Laptop Stand,5,2025-07-14 12:00:00,29.95,C17692,Christina Miles,United Kingdom,Completed,0,0,0,0,149.75,2025,7,July,0,0
+T0000948,50324,P1008,Bluetooth Speaker,4,2025-07-14 12:00:00,34.99,C17692,Christina Miles,United Kingdom,Completed,0,0,0,0,139.96,2025,7,July,0,0
+T0000949,50324,P1008,Bluetooth Speaker,4,2025-07-14 12:00:00,34.99,C17692,Christina Miles,United Kingdom,Completed,0,0,0,0,139.96,2025,7,July,0,0
+T0000950,50324,P1003,Unknown,1,2025-07-14 12:00:00,8.99,C17692,Christina Miles,United Kingdom,Completed,0,0,0,0,8.99,2025,7,July,0,0
+T0000951,50324,P1007,Notebook Pack,4,2025-07-14 12:00:00,12.5,C17692,Christina Miles,United Kingdom,Completed,0,0,0,0,50.0,2025,7,July,0,0
+T0000952,50325,P1007,Notebook Pack,4,2024-02-04 09:00:00,12.5,C33426,Benjamin Rose,United States,Completed,0,0,0,0,50.0,2024,2,February,0,0
+T0000953,50325,P1003,USB-C Cable,3,2024-02-04 09:00:00,8.99,C33426,Benjamin Rose,United States,Completed,0,0,0,0,26.97,2024,2,February,0,0
+T0000954,50326,P1001,Wireless Mouse,2,2024-12-01 09:00:00,15.99,C28813,Christopher Howard,Italy,Completed,0,0,0,0,31.98,2024,12,December,0,0
+T0000955,50326,P1001,Wireless Mouse,3,2024-12-01 09:00:00,15.99,C28813,Christopher Howard,Italy,Completed,0,0,0,0,47.97,2024,12,December,0,0
+T0000956,50326,P1006,Desk Lamp,4,2024-12-01 09:00:00,22.75,C28813,Christopher Howard,Italy,Completed,0,0,0,0,91.0,2024,12,December,0,0
+T0000957,C50327,P1010,Power Bank,2,2023-05-02 12:00:00,999.99,C55416,Michael Whitaker,France,Cancelled,0,0,1,0,1999.98,2023,5,May,1,0
+T0000958,C50327,P1010,Power Bank,1,2023-05-02 12:00:00,25.0,C55416,Michael Whitaker,France,Cancelled,0,0,0,0,25.0,2023,5,May,1,0
+T0000959,C50327,P1009,Phone Holder,3,2023-05-02 12:00:00,10.99,C55416,Michael Whitaker,France,Cancelled,0,0,0,0,32.97,2023,5,May,1,0
+T0000960,C50327,P1001,Wireless Mouse,5,2023-05-02 12:00:00,15.99,C55416,Michael Whitaker,France,Cancelled,0,0,0,0,79.95,2023,5,May,1,0
+T0000961,C50327,P1001,Wireless Mouse,3,2023-05-02 12:00:00,15.99,C55416,Michael Whitaker,France,Cancelled,0,0,0,0,47.97,2023,5,May,1,0
+T0000962,50328,P1001,Wireless Mouse,5,2023-07-09 12:00:00,15.99,C44327,Anthony Dixon,Canada,Completed,0,0,0,0,79.95,2023,7,July,0,0
+T0000963,50328,P1006,Desk Lamp,1,2023-07-09 12:00:00,22.75,C44327,Anthony Dixon,Canada,Completed,0,0,0,0,22.75,2023,7,July,0,0
+T0000964,50328,P1006,Desk Lamp,4,2023-07-09 12:00:00,22.75,C44327,Anthony Dixon,Canada,Completed,0,0,0,0,91.0,2023,7,July,0,0
+T0000965,50329,P1008,Bluetooth Speaker,5,2025-08-26 12:00:00,34.99,C55698,Brandon Schmidt,United Kingdom,Completed,0,0,0,0,174.95,2025,8,August,0,0
+T0000966,50329,P1009,Phone Holder,2,2025-08-26 12:00:00,10.99,C55698,Brandon Schmidt,United Kingdom,Completed,0,0,0,0,21.98,2025,8,August,0,0
+T0000967,50329,P1007,Notebook Pack,5,2025-08-26 12:00:00,12.5,C55698,Brandon Schmidt,United Kingdom,Completed,0,0,0,0,62.5,2025,8,August,0,0
+T0000968,50329,P1010,Power Bank,1,2025-08-26 12:00:00,25.0,C55698,Brandon Schmidt,United Kingdom,Completed,0,0,0,0,25.0,2025,8,August,0,0
+T0000969,50329,P1006,Desk Lamp,4,2025-08-26 12:00:00,22.75,C55698,Brandon Schmidt,United Kingdom,Completed,0,0,0,0,91.0,2025,8,August,0,0
+T0000970,50330,P1011,Monitor Arm,3,2023-10-07 14:00:00,59.9,C56574,Kylie Wilcox,Australia,Completed,0,0,0,0,179.7,2023,10,October,0,0
+T0000971,50330,P1002,Mechanical Keyboard,1,2023-10-07 14:00:00,48.5,C56574,Kylie Wilcox,Australia,Completed,0,0,0,0,48.5,2023,10,October,0,0
+T0000972,50331,P1005,Webcam HD,3,2025-07-06 15:00:00,39.99,C37764,Julian Pratt,Canada,Completed,0,0,0,0,119.97,2025,7,July,0,0
+T0000973,50331,P1003,USB-C Cable,5,2025-07-06 15:00:00,8.99,C37764,Julian Pratt,Canada,Completed,0,0,0,0,44.95,2025,7,July,0,0
+T0000974,50332,P1002,Mechanical Keyboard,2,2023-06-29 10:00:00,48.5,C20956,Natasha Anderson,Singapore,Completed,0,0,0,0,97.0,2023,6,June,0,0
+T0000975,50333,P1003,USB-C Cable,2,2023-03-07 12:00:00,8.99,Unknown,Unknown,Italy,Completed,1,0,0,0,17.98,2023,3,March,0,0
+T0000976,50333,P1008,Bluetooth Speaker,2,2023-03-07 12:00:00,34.99,C41490,Paul Thomas,Italy,Completed,0,0,0,0,69.98,2023,3,March,0,0
+T0000977,50334,P1002,Mechanical Keyboard,5,2025-07-25 10:00:00,48.5,C30045,Amanda Harris,United States,Completed,0,0,0,0,242.5,2025,7,July,0,0
+T0000978,50335,P1006,Desk Lamp,2,2023-09-28 14:00:00,22.75,C18835,Brenda Brooks,United States,Completed,0,0,0,0,45.5,2023,9,September,0,0
+T0000979,50335,P1009,Phone Holder,5,2023-09-28 14:00:00,10.99,C18835,Brenda Brooks,United States,Completed,0,0,0,0,54.95,2023,9,September,0,0
+T0000980,50335,P1010,Power Bank,1,2023-09-28 14:00:00,25.0,C18835,Brenda Brooks,United States,Completed,0,0,0,0,25.0,2023,9,September,0,0
+T0000981,50336,P1007,Notebook Pack,3,2024-07-31 16:00:00,12.5,C42352,Tony Lane,United Kingdom,Completed,0,0,0,0,37.5,2024,7,July,0,0
+T0000982,C50337,P1002,Mechanical Keyboard,4,2025-05-25 10:00:00,48.5,C16255,Jennifer Baker,Italy,Cancelled,0,0,0,0,194.0,2025,5,May,1,0
+T0000983,50338,P1005,Webcam HD,5,2024-07-18 11:00:00,39.99,C29019,Angela Mason,India,Completed,0,0,0,0,199.95,2024,7,July,0,0
+T0000984,50338,P1006,Desk Lamp,4,2024-07-18 11:00:00,22.75,C29019,Angela Mason,India,Completed,0,0,0,0,91.0,2024,7,July,0,0
+T0000985,50338,P1001,Wireless Mouse,5,2024-07-18 11:00:00,15.99,C29019,Angela Mason,India,Completed,0,0,0,0,79.95,2024,7,July,0,0
+T0000986,50339,P1001,Wireless Mouse,2,2023-07-29 16:00:00,15.99,C56476,Ashley Castillo,United Kingdom,Completed,0,0,0,0,31.98,2023,7,July,0,0
+T0000987,50339,P1010,Power Bank,5,2023-07-29 16:00:00,25.0,C56476,Ashley Castillo,United Kingdom,Completed,0,0,0,0,125.0,2023,7,July,0,0
+T0000988,50339,P1011,Monitor Arm,4,2023-07-29 16:00:00,59.9,C56476,Ashley Castillo,United Kingdom,Completed,0,0,0,0,239.6,2023,7,July,0,0
+T0000989,50339,P1001,Wireless Mouse,5,2023-07-29 16:00:00,15.99,C56476,Ashley Castillo,United Kingdom,Completed,0,0,0,0,79.95,2023,7,July,0,0
+T0000990,50340,P1004,Laptop Stand,1,2023-09-13 13:00:00,29.95,C54206,Phillip Stafford,Australia,Completed,0,0,0,0,29.95,2023,9,September,0,0
+T0000991,50341,P1010,Power Bank,5,2025-11-29 13:00:00,25.0,C35843,Heather Mueller,Canada,Completed,0,0,0,0,125.0,2025,11,November,0,0
+T0000992,50341,P1004,Laptop Stand,4,2025-11-29 13:00:00,29.95,C35843,Heather Mueller,Canada,Completed,0,0,0,0,119.8,2025,11,November,0,0
+T0000993,50341,P1009,Phone Holder,1,2025-11-29 13:00:00,10.99,C35843,Heather Mueller,Canada,Completed,0,0,0,0,10.99,2025,11,November,0,0
+T0000994,50341,P1008,Bluetooth Speaker,4,2025-11-29 13:00:00,34.99,C35843,Heather Mueller,Canada,Completed,0,0,0,0,139.96,2025,11,November,0,0
+T0000995,50342,P1002,Mechanical Keyboard,4,2024-01-28 09:00:00,48.5,C29253,Maxwell Patterson MD,United Kingdom,Completed,0,0,0,0,194.0,2024,1,January,0,0
+T0000996,50342,P1006,Desk Lamp,3,2024-01-28 09:00:00,22.75,C29253,Maxwell Patterson MD,United Kingdom,Completed,0,0,0,0,68.25,2024,1,January,0,0
+T0000997,50342,P1007,Unknown,1,2024-01-28 09:00:00,12.5,C29253,Maxwell Patterson MD,United Kingdom,Completed,0,0,0,0,12.5,2024,1,January,0,0
+T0000998,50343,P1004,Laptop Stand,2,2023-08-17 16:00:00,29.95,C46179,Tony Cooper,India,Completed,0,0,0,0,59.9,2023,8,August,0,0
+T0000999,50344,P1008,Bluetooth Speaker,5,2024-11-22 15:00:00,34.99,C51381,Donna Perry,Singapore,Completed,0,0,0,0,174.95,2024,11,November,0,0
+T0001000,50344,P1010,Power Bank,5,2024-11-22 15:00:00,25.0,C51381,Donna Perry,Singapore,Completed,0,0,0,0,125.0,2024,11,November,0,0

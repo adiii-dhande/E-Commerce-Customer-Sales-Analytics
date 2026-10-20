@@ -6,3 +6,5 @@ __pycache__/
 .idea/
 data/exports/
 *.log
+data/raw/transactions_raw.csv
+data/cleaned/transactions_clean.csv

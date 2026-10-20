@@ -1,26 +1,36 @@
-# Cleaning Log
+## Cleaning log: transactions_raw.csv (1M dataset)
 
 Script: `python/01_clean_data.py`
-Raw file: `data/raw/sample_ecommerce_transactions.csv` (128 rows, 11 columns)
-Cleaned file: `data/cleaned/cleaned_ecommerce_transactions.csv` (127 rows, 21 columns)
 
-| # | Issue | Rows | Decision | Business impact |
-|---|-------|------|----------|-----------------|
-| 1 | Duplicate (all columns except TransactionID) | T00011, T99999 | Removed T99999, kept T00011 | Same order was counted twice |
-| 2 | Missing CustomerID and CustomerName | T00015 | Filled with "Unknown", flagged IsMissingCustomer | Sale is kept, but customer counts exclude it |
-| 3 | Missing Description and Country | T10000 | Filled with "Unknown" | Sale is kept, country reports show Unknown |
-| 4 | Dirty Country values (' united kingdom ', 'USA', 'India ') | 3 | Trimmed, title-cased, USA changed to United States | One value per country |
-| 5 | Extra spaces in Description | T00048 | Trimmed and collapsed spaces | Consistent product names |
-| 6 | Zero UnitPrice | T00066 | Kept, flagged IsZeroPrice | Adds 0 revenue, needs business check |
-| 7 | Negative Quantity, Returned | T00074 | Kept, flagged IsNegativeQty | Real return, reduces revenue |
-| 8 | Price outlier 999.99 | T00103 | Kept, flagged IsPriceOutlier | Inflates revenue if wrong, investigate |
-| 9 | Cancelled invoices (C prefix) | 12 rows, 4 invoices | Kept, flagged IsCancelled | Matches OrderStatus = Cancelled (12 = 12) |
-| 10 | InvoiceDate is text in dd-mm-yyyy hh:mm | all rows | Converted to datetime with explicit format | Prevents day and month swap |
+### Problems found (raw data)
+- Duplicate TransactionIDs: 3,000
+- Missing Description: 10,151
+- Missing CustomerID / CustomerName: 20,176 each
+- Missing Country: 5,034
+- Country text inconsistent (UPPERCASE, trailing spaces)
+- Zero or negative price, price outliers (999.99), negative quantity (returns)
 
-## New columns added
-Revenue, InvoiceYear, InvoiceMonth, InvoiceMonthName, IsCancelled, IsReturned, IsMissingCustomer, IsZeroPrice, IsPriceOutlier, IsNegativeQty
+### Cleaning steps
+1. Stripped and title-cased Country (INDIA / 'India ' -> India)
+2. Trimmed extra spaces in Description
+3. Removed duplicate rows (same TransactionID)
+4. Converted InvoiceDate to datetime
+5. Filled missing Description, CustomerID, CustomerName, Country with 'Unknown'
+6. Added flags: IsMissingCustomer, IsZeroPrice, IsPriceOutlier, IsNegativeQty (0/1)
+7. Added Revenue, InvoiceYear, InvoiceMonth, InvoiceMonthName, IsCancelled, IsReturned
 
-## Checks
-- Cancelled lines: 12
-- Returned lines: 1
-- Gross revenue (Python): 10804.5 (to match in SQL and Power BI)
+### Result
+| Metric | Value |
+|---|---|
+| Raw rows, columns | 1,003,000 x 11 |
+| Cleaned rows, columns | 1,000,000 x 21 |
+| Rows removed | 3,000 |
+| Missing values left | 0 |
+| Missing customers (flagged) | 20,107 |
+| Cancelled lines | 40,118 |
+| Returned lines | 14,350 |
+| Zero price rows | 4,845 |
+| Price outlier rows | 1,898 |
+| Gross revenue | 81,562,430.20 |
+
+Output: `data/cleaned/transactions_clean.csv` (not committed, over 100 MB) and `sample_transactions.csv` (first 1,000 rows).
