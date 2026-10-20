@@ -1,8 +1,8 @@
 # E-Commerce Customer & Sales Analytics
 
-Analysis of fictional e-commerce transactions (Jan to Oct 2025) using Python, MySQL, Power BI and DAX.
+End-to-end analysis of 1,000,000 synthetic e-commerce transaction lines (2023 to 2025) using Python, MySQL, Power BI and DAX.
 
-> Dataset is fictional practice data, not real customers.
+> **Dataset is SYNTHETIC.** It was generated with Python (seed 42) for practice. It is not real customer data.
 
 ## Dashboard Preview
 
@@ -10,7 +10,22 @@ Analysis of fictional e-commerce transactions (Jan to Oct 2025) using Python, My
 
 ## Project Background
 
-This project analyzes a fictional online store's transaction data from January to October 2025. The dataset has 128 transaction lines covering customers, products, countries, quantities, prices and order status (completed, cancelled or returned). All values are in USD. The data is fictional and was created for learning.
+This project analyzes a synthetic online store's transaction data from 2023 to 2025. The raw file has 1,003,000 transaction lines. After cleaning, 1,000,000 lines remain across 21 columns, covering customers, products, countries, quantities, prices and order status (completed, cancelled or returned). All values are in USD.
+
+## Dataset
+
+| Item | Value |
+|---|---|
+| Raw rows | 1,003,000 |
+| Cleaned rows | 1,000,000 x 21 columns |
+| Missing customers | 20,107 |
+| Cancelled lines | 40,118 |
+| Returned lines | 14,350 |
+| Zero-price rows | 4,845 |
+| Price-outlier rows | 1,898 |
+| Gross revenue | 81,562,430.20 |
+
+The full CSVs are over 100 MB, which is GitHub's file limit, so they are not in this repo. `data/cleaned/sample_transactions.csv` has 1,000 sample rows. The full dataset can be recreated with the generator script in `python/` (seed 42).
 
 ## Business Problem
 
@@ -38,7 +53,7 @@ The store has transaction records but no clear view of what they say. Management
 
 **Revenue**
 1. What is the total gross revenue and net revenue?
-2. How does net revenue change month by month from January to October 2025?
+2. How does net revenue change month by month from 2023 to 2025?
 
 **Products**
 3. Which products generate the most revenue?
@@ -73,35 +88,60 @@ The store has transaction records but no clear view of what they say. Management
 
 | Area | Details |
 |---|---|
-| Data cleaning | Python (Pandas, NumPy) in PyCharm |
-| Storage and analysis | MySQL Server and Workbench |
-| Dashboard | Power BI Desktop |
+| Data generation and cleaning | Python (Pandas, NumPy) in PyCharm |
+| Storage and analysis | MySQL Server 8.0 and Workbench (`LOAD DATA INFILE`, indexes, aggregate queries) |
+| Dashboard | Power BI Desktop (data loaded from the cleaned CSV) |
 | Measures | DAX (KPIs and month-over-month trend measures) |
 | Version control | Git and GitHub |
+
+## Workflow
+
+1. **Excel inspection:** checked the raw file structure and data quality issues.
+2. **Python cleaning:** removed invalid rows (1,003,000 raw to 1,000,000 clean), added 10 flag and date columns.
+3. **MySQL load:** loaded the cleaned file into `ecommerce_analytics.transactions_clean` and added indexes.
+4. **SQL analysis:** KPIs, monthly net revenue, net revenue by country and top 5 products.
+5. **Power BI dashboard:** KPI cards, country slicer, tables and charts built with DAX.
+6. **Validation:** compared key numbers across Python, MySQL and Power BI.
+
+## Validation
+
+Key numbers were checked across all three tools.
+
+| Check | Python | MySQL | Power BI |
+|---|---|---|---|
+| Row count | 1,000,000 | 1,000,000 | [FILL: Power BI row count] |
+| Gross revenue | 81,562,430.20 | 81,562,430.20 | [FILL: Power BI gross revenue] |
+| Missing customers | 20,107 | 20,107 | n/a |
+| Cancelled lines | 40,118 | 40,118 | n/a |
+| Returned lines | 14,350 | 14,350 | n/a |
+| Zero-price rows | 4,845 | 4,845 | n/a |
+| Price-outlier rows | 1,898 | 1,898 | n/a |
 
 ## Dashboard Features
 
 - KPI cards for Net Revenue, Total Orders, Unique Customers and Average Order Value, each with a sparkline and a month-over-month badge.
 - Country tile slicer that filters the whole page.
+- Date slicer for 2023 to 2025.
 - Sales by Country table with net revenue, total orders and cancelled orders.
 - Top 5 and Bottom 5 products by net revenue.
 - Net revenue by country donut, total orders by order status donut and a country map.
 
 ## Key Findings
 
-- Net revenue is **$9,854.73** from **39 orders** and **13 unique customers**, with an average order value of **$252.69**.
-- **India** leads revenue at $2,896.45 (about 29% of total), followed by the **United States** at $1,560.34. Together they make up about 45% of revenue.
-- The top 3 products (**Mechanical Keyboard**, **Desk Lamp** and **Webcam HD**) bring in about **53%** of net revenue.
-- **4 orders** were cancelled.
-- Latest month vs previous month: revenue **+5.63%**, orders **+33.33%**, unique customers **-25.00%**, average order value **-20.77%**. More, smaller orders came from fewer customers.
+- Gross revenue is **81,562,430.20** across 1,000,000 cleaned lines.
+- Net revenue (completed orders only) is **[FILL: net revenue]** from **[FILL: total orders]** orders and **[FILL: unique customers]** unique customers, with an average order value of **[FILL: AOV]**.
+- **40,118** lines were cancelled and **14,350** were returned.
+- **20,107** lines have no customer ID, so they count toward revenue but not toward customer counts.
+- Top country, top products and the latest month-over-month change are shown on the dashboard.
 
 ## Recommendations
 
-1. **Focus stock and promotion on the top 3 products**, since they carry over half of net revenue.
-2. **Invest in India and the United States first**, and test small campaigns in France and Singapore.
-3. **Investigate cancellations** by product and country before they grow.
-4. **Run a repeat-customer offer**, because customer count fell while order count rose.
-5. **Bundle low-value orders** (for example accessories with a main product) to lift average order value.
+1. **Focus stock and promotion on the top 5 products**, since they carry a large share of net revenue.
+2. **Invest in the top-revenue countries first**, and test small campaigns in the next tier.
+3. **Investigate cancellations** (40,118 lines) by product and country before they grow.
+4. **Fix customer data capture**, because 20,107 lines have no customer ID and cannot be used for repeat-customer analysis.
+5. **Run a repeat-customer offer** to lift orders per customer.
+6. **Bundle low-value orders** (for example accessories with a main product) to lift average order value.
 
 ## Assumptions
 
@@ -111,21 +151,38 @@ The store has transaction records but no clear view of what they say. Management
 
 ## Limitations
 
-- The data is fictional and has only 128 transaction lines, so findings are for practice and not real business conclusions.
-- It covers only January to October 2025, so there is no full-year or year-on-year view.
+- The data is synthetic, so findings are for practice and not real business conclusions.
 - There is no cost data, so we can measure revenue but not profit.
-- Some rows have no CustomerID, so customer counts exclude them.
+- 20,107 rows have no CustomerID, so customer counts exclude them.
 - All values are assumed to be in USD.
-- Month-over-month figures compare only the latest two months, so small counts can swing the percentages a lot.
+- Month-over-month figures compare only the latest two months.
+- MySQL Workbench timed out (30 sec read limit) on the net revenue by country query, so the country view is built in Power BI. The query is still in the SQL file.
 
 ## Project Files
 
 | File | Description |
 |---|---|
-| `ecommerce_dashboard.pbix` | Power BI dashboard |
-| `power_query.m` | Power Query steps used in the model |
-| `measures.dax` | DAX measures (KPIs and MoM trends) |
+| `python/generate_dataset.py` | Generates the synthetic dataset (seed 42) |
+| `python/01_clean_data.py` | Cleans the raw data and adds flag columns |
+| `SQL/ecommerce_analysis.sql` | Table creation, load, indexes and analysis queries |
+| `power_bi/ecommerce_dashboard.pbix` | Power BI dashboard |
+| `power_bi/measures.dax` | DAX measures (KPIs and MoM trends) |
+| `power_query/` | Power Query steps used in the model |
+| `data/cleaned/sample_transactions.csv` | 1,000-row sample of the cleaned data |
+| `documentation/cleaning_log.md` | Cleaning steps and row counts |
+| `documentation/data_dictionary.md` | Column definitions |
+| `documentation/excel_inspection_notes.md` | Notes from the Excel inspection |
+| `screenshots/` | Screenshots of each phase |
 | `ecom_dashboard_final.png` | Dashboard screenshot |
+
+## How to Reproduce
+
+1. Run the generator script in `python/` to create the raw file (seed 42).
+2. Run `python/01_clean_data.py` to create `transactions_clean.csv`.
+3. Load it into MySQL with the script in `SQL/ecommerce_analysis.sql`.
+4. Open the Power BI file and point the source to `transactions_clean.csv`.
+
+The raw and cleaned CSVs are not in the repo because they are over 100 MB.
 
 ## Status
 
